@@ -1,0 +1,108 @@
+*{margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+body{
+    background:rgb(201, 201, 201); ;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+h1{
+    font-size: 4rem;
+    padding: 50px 0;
+    text-align: center;
+    color: rgb(21, 138, 132);
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.card {
+    background: white;
+    width: 270px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.card-image {
+    background-color: aqua;
+    height: 180px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+.W-mug-1{
+    background-image: url(mug/wedding/1.jpg);
+}
+.W-mug-2{
+    background-image: url(mug/wedding/2.jpg);
+}
+.W-mug-3{
+    background-image: url(mug/wedding/3.jpg);
+}
+.W-mug-4{
+    background-image: url(mug/wedding/4.jpg);
+}
+.W-mug-5{
+    background-image: url(mug/wedding/5.jpg);
+}
+.W-mug-6{
+    background-image: url(mug/wedding/6.jpg);
+}
+.W-mug-7{
+    background-image: url(mug/wedding/7.jpg);
+}
+.W-mug-8{
+    background-image: url(mug/wedding/8.jpg);
+}
+.W-mug-9{
+    background-image: url(mug/wedding/9.jpg);
+}
+.W-mug-10{
+    background-image: url(mug/wedding/10.jpg);
+}
+.M-mug-1{
+    background-image: url(mug/maternity/1.jpg);
+}
+.M-mug-2{
+    background-image: url(mug/maternity/2.jpg);
+}
+.M-mug-3{
+    background-image: url(mug/maternity/3.jpg);
+}
+.M-mug-4{
+    background-image: url(mug/maternity/4.jpg);
+}
+.M-mug-5{
+    background-image: url(mug/maternity/5.jpg);
+}
+.M-mug-6{
+    background-image: url(mug/maternity/6.jpg);
+}
+.M-mug-7{
+    background-image: url(mug/maternity/7.jpg);
+}
+.M-mug-8{
+    background-image: url(mug/maternity/8.jpg);
+}
+.M-mug-9{
+    background-image: url(mug/maternity/9.jpg);
+}
+.M-mug-10{
+    background-image: url(mug/maternity/10.jpg);
+}
+
+.card h4{
+    margin-top: .5rem;
+    padding: 10px;
+    text-align: center;
+}
+.card:hover{
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all is ease;
+}
