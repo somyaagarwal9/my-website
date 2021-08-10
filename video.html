@@ -1,0 +1,241 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video</title>
+</head>
+<style>
+    *{margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+  }
+  
+  .container{
+    width:100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  .container2{
+    width:100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  header.topbar{
+    background:white;
+    align-items: center;
+    padding: 0.50rem;
+  }
+  header.topbar.icons:hover{
+    background-color: black;
+  }
+        .flex{
+          display:flex
+        }
+  
+        .justify-between{
+          justify-content: space-between;
+        }
+  
+        .item-center{
+          align-items: center;
+        }
+        .justify-center{
+          justify-content:center;
+        }
+        nav{
+          background-color: rgb(71, 71, 71);
+          width: 1520px;
+        }
+       nav .navbar a{
+         background-color: black;
+         text-decoration: none;
+         color: white;
+         font-size: 1rem;
+         padding: 1rem 1.5rem;
+         transition: all .3s ease;
+       } 
+       nav .navbar a.active{
+         background: rgb(37, 138, 151);
+         color: black;
+       }
+       nav .navbar a:hover{
+         background: grey;
+         color: black;
+       }
+ .btn{
+    padding: 0.50rem 0.75rem;
+    border-radius: 4px;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition:all 0.3s ease;
+
+  }
+  .btn-black{
+    background: rgb(26, 98, 100);
+    color: white;
+  }
+  .btn-black:hover{
+   background: red);
+   color: black;
+   border: rgb(26, 98, 100);
+ }
+  .btn-white{
+    background: rgb(38, 157, 165);
+    color: white;
+  }
+  .btn-white:hover{
+   background: white);
+   color: black;
+ }
+footer{
+background-color: rgb(27, 27, 27);
+
+}
+footer .container{
+display: flex;
+color: rgb(25, 110, 103);
+}
+
+footer .box{
+flex: 1;
+margin-right: 2rem;
+text-align: center;
+}
+footer .box ul{
+list-style: none;
+}
+footer .box ul li a{
+color: white;
+text-decoration: none;
+transition: all .3s ease;
+}
+footer .box ul li a:hover{
+color:rgb(38, 157, 165) ;
+}
+footer .box h3{
+border-bottom: 1px solid white;
+padding-bottom: 1rem;
+margin-bottom: 1rem;
+margin-top: 1rem;
+}
+footer .box p{
+line-height: 1.2;
+margin-bottom: 1rem;
+color: white;
+}
+footer .box ul li{
+margin-bottom: 1rem;
+}
+footer .box:nth-child(3) > div{
+display: flex;
+justify-content: center;
+}
+footer .box:nth-child(3){
+text-align: left;
+}
+footer .box:nth-child(3) h3{
+text-align: center;
+}
+footer .box:nth-child(2) h3{
+  text-align: center;
+}
+footer .box:nth-child(3) > div img{
+margin-right: 1rem;
+}
+footer .box:nth-child(3) ul li{
+margin: bottom: 1.5em;
+}
+footer .box:nth-child(2){
+text-align: left;
+}
+</style>
+<body>
+    <header class="topbar">
+        <div class="container">
+            <div class="icons">
+               <a href="https://www.linkedin.com/login" target="_blank"><img src="icons/linkedin.jpg" alt=""></a>
+               <a href="https://www.google.co.in/" target="_blank"><img src="icons/facebook.jpg" alt=""></a>
+               <a href="https://twitter.com/login?lang=en" target="_blank"><img src="icons/twitter.jpg" alt=""></a>
+               <a href="https://web.whatsapp.com/" target="_blank"><img src="icons/whatsapp.jpg" alt=""></a> 
+               <a href="https://www.instagram.com/accounts/login/" target="_blank"><img src="icons/insta.jpg" alt=""></a>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div class="navbar">
+            <div class="container flex justify-center">
+                <a href="portfolio.html" class="active">Home</a>
+                <a href="#">About</a>
+                <a href="mywork.html">My work</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <video controls align-item="center">
+        <source src="video/1.mp4">
+    </video>
+    <footer>
+        <div class="container">
+            <div class="box">
+               <h3>About me</h3> 
+               <p>Currently, I'm a freelance designer, <br>
+                who works with a variety of clients <br>
+                and on many diverse projects.  
+              </p>
+                <button class="btn btn-white">Read More</button>
+            </div>
+            <div class="box">
+                <h3>Quik link</h3>
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="mywork.html">My work</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>
+                        <a href="https://www.google.co.in/" target="_blank">
+                            <img src="icons\facebook.jpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/accounts/login/" target="_blank">
+                            <img src="icons\insta.jpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/login" target="_blank">
+                            <img src="icons\linkedin.jpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://web.whatsapp.com/" target="_blank">
+                            <img src="icons\whatsapp.jpg" alt="">
+                            
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/login?lang=en" target="_blank">
+                            <img src="icons\twitter.jpg" alt="">
+                           
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

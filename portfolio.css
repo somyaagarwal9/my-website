@@ -274,6 +274,8 @@ footer .box{
   text-align: center;
 }
 footer .box ul{
+  display: flex;
+  justify-content: space-evenly;
   list-style: none;
 }
 footer .box ul li a{
@@ -306,6 +308,9 @@ footer .box:nth-child(3){
   text-align: left;
 }
 footer .box:nth-child(3) h3{
+  text-align: center;
+}
+footer .box:nth-child(2) h3{
   text-align: center;
 }
 footer .box:nth-child(3) > div img{

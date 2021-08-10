@@ -104,13 +104,13 @@
         background-image: url(calander/1.png);
     }
     .Cimage-2{
-        background-image: url(calander/2.png);
+        background-image: url(calander/2.jpg);
     }
     .Cimage-3{
-        background-image: url(calander/3.png);
+        background-image: url(calander/3.jpg);
     }
     .Cimage-4{
-        background-image: url(calander/4.png);
+        background-image: url(calander/4.jpg);
     }
     .btn{
         padding: 0.50rem 0.75rem;
@@ -186,6 +186,9 @@
  footer .box:nth-child(3) h3{
    text-align: center;
  }
+ footer .box:nth-child(2) h3{
+  text-align: center;
+}
  footer .box:nth-child(3) > div img{
    margin-right: 1rem;
  }

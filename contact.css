@@ -2,7 +2,74 @@
     padding: 0px;
     box-sizing: border-box;
     }
-    
+    header.topbar{
+        background:white;
+        align-items: center;
+        padding: 0.50rem;
+      }
+      header.topbar.icons:hover{
+        background-color: black;
+      }
+            .flex{
+              display:flex
+            }
+      
+            .justify-between{
+              justify-content: space-between;
+            }
+      
+            .item-center{
+              align-items: center;
+            }
+            .justify-center{
+              justify-content:center;
+            }
+            nav{
+              background-color: rgb(71, 71, 71);
+              width: 1520px;
+            }
+           nav .navbar a{
+             background-color: black;
+             text-decoration: none;
+             color: white;
+             font-size: 1rem;
+             padding: 1rem 1.5rem;
+             transition: all .3s ease;
+           } 
+           nav .navbar a.active{
+             background: rgb(37, 138, 151);
+             color: black;
+           }
+           nav .navbar a:hover{
+             background: grey;
+             color: black;
+           }
+           .btn{
+            padding: 0.50rem 0.75rem;
+            border-radius: 4px;
+            border: none;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition:all 0.3s ease;
+     
+          }
+          .btn-black{
+            background: rgb(26, 98, 100);
+            color: white;
+          }
+          .btn-black:hover{
+           background: red);
+           color: black;
+           border: rgb(26, 98, 100);
+         }
+          .btn-white{
+            background: rgb(38, 157, 165);
+            color: white;
+          }
+          .btn-white:hover{
+           background: white);
+           color: black;
+         }
     body{
         background:rgb(201, 201, 201); ;
     }
@@ -18,7 +85,68 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-bottom: 25px;
     }
+    footer{
+        background-color: rgb(27, 27, 27);
+      }
+      footer .container{
+        display: flex;
+        color: rgb(25, 110, 103);
+      }
+      
+      footer .box{
+        flex: 1;
+        margin-right: 2rem;
+        text-align: center;
+      }
+      footer .box ul{
+        list-style: none;
+      }
+      footer .box ul li a{
+        color: white;
+        text-decoration: none;
+        transition: all .3s ease;
+      }
+      footer .box ul li a:hover{
+        color:rgb(38, 157, 165) ;
+      }
+      footer .box h3{
+        border-bottom: 1px solid white;
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+      }
+      footer .box p{
+        line-height: 1.2;
+        margin-bottom: 1rem;
+        color: white;
+      }
+      footer .box ul li{
+        margin-bottom: 1rem;
+      }
+      footer .box:nth-child(3) > div{
+        display: flex;
+        justify-content: center;
+      }
+      footer .box:nth-child(3){
+        text-align: left;
+      }
+      footer .box:nth-child(3) h3{
+        text-align: center;
+      }
+      footer .box:nth-child(2) h3{
+        text-align: center;
+      }
+      footer .box:nth-child(3) > div img{
+        margin-right: 1rem;
+      }
+      footer .box:nth-child(3) ul li{
+        margin: bottom: 1.5em;
+      }
+      footer .box:nth-child(2){
+        text-align: left;
+      }
     
 
 

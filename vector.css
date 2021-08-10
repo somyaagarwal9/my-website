@@ -134,6 +134,9 @@
     .C-5{
         background-image: url(vector/9.jpg);
     }
+    .C-6{
+      background-image: url(vector/17.jpg);
+  }
     .P-1{
         background-image: url(vector/10.jpg);
     }
@@ -143,12 +146,28 @@
     .P-3{
         background-image: url(vector/12.jpg);
     }
+    .P-4{
+      background-image: url(vector/18.jpg);
+  }
     .CC-1{
         background-image: url(vector/15.jpg);
     }
     .CC-2{
         background-image: url(vector/14.jpg);
     }
+    .CC-3{
+      background-image: url(vector/16.jpg);
+  }
+  .PA-1{
+    background-image: url(vector/19.jpg);
+}
+.PA-2{
+    background-image: url(vector/22.jpg);
+}
+.PA-3{
+  background-image: url(vector/20.jpg);
+}
+
     .btn{
         padding: 0.50rem 0.75rem;
         border-radius: 4px;
@@ -223,6 +242,9 @@
  footer .box:nth-child(3) h3{
    text-align: center;
  }
+ footer .box:nth-child(2) h3{
+  text-align: center;
+}
  footer .box:nth-child(3) > div img{
    margin-right: 1rem;
  }
