@@ -184,35 +184,9 @@ p{
 .N-tshirt-5{
     background-image: url(tshirt/tshirt/5.jpg);
 }
-
-.btn{
-  padding: 0.50rem 0.75rem;
-  border-radius: 4px;
-  border: none;
-  font-size: 1.2rem;
-  cursor: pointer;
-  transition:all 0.3s ease;
-
-}
-.btn-black{
-  background: rgb(26, 98, 100);
-  color: white;
-}
-.btn-black:hover{
- background: red);
- color: black;
- border: rgb(26, 98, 100);
-}
-.btn-white{
-  background: rgb(38, 157, 165);
-  color: white;
-}
-.btn-white:hover{
- background: white);
- color: black;
-}
 footer{
     background-color: rgb(27, 27, 27);
+    margin-top: 1.5rem;
   }
   footer .container{
     display: flex;
@@ -225,6 +199,8 @@ footer{
     text-align: center;
   }
   footer .box ul{
+    display: flex;
+    justify-content: space-evenly;
     list-style: none;
   }
   footer .box ul li a{

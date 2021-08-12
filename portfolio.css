@@ -1,6 +1,27 @@
 * {padding: 0px;
   margin: 0px;
 }
+
+@media (min-width:576px){
+  .container{
+    max-width: 540px;
+  }
+}
+@media (min-width:760px){
+  .container{
+    max-width: 720px;
+  }
+}
+@media (min-width:992px){
+  .container{
+    max-width: 960px;
+  }
+}
+@media (min-width:1200px){
+  .container{
+    max-width: 1152px;
+  }
+}
 html{
   scroll-behavior: smooth;
 }
@@ -233,35 +254,58 @@ header.topbar.icons:hover{
       margin-bottom: 1.5rem;
       margin-top: 2.5rem;
     }
-   
-     .btn{
-       padding: 0.50rem 0.75rem;
-       border-radius: 4px;
-       border: none;
-       font-size: 1.2rem;
-       cursor: pointer;
-       transition:all 0.3s ease;
+    header.hero10{
+      margin-top: 5rem;
+      height: 500px;
+      background-image: url(images/animatedvideoBG.jpg);
+      background-position: 0% 0%;
+      background-repeat: no-repeat;
+      overflow: hidden;
+      background-color: black;
 
-     }
-     .btn-black{
-       background: rgb(26, 98, 100);
-       color: white;
-     }
-     .btn-black:hover{
-      background: red);
-      color: black;
-      border: rgb(26, 98, 100);
     }
-     .btn-white{
-       background: rgb(38, 157, 165);
-       color: white;
-     }
-     .btn-white:hover{
-      background: white);
-      color: black;
+    header.hero10 h1{
+      color: rgb(25, 110, 103);
+      font-size: 2.5rem;
+      margin-bottom: 0.50rem;
+     
     }
+    header.hero10 p{
+      width: 50%;
+      line-height: 1.5;
+      margin-bottom: 1.5rem;
+      margin-top: 2.5rem;
+    }
+
+    .btn{
+      padding: 0.50rem 0.75rem;
+      border-radius: 4px;
+      border: none;
+      font-size: 1.2rem;
+      cursor: pointer;
+      transition:all 0.3s ease;
+
+    }
+    .btn-black{
+      background: rgb(26, 98, 100);
+      color: white;
+    }
+    .btn-black:hover{
+     background: red);
+     color: black;
+     border: rgb(26, 98, 100);
+   }
+    .btn-white{
+      background: rgb(38, 157, 165);
+      color: white;
+    }
+    .btn-white:hover{
+     background: white);
+     color: black;
+   }
 footer{
   background-color: rgb(27, 27, 27);
+  margin-top: 1.5rem;
 }
 footer .container{
   display: flex;

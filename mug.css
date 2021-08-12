@@ -189,6 +189,7 @@ h1{
  }
 footer{
 background-color: rgb(27, 27, 27);
+margin-top: 1.5rem;
 }
 footer .container{
 display: flex;
@@ -201,7 +202,9 @@ margin-right: 2rem;
 text-align: center;
 }
 footer .box ul{
-list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
 }
 footer .box ul li a{
 color: white;

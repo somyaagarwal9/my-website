@@ -1,0 +1,535 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header.topbar{
+    background:white;
+    align-items: center;
+    padding: 0.50rem;
+  }
+  header.topbar.icons:hover{
+    background-color: black;
+  }
+        .flex{
+          display:flex
+        }
+  
+        .justify-between{
+          justify-content: space-between;
+        }
+  
+        .item-center{
+          align-items: center;
+        }
+        .justify-center{
+          justify-content:center;
+        }
+        nav{
+          background-color: rgb(71, 71, 71);
+          width: 1520px;
+        }
+       nav .navbar a{
+         background-color: black;
+         text-decoration: none;
+         color: white;
+         font-size: 1rem;
+         padding: 1rem 1.5rem;
+         transition: all .3s ease;
+       } 
+       nav .navbar a.active{
+         background: rgb(37, 138, 151);
+         color: black;
+       }
+       nav .navbar a:hover{
+         background: grey;
+         color: black;
+       }
+       .sub-menu-1
+     {
+         display:none;
+     }
+     nav .navbar ul li:hover .sub-menu-1{
+         display: block;
+         position: absolute;
+         background: black;
+         margin-top: 15px;
+         margin-bottom: -15px;
+     }
+       .btn{
+        padding: 0.50rem 0.75rem;
+        border-radius: 4px;
+        border: none;
+        font-size: 1.2rem;
+        cursor: pointer;
+        transition:all 0.3s ease;
+ 
+      }
+      .btn-black{
+        background: rgb(26, 98, 100);
+        color: white;
+      }
+      .btn-black:hover{
+       background: red);
+       color: black;
+       border: rgb(26, 98, 100);
+     }
+      .btn-white{
+        background: rgb(38, 157, 165);
+        color: white;
+      }
+      .btn-white:hover{
+       background: white);
+       color: black;
+     }
+     
+body{
+    background: rgb(201, 201, 201);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+h1{
+    font-size: 4rem;
+    padding: 50px 0;
+    text-align: center;
+    color: rgb(21, 138, 132);
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.card {
+    background: white;
+    width: 270px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.card-image {
+    background-color: aqua;
+    height: 180px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+p{
+    text-align: center; 
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.card:hover{
+  background-color: gray;
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all is ease;
+}
+.card1 {
+    background: white;
+    width: 280px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.card-image1 {
+    background-color: aqua;
+    height: 400px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+.card2 {
+    background: white;
+    width: 370px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.card-image2 {
+    background-color: aqua;
+    height: 200px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+.card h4{
+    margin-top: .5rem;
+    padding: 10px;
+    text-align: center;
+  }
+  .card1 h4{
+    margin-top: .5rem;
+    padding: 10px;
+    text-align: center;
+  }
+  .card2 h4{
+    margin-top: .5rem;
+    padding: 10px;
+    text-align: center;
+  }
+  .card3 {
+    background: white;
+    width: 280px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.card-image3 {
+    background-color: aqua;
+    height: 400px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+.card3 h4{
+    margin-top: .5rem;
+    padding: 10px;
+    text-align: center;
+}
+.card4 {
+    background: white;
+    width: 370px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.card-image4 {
+    background-color: aqua;
+    height: 200px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+.card4 h4{
+    margin-top: .5rem;
+    padding: 10px;
+    text-align: center;
+}
+
+.tshirt-1{
+    background-image: url(tshirt/wedding/1.jpg);
+}
+.tshirt-2{
+    background-image: url(tshirt/wedding/2.jpg);
+}
+.tshirt-3{
+    background-image: url(tshirt/wedding/3.jpg);
+}
+.tshirt-4{
+    background-image: url(tshirt/wedding/4.jpg);
+}
+.tshirt-5{
+    background-image: url(tshirt/wedding/5.jpg);
+}
+.tshirt-6{
+    background-image: url(tshirt/wedding/6.jpg);
+}
+.tshirt-7{
+    background-image: url(tshirt/wedding/7.jpg);
+}
+.tshirt-8{
+    background-image: url(tshirt/wedding/8.jpg);
+}
+.tshirt-9{
+    background-image: url(tshirt/wedding/9.jpg);
+}
+.tshirt-10{
+    background-image: url(tshirt/wedding/10.jpg);
+}
+.M-tshirt-1{
+    background-image: url(tshirt/baby/1.jpg);
+}
+.M-tshirt-2{
+    background-image: url(tshirt/baby/2.jpg);
+}
+.M-tshirt-3{
+    background-image: url(tshirt/baby/3.jpg);
+}
+.M-tshirt-4{
+    background-image: url(tshirt/baby/4.jpg);
+}
+.M-tshirt-5{
+    background-image: url(tshirt/baby/5.jpg);
+}
+.M-tshirt-6{
+    background-image: url(tshirt/baby/6.jpg);
+}
+.M-tshirt-7{
+    background-image: url(tshirt/baby/7.jpg);
+}
+.M-tshirt-8{
+    background-image: url(tshirt/baby/8.jpg);
+}
+.M-tshirt-9{
+    background-image: url(tshirt/baby/9.jpg);
+}
+.M-tshirt-10{
+    background-image: url(tshirt/baby/10.jpg);
+}
+.N-tshirt-1{
+    background-image: url(tshirt/tshirt/1.jpg);
+}
+.N-tshirt-2{
+    background-image: url(tshirt/tshirt/2.jpg);
+}
+.N-tshirt-3{
+    background-image: url(tshirt/tshirt/3.jpg);
+}
+.N-tshirt-4{
+    background-image: url(tshirt/tshirt/4.jpg);
+}
+.N-tshirt-5{
+    background-image: url(tshirt/tshirt/5.jpg);
+}
+.W-mug-1{
+    background-image: url(mug/wedding/1.jpg);
+}
+.W-mug-2{
+    background-image: url(mug/wedding/2.jpg);
+}
+.W-mug-3{
+    background-image: url(mug/wedding/3.jpg);
+}
+.W-mug-4{
+    background-image: url(mug/wedding/4.jpg);
+}
+.W-mug-5{
+    background-image: url(mug/wedding/5.jpg);
+}
+.W-mug-6{
+    background-image: url(mug/wedding/6.jpg);
+}
+.W-mug-7{
+    background-image: url(mug/wedding/7.jpg);
+}
+.W-mug-8{
+    background-image: url(mug/wedding/8.jpg);
+}
+.W-mug-9{
+    background-image: url(mug/wedding/9.jpg);
+}
+.W-mug-10{
+    background-image: url(mug/wedding/10.jpg);
+}
+.M-mug-1{
+    background-image: url(mug/maternity/1.jpg);
+}
+.M-mug-2{
+    background-image: url(mug/maternity/2.jpg);
+}
+.M-mug-3{
+    background-image: url(mug/maternity/3.jpg);
+}
+.M-mug-4{
+    background-image: url(mug/maternity/4.jpg);
+}
+.M-mug-5{
+    background-image: url(mug/maternity/5.jpg);
+}
+.M-mug-6{
+    background-image: url(mug/maternity/6.jpg);
+}
+.M-mug-7{
+    background-image: url(mug/maternity/7.jpg);
+}
+.M-mug-8{
+    background-image: url(mug/maternity/8.jpg);
+}
+.M-mug-9{
+    background-image: url(mug/maternity/9.jpg);
+}
+.M-mug-10{
+    background-image: url(mug/maternity/10.jpg);
+}
+.image-1{
+    background-image: url(brouchure/1.jpg);
+}
+.image-2{
+    background-image: url(brouchure/2.jpg);
+}
+.image-3{
+    background-image: url(brouchure/3.jpg);
+}
+.image-4{
+    background-image: url(brouchure/4.jpg);
+}
+.Mimage-1{
+    background-image: url(magazine/1.jpg);
+}
+.Mimage-2{
+    background-image: url(magazine/2.jpg);
+}
+.Mimage-3{
+    background-image: url(magazine/3.jpg);
+}
+.Mimage-4{
+    background-image: url(magazine/4.jpg);
+}
+.Mimage-5{
+    background-image: url(magazine/5.jpg);
+}
+.Cimage-1{
+    background-image: url(calander/1.png);
+}
+.Cimage-2{
+    background-image: url(calander/2.jpg);
+}
+.Cimage-3{
+    background-image: url(calander/3.jpg);
+}
+.Cimage-4{
+    background-image: url(calander/4.jpg);
+}
+.Pimage-1{
+    background-image: url(poster/1.jpg);
+}
+.Pimage-2{
+    background-image: url(poster/2.jpg);
+}
+.Pimage-3{
+    background-image: url(poster/3.png);
+}
+.Pimage-4{
+    background-image: url(poster/4.jpg);
+}
+.Iimage-1{
+    background-image: url(infographic/1.jpg);
+}
+.Iimage-2{
+    background-image: url(infographic/2.jpg);
+}
+.Iimage-3{
+    background-image: url(infographic/3.jpg);
+}
+.Iimage-4{
+    background-image: url(infographic/4.jpg);
+}
+.Iimage-5{
+    background-image: url(infographic/5.jpg);
+}
+.S-1{
+    background-image: url(vector/1.jpg);
+}
+.S-2{
+    background-image: url(vector/2.jpg);
+}
+.S-3{
+    background-image: url(vector/3.jpg);
+}
+.S-4{
+    background-image: url(vector/4.jpg);
+}
+.C-1{
+    background-image: url(vector/5.jpg);
+}
+.C-2{
+    background-image: url(vector/6.jpg);
+}
+.C-3{
+    background-image: url(vector/7.jpg);
+}
+.C-4{
+    background-image: url(vector/8.jpg);
+}
+.C-5{
+    background-image: url(vector/9.jpg);
+}
+.C-6{
+    background-image: url(vector/17.jpg);
+}
+.P-1{
+    background-image: url(vector/10.jpg);
+}
+.P-2{
+    background-image: url(vector/11.jpg);
+}
+.P-3{
+    background-image: url(vector/12.jpg);
+}
+.P-4{
+    background-image: url(vector/18.jpg);
+}
+.P-5{
+  background-image: url(vector/23.jpg);
+}
+.CC-1{
+    background-image: url(vector/15.jpg);
+}
+.CC-2{
+    background-image: url(vector/14.jpg);
+}
+.CC-3{
+    background-image: url(vector/16.jpg);
+}
+.PA-1{
+    background-image: url(vector/19.jpg);
+}
+.PA-2{
+    background-image: url(vector/22.jpg);
+}
+.PA-3{
+  background-image: url(vector/20.jpg);
+}
+footer{
+    background-color: rgb(27, 27, 27);
+    margin-top: 1.5rem;
+  }
+  footer .container{
+    display: flex;
+    color: rgb(25, 110, 103);
+  }
+  
+  footer .box{
+    flex: 1;
+    margin-right: 2rem;
+    text-align: center;
+  }
+  footer .box ul{
+      display: flex;
+      justify-content: space-evenly;
+    list-style: none;
+  }
+  footer .box ul li a{
+    color: white;
+    text-decoration: none;
+    transition: all .3s ease;
+  }
+  footer .box ul li a:hover{
+    color:rgb(38, 157, 165) ;
+  }
+  footer .box h3{
+    border-bottom: 1px solid white;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  footer .box p{
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    color: white;
+  }
+  footer .box ul li{
+    margin-bottom: 1rem;
+  }
+  footer .box:nth-child(3) > div{
+    display: flex;
+    justify-content: center;
+  }
+  footer .box:nth-child(3){
+    text-align: left;
+  }
+  footer .box:nth-child(3) h3{
+    text-align: center;
+  }
+  footer .box:nth-child(2) h3{
+    text-align: center;
+  }
+  footer .box:nth-child(3) > div img{
+    margin-right: 1rem;
+  }
+  footer .box:nth-child(3) ul li{
+    margin: bottom: 1.5em;
+  }
+  footer .box:nth-child(2){
+    text-align: left;
+  }

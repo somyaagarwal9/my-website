@@ -140,6 +140,7 @@
      }
  footer{
    background-color: rgb(27, 27, 27);
+   margin-top: 1.5rem;
  }
  footer .container{
    display: flex;
@@ -152,6 +153,8 @@
    text-align: center;
  }
  footer .box ul{
+   justify-content: space-evenly;
+   display: flex;
    list-style: none;
  }
  footer .box ul li a{

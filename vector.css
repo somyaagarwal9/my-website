@@ -149,6 +149,9 @@
     .P-4{
       background-image: url(vector/18.jpg);
   }
+  .P-5{
+    background-image: url(vector/23.jpg);
+}
     .CC-1{
         background-image: url(vector/15.jpg);
     }
@@ -196,6 +199,7 @@
      }
  footer{
    background-color: rgb(27, 27, 27);
+   margin-top: 1.5rem;
  }
  footer .container{
    display: flex;
@@ -208,6 +212,8 @@
    text-align: center;
  }
  footer .box ul{
+   display: flex;
+   justify-content: space-evenly;
    list-style: none;
  }
  footer .box ul li a{

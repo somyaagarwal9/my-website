@@ -101,6 +101,8 @@
         text-align: center;
       }
       footer .box ul{
+        display: flex;
+        justify-content: space-evenly;
         list-style: none;
       }
       footer .box ul li a{
