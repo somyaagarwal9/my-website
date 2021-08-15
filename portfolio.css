@@ -2,7 +2,7 @@
   margin: 0px;
 }
 
-@media (min-width:576px){
+/*@media (min-width:576px){
   .container{
     max-width: 540px;
   }
@@ -20,21 +20,39 @@
 @media (min-width:1200px){
   .container{
     max-width: 1152px;
-  }
+  }*/
 }
 html{
   scroll-behavior: smooth;
 }
+.earth {
+        position: absolute;
+        
+      
+        right: 40px;
+        
+        margin: auto;
+        width: 30px;
+        height: 30px;
+        background-image: url(images/map.jpg);
+        border-radius: 50%;
+        background-size: cover;
+        box-shadow: 0px -0px 0px 1px rgb(80, 80, 80) inset, 0 0 10px 0px rgb(49, 49, 49);
+        animation: spin 20s linear alternate infinite;
+    }
+    @keyframes spin{
+        100%{background-position:100%;}
+    }
 
 .container{
-  width:100%;
-  padding: 0 15px;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .container2{
-  width:100%;
+  width:75%;
   padding: 0 15px;
-  margin: 0 auto;
+  margin: 0 5%;
 }
 header.topbar{
   background:white;
@@ -60,7 +78,7 @@ header.topbar.icons:hover{
       }
       nav{
         background-color: rgb(71, 71, 71);
-        width: 1520px;
+        
       }
      nav .navbar a{
        background-color: black;
@@ -86,13 +104,13 @@ header.topbar.icons:hover{
       overflow: hidden;
       background-color: black;
       margin-bottom: 5rem;
-
+      background-size:cover;
     }
     header.hero6 h1{
       color: rgb(25, 110, 103);
       font-size: 2.5rem;
       margin-bottom: 0.50rem;
-     
+      align-content: ;
     }
     header.hero6 p{
       width: 50%;
@@ -108,7 +126,7 @@ header.topbar.icons:hover{
       overflow: hidden;
       background-color: black;
       margin-bottom: 5rem;
-
+      background-size:cover;
     }
     header.hero7 h1{
       color: rgb(25, 110, 103);
@@ -130,12 +148,13 @@ header.topbar.icons:hover{
        background-repeat: no-repeat;
        overflow: hidden;
        background-color: black;
-
+       background-size:cover;
      }
      header.hero h1{
        color: rgb(25, 110, 103);
        font-size: 2.5rem;
        margin-bottom: 0.50rem;
+
       
      }
      header.hero p{
@@ -152,7 +171,7 @@ header.topbar.icons:hover{
       background-repeat: no-repeat;
       overflow: hidden;
       background-color: black;
-
+      background-size:cover;
     }
     header.hero2 h1{
       color: rgb(25, 110, 103);
@@ -174,7 +193,7 @@ header.topbar.icons:hover{
       background-repeat: no-repeat;
       overflow: hidden;
       background-color: black;
-
+      background-size:cover;
     }
     header.hero3 h1{
       color: rgb(25, 110, 103);
@@ -196,6 +215,7 @@ header.topbar.icons:hover{
       background-repeat: no-repeat;
       overflow: hidden;
       background-color: black;
+      background-size:cover;
 
     }
     header.hero4 h1{
@@ -218,6 +238,7 @@ header.topbar.icons:hover{
       background-repeat: no-repeat;
       overflow: hidden;
       background-color: black;
+      background-size:cover;
 
     }
     header.hero5 h1{
@@ -240,6 +261,7 @@ header.topbar.icons:hover{
       background-repeat: no-repeat;
       overflow: hidden;
       background-color: black;
+      background-size:cover;
 
     }
     header.hero9 h1{
@@ -262,6 +284,7 @@ header.topbar.icons:hover{
       background-repeat: no-repeat;
       overflow: hidden;
       background-color: black;
+      background-size:cover;
 
     }
     header.hero10 h1{
@@ -291,7 +314,7 @@ header.topbar.icons:hover{
       color: white;
     }
     .btn-black:hover{
-     background: red);
+     background: red;
      color: black;
      border: rgb(26, 98, 100);
    }
@@ -300,7 +323,7 @@ header.topbar.icons:hover{
       color: white;
     }
     .btn-white:hover{
-     background: white);
+     background: white;
      color: black;
    }
 footer{

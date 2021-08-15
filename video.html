@@ -13,12 +13,29 @@ box-sizing: border-box;
 html{
     scroll-behavior: smooth;
   }
-  
-  .container{
-    width:100%;
-    padding: 0 15px;
-    margin: 0 auto;
-  }
+  .earth {
+        position: absolute;
+        
+      
+        right: 40px;
+        
+        margin: auto;
+        width: 30px;
+        height: 30px;
+        background-image: url(images/map.jpg);
+        border-radius: 50%;
+        background-size: cover;
+        box-shadow: 0px -0px 0px 1px rgb(80, 80, 80) inset, 0 0 10px 0px rgb(49, 49, 49);
+        animation: spin 20s linear alternate infinite;
+    }
+    @keyframes spin{
+        100%{background-position:100%;}
+    }
+    .container{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
   .container2{
     width:100%;
     padding: 0 15px;
@@ -48,7 +65,6 @@ html{
         }
         nav{
           background-color: rgb(71, 71, 71);
-          width: 1520px;
         }
        nav .navbar a{
          background-color: black;
@@ -92,9 +108,10 @@ html{
    background: white);
    color: black;
  }
+ 
 footer{
 background-color: rgb(27, 27, 27);
-margin-top: 1.5rem;
+margin-top: 15rem;
 
 }
 footer .container{
@@ -167,6 +184,13 @@ text-align: left;
                <a href="https://web.whatsapp.com/" target="_blank"><img src="icons/whatsapp.jpg" alt=""></a> 
                <a href="https://www.instagram.com/accounts/login/" target="_blank"><img src="icons/insta.jpg" alt=""></a>
             </div>
+            <div id="time" class="earth" onmouseover="showCurrentTime()"></div>
+            <script>
+                function showCurrentTime() {
+                    document.getElementById("time").title= new Date();
+                }
+            </script>
+
         </div>
     </header>
     <nav>
@@ -174,12 +198,12 @@ text-align: left;
             <div class="container flex justify-center">
                 <a href="portfolio.html" class="active">Home</a>
                 <a href="#">About</a>
-                <a href="mywork.html">My work</a>
+                <a href="mycatalogue.html">My catalogue</a>
                 <a href="contact.html">Contact</a>
             </div>
         </div>
     </nav>
-    <video controls align-item="center">
+    <video width="420" controls align-item="center">
         <source src="video/1.mp4">
     </video>
     <footer>
@@ -199,7 +223,7 @@ text-align: left;
                         <a href="#">Home</a>
                     </li>
                     <li>
-                        <a href="mywork.html">My work</a>
+                        <a href="mycatalogue.html">My catalogue</a>
                     </li>
                     <li>
                         <a href="contact.html">Contact</a>

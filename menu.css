@@ -33,7 +33,7 @@
 .sub-menu-1{
     display: none;
 }
-.menu-bar ul li:hover .sub-menu-1{
+.menu-bar ul li:nth-child(3) a:hover .sub-menu-1{
     display: block;
     position: absolute;
     background: rgb(0, 100, 0);
