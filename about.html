@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>video</title>
+    <title>Document</title>
 </head>
 <style>
     *{margin: 0px;
@@ -26,7 +26,7 @@ html{
         border-radius: 50%;
         background-size: cover;
         box-shadow: 0px -0px 0px 1px rgb(80, 80, 80) inset, 0 0 10px 0px rgb(180, 180, 180);
-        animation: spin 5s linear alternate infinite;
+        animation: spin 20s linear alternate infinite;
     }
     @keyframes spin{
         100%{background-position:100%;}
@@ -143,7 +143,17 @@ html{
    background: white;
    color: black;
  }
- .align { margin: 30px 50px;  }
+ header.hero p{
+       width: 50%;
+       line-height: 1.5;
+       margin-bottom: 1.5rem;
+       margin-top: 2.5rem;
+     }
+     .img {
+         height: 650px;
+         margin-right: 50px;
+         
+     }
 footer{
 background-color: rgb(27, 27, 27);
 margin-top: 15rem;
@@ -203,7 +213,7 @@ footer .box:nth-child(3) > div img{
 margin-right: 1rem;
 }
 footer .box:nth-child(3) ul li{
-margin: bottom: 1.5em;
+margin-bottom: 1.5em;
 }
 footer .box:nth-child(2){
 text-align: left;
@@ -219,7 +229,7 @@ text-align: left;
                <a href="https://wa.me/919748294668" target="_blank"><img src="icons/whatsapp.jpg" alt=""></a> 
                <a href="https://www.instagram.com/accounts/login/" target="_blank"><img src="icons/insta.jpg" alt=""></a>
             </div>
-            <div id="time" class="earth" onmouseover="showCurrentTime()" onmouseout="play()"></div>
+            <div id="time" class="earth" onmouseover="showCurrentTime()"  onmouseout="play()"></div>
             <script>
                 function showCurrentTime() {
                     document.getElementById("time").title= new Date(); 
@@ -234,8 +244,8 @@ text-align: left;
     </header>
     <div class="menu-bar">
         <ul>
-           <li class="active"><a href="portfolio.html">Home</a></li>
-            <li><a href="about.html">About</a></li> 
+           <li ><a href="portfolio.html">Home</a></li>
+            <li class="active"><a href="about.html">About</a></li> 
             <li><a href="mycatalogue.html">My Catalogue</a>
             <div class="sub-menu-1">
                 <ul>
@@ -254,9 +264,32 @@ text-align: left;
            <li><a href="contact.html">Contact</a></li> 
         </ul>
     </div>
-    <center>
-        <iframe class="align" src="https://www.youtube.com/embed/41XNwSsz1iI" width="420px" frameborder="0"></iframe>
-    </center>
+    <header class="hero">
+        <div class="container2">
+            <img class="img" src="images/somya.jpg" alt="img error" align="right">
+            <p>Hello Readers! <br> <br>
+
+                This is Somya Agarwal, currently I reside in my hometown Kolkata,
+                I am born and brought up here in Kolkata located West Bengal in  India. 
+                I completed my gradution from Calcutta University. I am a certified Graphic
+                Designer and currently working in a company named ThinkSurf Media. <br> <br>
+        
+                For last 3years I have had the pleasure of working as a Graphic Designer.
+                I make customized t-shirt, mugs, calandrs, brouchure, posters and many more
+                things creative things. <br> <br>
+        
+        
+                I look forward to hear from you whenever you are in need of any Graphic 
+                Designing Services. This is my website you can contact me or order from here also if you
+                need anything. <br> <br>
+                
+                Sincerely, <br>
+                Somya Agarwal</p>
+        </div>
+    </header>
+    <div class="img">
+        
+    </div>
     <footer>
         <div class="container">
           <div class="box"></div>
@@ -271,7 +304,7 @@ text-align: left;
                 <h3>Quik link</h3>
                 <ul>
                     <li>
-                        <a href="#">Home</a>
+                        <a href="portfolio.html">Home</a>
                     </li>
                     <li>
                         <a href="mycatalogue.html">My Catalogue</a>

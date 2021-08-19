@@ -16,10 +16,14 @@
                <a href="https://wa.me/919748294668" target="_blank"><img src="icons/whatsapp.jpg" alt=""></a> 
                <a href="https://www.instagram.com/accounts/login/" target="_blank"><img src="icons/insta.jpg" alt=""></a>
             </div>
-            <div id="time" class="earth" onmouseover="showCurrentTime()"></div>
+            <div id="time" class="earth" onmouseover="showCurrentTime()" onmouseout="play()"></div>
             <script>
                 function showCurrentTime() {
-                    document.getElementById("time").title= new Date();
+                    document.getElementById("time").title= new Date(); 
+                    document.getElementById("time").style.animation="linear alternate infinite";
+                }
+                function play() {
+                    document.getElementById("time").style.animation="spin 5s linear alternate infinite";
                 }
             </script>
 
@@ -27,14 +31,14 @@
     </header>
     <div class="menu-bar">
         <ul>
-           <li class="active"><a href="portfolio.html">Home</a></li>
-            <li><a href="#">About</a></li> 
-            <li><a href="mycatalogue.html">MyCatalogue</a>
+           <li ><a href="portfolio.html">Home</a></li>
+            <li><a href="about.html">About</a></li> 
+            <li class="active"><a href="mycatalogue.html">My Catalogue</a>
             <div class="sub-menu-1">
                 <ul>
                  <li><a href="tshirt.html">T-shirt</a></li> 
                   <li><a href="mug.html">Mug</a></li>
-                  <li><a href="brouchure.html">Brouchure & Letterhead</a></li>
+                  <li><a href="brouchure.html">Branding & Advertising</a></li>
                   <li><a href="magazine.html">Magazine</a></li>
                   <li><a href="calander.html">Calander</a></li>
                   <li><a href="poster.html">Poster</a></li>
@@ -103,19 +107,9 @@
             <h4>L-1</h4>
         </div>
         <div class="card">
-            <a href="brouchure/6.jpg">
-            <div class="card-image image-11"></div></a>
-            <h4>L-2</h4>
-        </div>
-        <div class="card">
             <a href="brouchure/7.jpg">
             <div class="card-image image-12"></div></a>
-            <h4>L-3</h4>
-        </div>
-        <div class="card">
-            <a href="brouchure/8.jpg">
-            <div class="card-image image-13"></div></a>
-            <h4>L-4</h4>
+            <h4>L-2</h4>
         </div>
     </section> 
     <footer>
