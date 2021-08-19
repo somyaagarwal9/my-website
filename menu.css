@@ -6,7 +6,7 @@
 
 .menu-bar
 {
-    background: rgb(0, 100, 0);
+    background: rgb(71, 71, 71);
     text-align: center;
 }
 .menu-bar ul
@@ -27,16 +27,34 @@
 }
 .active, .menu-bar ul li:hover{
 
-    background: #2bab0d;
+    background: rgb(37, 138, 151);
     border-radius: 1px;
 }
 .sub-menu-1{
     display: none;
 }
-.menu-bar ul li:nth-child(3) a:hover .sub-menu-1{
+.menu-bar ul li:hover .sub-menu-1{
     display: block;
     position: absolute;
-    background: rgb(0, 100, 0);
+    background: rgb(71, 71, 71);
     margin-top: 15px;
     margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    color:teal;
 }

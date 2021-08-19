@@ -15,7 +15,7 @@
     background-image: url(images/map.jpg);
     border-radius: 50%;
     background-size: cover;
-    box-shadow: 0px -0px 0px 1px rgb(80, 80, 80) inset, 0 0 10px 0px rgb(49, 49, 49);
+    box-shadow: 0px -0px 0px 1px rgb(80, 80, 80) inset, 0 0 10px 0px rgb(180, 180, 180);
     animation: spin 20s linear alternate infinite;
 }
 @keyframes spin{
@@ -43,36 +43,60 @@ header.topbar{
         .justify-center{
           justify-content:center;
         }
-        nav{
-          background-color: rgb(71, 71, 71);
-        }
-       nav .navbar a{
-         background-color: black;
-         text-decoration: none;
-         color: white;
-         font-size: 1rem;
-         padding: 1rem 1.5rem;
-         transition: all .3s ease;
-       } 
-       nav .navbar a.active{
-         background: rgb(37, 138, 151);
-         color: black;
-       }
-       nav .navbar a:hover{
-         background: grey;
-         color: black;
-       }
-       .sub-menu-1
-     {
-         display:none;
-     }
-     nav .navbar ul li:hover .sub-menu-1{
-         display: block;
-         position: absolute;
-         background: black;
-         margin-top: 15px;
-         margin-bottom: -15px;
-     }
+        .menu-bar
+{
+    background: rgb(71, 71, 71);
+    text-align: center;
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.menu-bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+
+}
+.active, .menu-bar ul li:hover{
+
+    background: rgb(37, 138, 151);
+    border-radius: 1px;
+}
+.sub-menu-1{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: rgb(71, 71, 71);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    color:teal;
+}
        .btn{
         padding: 0.50rem 0.75rem;
         border-radius: 4px;
@@ -132,6 +156,7 @@ h1{
     background-size: cover;
     border-radius: 15px 15px 0 0;
 }
+
 p{
     text-align: center; 
     width: 100%;
@@ -171,6 +196,13 @@ p{
     background-size: cover;
     border-radius: 15px 15px 0 0;
 }
+.card-image3P {
+    background-color: aqua;
+    height: 400px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
 .card h4{
     margin-top: .5rem;
     padding: 10px;
@@ -186,9 +218,20 @@ p{
     padding: 10px;
     text-align: center;
   }
+  .card3P h4{
+    margin-top: .5rem;
+    padding: 10px;
+    text-align: center;
+}
   .card3 {
     background: white;
     width: 280px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.card3P {
+    background: white;
+    width: 400px;
     margin: 10px;
     border-radius: 15px;
 }
@@ -213,6 +256,13 @@ p{
 .card-image4 {
     background-color: aqua;
     height: 200px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+.card-imageVC {
+    background-color: aqua;
+    height: 150px;
     margin-bottom: 15px;
     background-size: cover;
     border-radius: 15px 15px 0 0;
@@ -370,6 +420,21 @@ p{
 .image-4{
     background-image: url(brouchure/4.jpg);
 }
+.image-5{
+    background-image: url(visitingcard/1.jpg);
+}
+.image-6{
+  background-image: url(visitingcard/2.jpg);
+}
+.image-7{
+background-image: url(visitingcard/3.jpg);
+}
+.image-8{
+background-image: url(visitingcard/4.jpg);
+}
+.image-9{
+background-image: url(visitingcard/5.jpg);
+}
 .Mimage-1{
     background-image: url(magazine/1.jpg);
 }
@@ -408,6 +473,24 @@ p{
 }
 .Pimage-4{
     background-image: url(poster/4.jpg);
+}
+.Pimage-5{
+    background-image: url(poster/5.jpg);
+}
+.Pimage-6{
+  background-image: url(poster/6.jpg);
+}
+.Pimage-7{
+background-image: url(poster/7.png);
+}
+.Pimage-8{
+background-image: url(poster/8.png);
+}
+.Pimage-9{
+background-image: url(poster/9.png);
+}
+.Pimage-10{
+background-image: url(poster/10.png);
 }
 .Iimage-1{
     background-image: url(infographic/1.jpg);

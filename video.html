@@ -25,7 +25,7 @@ html{
         background-image: url(images/map.jpg);
         border-radius: 50%;
         background-size: cover;
-        box-shadow: 0px -0px 0px 1px rgb(80, 80, 80) inset, 0 0 10px 0px rgb(49, 49, 49);
+        box-shadow: 0px -0px 0px 1px rgb(80, 80, 80) inset, 0 0 10px 0px rgb(180, 180, 180);
         animation: spin 20s linear alternate infinite;
     }
     @keyframes spin{
@@ -63,25 +63,60 @@ html{
         .justify-center{
           justify-content:center;
         }
-        nav{
-          background-color: rgb(71, 71, 71);
-        }
-       nav .navbar a{
-         background-color: black;
-         text-decoration: none;
-         color: white;
-         font-size: 1rem;
-         padding: 1rem 1.5rem;
-         transition: all .3s ease;
-       } 
-       nav .navbar a.active{
-         background: rgb(37, 138, 151);
-         color: black;
-       }
-       nav .navbar a:hover{
-         background: grey;
-         color: black;
-       }
+        .menu-bar
+{
+    background: rgb(71, 71, 71);
+    text-align: center;
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.menu-bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+
+}
+.active, .menu-bar ul li:hover{
+
+    background: rgb(37, 138, 151);
+    border-radius: 1px;
+}
+.sub-menu-1{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: rgb(71, 71, 71);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    color:teal;
+}
  .btn{
     padding: 0.50rem 0.75rem;
     border-radius: 4px;
@@ -96,7 +131,7 @@ html{
     color: white;
   }
   .btn-black:hover{
-   background: red);
+   background: red;
    color: black;
    border: rgb(26, 98, 100);
  }
@@ -105,10 +140,10 @@ html{
     color: white;
   }
   .btn-white:hover{
-   background: white);
+   background: white;
    color: black;
  }
- 
+ .align { margin: 30px 50px;  }
 footer{
 background-color: rgb(27, 27, 27);
 margin-top: 15rem;
@@ -181,7 +216,7 @@ text-align: left;
                <a href="https://www.linkedin.com/login" target="_blank"><img src="icons/linkedin.jpg" alt=""></a>
                <a href="https://www.google.co.in/" target="_blank"><img src="icons/facebook.jpg" alt=""></a>
                <a href="https://twitter.com/login?lang=en" target="_blank"><img src="icons/twitter.jpg" alt=""></a>
-               <a href="https://web.whatsapp.com/" target="_blank"><img src="icons/whatsapp.jpg" alt=""></a> 
+               <a href="https://wa.me/919748294668" target="_blank"><img src="icons/whatsapp.jpg" alt=""></a> 
                <a href="https://www.instagram.com/accounts/login/" target="_blank"><img src="icons/insta.jpg" alt=""></a>
             </div>
             <div id="time" class="earth" onmouseover="showCurrentTime()"></div>
@@ -193,19 +228,31 @@ text-align: left;
 
         </div>
     </header>
-    <nav>
-        <div class="navbar">
-            <div class="container flex justify-center">
-                <a href="portfolio.html" class="active">Home</a>
-                <a href="#">About</a>
-                <a href="mycatalogue.html">My catalogue</a>
-                <a href="contact.html">Contact</a>
+    <div class="menu-bar">
+        <ul>
+           <li class="active"><a href="portfolio.html">Home</a></li>
+            <li><a href="#">About</a></li> 
+            <li><a href="mycatalogue.html">MyCatalogue</a>
+            <div class="sub-menu-1">
+                <ul>
+                 <li><a href="tshirt.html">T-shirt</a></li> 
+                  <li><a href="mug.html">Mug</a></li>
+                  <li><a href="brouchure.html">Brouchure & Letterhead</a></li>
+                  <li><a href="magazine.html">Magazine</a></li>
+                  <li><a href="calander.html">Calander</a></li>
+                  <li><a href="poster.html">Poster</a></li>
+                  <li><a href="info.html">Infographic</a></li>
+                  <li><a href="vector.html">Vector</a></li>
+                  <li><a href="video.html">Animated Video</a></li>
+                </ul>
             </div>
-        </div>
-    </nav>
-    <video width="420" controls align-item="center">
-        <source src="video/1.mp4">
-    </video>
+        </li>
+           <li><a href="contact.html">Contact</a></li> 
+        </ul>
+    </div>
+    <center>
+        <iframe class="align" src="https://www.youtube.com/embed/41XNwSsz1iI" width="420px" frameborder="0"></iframe>
+    </center>
     <footer>
         <div class="container">
           <div class="box"></div>
@@ -223,7 +270,7 @@ text-align: left;
                         <a href="#">Home</a>
                     </li>
                     <li>
-                        <a href="mycatalogue.html">My catalogue</a>
+                        <a href="mycatalogue.html">My Catalogue</a>
                     </li>
                     <li>
                         <a href="contact.html">Contact</a>
@@ -249,7 +296,7 @@ text-align: left;
                         </a>
                     </li>
                     <li>
-                        <a href="https://web.whatsapp.com/" target="_blank">
+                        <a href="https://wa.me/919748294668" target="_blank">
                             <img src="icons\whatsapp.jpg" alt="">
                             
                         </a>
