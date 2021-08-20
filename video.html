@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>video</title>
+    <title>Animated Video</title>
 </head>
 <style>
     *{margin: 0px;
@@ -63,7 +63,7 @@ html{
         .justify-center{
           justify-content:center;
         }
-        .menu-bar
+.menu-bar
 {
     background: rgb(71, 71, 71);
     text-align: center;
@@ -87,7 +87,7 @@ html{
 .active, .menu-bar ul li:hover{
 
     background: rgb(37, 138, 151);
-    border-radius: 1px;
+    border-radius: 20px;
 }
 .sub-menu-1{
     display: none;
@@ -103,9 +103,9 @@ html{
     display: block;
     margin: 10px;
 }
-.menu-bar ul li:hover .sub-menu-1 ul li{
-    width: 150px;
-    padding: 10px;
+.menu-bar ul li a:hover .sub-menu-1 ul li{
+    width: 100px;
+    padding: 5px;
     border-bottom: 1px dotted #fff;
     background: transparent;
     border-radius: 0;
@@ -223,10 +223,10 @@ text-align: left;
             <script>
                 function showCurrentTime() {
                     document.getElementById("time").title= new Date(); 
-                    document.getElementById("time").style.animation="linear alternate infinite";
+                    document.getElementById("time").style.width="40px".height="40px";
                 }
                 function play() {
-                    document.getElementById("time").style.animation="spin 5s linear alternate infinite";
+                    document.getElementById("time").style.width="30px".height="30px";
                 }
             </script>
 
@@ -239,15 +239,15 @@ text-align: left;
             <li><a href="mycatalogue.html">My Catalogue</a>
             <div class="sub-menu-1">
                 <ul>
-                 <li><a href="tshirt.html">T-shirt</a></li> 
-                  <li><a href="mug.html">Mug</a></li>
-                  <li><a href="brouchure.html">Branding & Advertising</a></li>
-                  <li><a href="magazine.html">Magazine</a></li>
-                  <li><a href="calander.html">Calander</a></li>
-                  <li><a href="poster.html">Poster</a></li>
-                  <li><a href="info.html">Infographic</a></li>
-                  <li><a href="vector.html">Vector</a></li>
-                  <li><a href="video.html">Animated Video</a></li>
+                    <a href="tshirt.html"><li>T-shirt</li></a>
+                    <a href="mug.html"><li>Mug</li></a>
+                    <a href="brouchure.html"><li>Branding & Advertising</li></a>
+                    <a href="magazine.html"><li>Magazine</li></a>
+                    <a href="calendar.html"><li>calendar</li></a>
+                    <a href="poster.html"><li>Poster</li></a>
+                    <a href="info.html"><li>Infographic</li></a>
+                    <a href="vector.html"><li>Vector</li></a>
+                    <a href="video.html"><li>Animated Video</li></a>
                 </ul>
             </div>
         </li>
@@ -255,7 +255,8 @@ text-align: left;
         </ul>
     </div>
     <center>
-        <iframe class="align" src="https://www.youtube.com/embed/41XNwSsz1iI" width="420px" frameborder="0"></iframe>
+        <iframe class="align" src="https://www.youtube.com/embed/41XNwSsz1iI" width="420px" frameborder="0" allow="fullscreen"></iframe>
+        <iframe class="align" src="https://www.youtube.com/embed/c8Z08T9s0pE" width="420px" frameborder="0" allow="fullscreen"></iframe>
     </center>
     <footer>
         <div class="container">
@@ -271,7 +272,10 @@ text-align: left;
                 <h3>Quik link</h3>
                 <ul>
                     <li>
-                        <a href="#">Home</a>
+                        <a href="portfolio.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
                     </li>
                     <li>
                         <a href="mycatalogue.html">My Catalogue</a>

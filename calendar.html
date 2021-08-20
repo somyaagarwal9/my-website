@@ -1,0 +1,143 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calendar.css">
+    <title>Calander Design</title>
+</head>
+<body>
+    <header class="topbar">
+        <div class="container">
+            <div class="icons">
+               <a href="https://www.linkedin.com/login" target="_blank"><img src="icons/linkedin.jpg" alt=""></a>
+               <a href="https://www.google.co.in/" target="_blank"><img src="icons/facebook.jpg" alt=""></a>
+               <a href="https://twitter.com/login?lang=en" target="_blank"><img src="icons/twitter.jpg" alt=""></a>
+               <a href="https://wa.me/919748294668" target="_blank"><img src="icons/whatsapp.jpg" alt=""></a> 
+               <a href="https://www.instagram.com/accounts/login/" target="_blank"><img src="icons/insta.jpg" alt=""></a>
+            </div>
+            <div id="time" class="earth" onmouseover="showCurrentTime()" onmouseout="play()"></div>
+            <script>
+                function showCurrentTime() {
+                    document.getElementById("time").title= new Date(); 
+                    document.getElementById("time").style.width="40px".height="40px";
+                }
+                function play() {
+                    document.getElementById("time").style.width="30px".height="30px";
+                }
+            </script>
+
+        </div>
+    </header>
+    <div class="menu-bar">
+        <ul>
+           <li class="active"><a href="portfolio.html">Home</a></li>
+            <li><a href="about.html">About</a></li> 
+            <li><a href="mycatalogue.html">My Catalogue</a>
+            <div class="sub-menu-1">
+                <ul>
+                    <a href="tshirt.html"><li>T-shirt</li></a>
+                    <a href="mug.html"><li>Mug</li></a>
+                    <a href="brouchure.html"><li>Branding & Advertising</li></a>
+                    <a href="magazine.html"><li>Magazine</li></a>
+                    <a href="calander.html"><li>Calender</li></a>
+                    <a href="poster.html"><li>Poster</li></a>
+                    <a href="info.html"><li>Infographic</li></a>
+                    <a href="vector.html"><li>Vector</li></a>
+                    <a href="video.html"><li>Animated Video</li></a>
+                </ul>
+            </div>
+        </li>
+           <li><a href="contact.html">Contact</a></li> 
+        </ul>
+    </div>
+    <section class="container">
+        <h1>Calendar Design</h1>
+        <div class="card2">
+            <a href="calander/1.png">
+            <div class="card-image2 Cimage-1"></div></a>
+            <h4>C-1</h4>
+        </div>
+        <div class="card2">
+            <a href="calander/2.jpg">
+            <div class="card-image2 Cimage-2"></div></a>
+            <h4>C-2</h4>
+        </div>
+        <div class="card2">
+            <a href="calander/3.jpg">
+            <div class="card-image2 Cimage-3"></div></a>
+            <h4>C-3</h4>
+        </div>
+        <div class="card2">
+            <a href="calander/4.jpg">
+            <div class="card-image2 Cimage-4"></div></a>
+            <h4>C-4</h4>
+        </div>
+    </section> 
+    <footer>
+        <div class="container">
+            <div class="box"></div>
+            <div class="box">
+               <h3>About me</h3> 
+               <p>Currently, I'm a freelance designer, <br>
+                who works with a variety of clients <br>
+                and on many diverse projects.  
+              </p>
+            </div>
+            <div class="box">
+                <h3>Quik link</h3>
+                <ul>
+                    <li>
+                        <a href="portfolio.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="mycatalogue.html">My Catalogue</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>
+                        <a href="https://www.google.co.in/" target="_blank">
+                            <img src="icons\facebook.jpg" alt="">
+                            
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/accounts/login/" target="_blank">
+                            <img src="icons\insta.jpg" alt="">
+                            
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/login" target="_blank">
+                            <img src="icons\linkedin.jpg" alt="">
+                            
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://wa.me/919748294668" target="_blank">
+                            <img src="icons\whatsapp.jpg" alt="">
+                            
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/login?lang=en" target="_blank">
+                            <img src="icons\twitter.jpg" alt="">
+                            
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="box"></div>
+        </div>
+    </footer>
+</body>
+</html>  

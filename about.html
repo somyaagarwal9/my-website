@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>About</title>
 </head>
 <style>
     *{margin: 0px;
@@ -63,7 +63,7 @@ html{
         .justify-center{
           justify-content:center;
         }
-        .menu-bar
+.menu-bar
 {
     background: rgb(71, 71, 71);
     text-align: center;
@@ -87,7 +87,7 @@ html{
 .active, .menu-bar ul li:hover{
 
     background: rgb(37, 138, 151);
-    border-radius: 1px;
+    border-radius: 20px;
 }
 .sub-menu-1{
     display: none;
@@ -103,9 +103,9 @@ html{
     display: block;
     margin: 10px;
 }
-.menu-bar ul li:hover .sub-menu-1 ul li{
-    width: 150px;
-    padding: 10px;
+.menu-bar ul li a:hover .sub-menu-1 ul li{
+    width: 100px;
+    padding: 5px;
     border-bottom: 1px dotted #fff;
     background: transparent;
     border-radius: 0;
@@ -150,13 +150,13 @@ html{
        margin-top: 2.5rem;
      }
      .img {
-         height: 650px;
-         margin-right: 50px;
+         height: 550px;
+         margin-right: 100px;
          
      }
 footer{
 background-color: rgb(27, 27, 27);
-margin-top: 15rem;
+margin-top: 20rem;
 
 }
 footer .container{
@@ -233,10 +233,10 @@ text-align: left;
             <script>
                 function showCurrentTime() {
                     document.getElementById("time").title= new Date(); 
-                    document.getElementById("time").style.animation="linear alternate infinite";
+                    document.getElementById("time").style.width="40px".height="40px";
                 }
                 function play() {
-                    document.getElementById("time").style.animation="spin 5s linear alternate infinite";
+                    document.getElementById("time").style.width="30px".height="30px";
                 }
             </script>
 
@@ -249,15 +249,15 @@ text-align: left;
             <li><a href="mycatalogue.html">My Catalogue</a>
             <div class="sub-menu-1">
                 <ul>
-                 <li><a href="tshirt.html">T-shirt</a></li> 
-                  <li><a href="mug.html">Mug</a></li>
-                  <li><a href="brouchure.html">Branding & Advertising</a></li>
-                  <li><a href="magazine.html">Magazine</a></li>
-                  <li><a href="calander.html">Calander</a></li>
-                  <li><a href="poster.html">Poster</a></li>
-                  <li><a href="info.html">Infographic</a></li>
-                  <li><a href="vector.html">Vector</a></li>
-                  <li><a href="video.html">Animated Video</a></li>
+                    <a href="tshirt.html"><li>T-shirt</li></a>
+                    <a href="mug.html"><li>Mug</li></a>
+                    <a href="brouchure.html"><li>Branding & Advertising</li></a>
+                    <a href="magazine.html"><li>Magazine</li></a>
+                    <a href="calendar.html"><li>calendar</li></a>
+                    <a href="poster.html"><li>Poster</li></a>
+                    <a href="info.html"><li>Infographic</li></a>
+                    <a href="vector.html"><li>Vector</li></a>
+                    <a href="video.html"><li>Animated Video</li></a>
                 </ul>
             </div>
         </li>
@@ -266,7 +266,7 @@ text-align: left;
     </div>
     <header class="hero">
         <div class="container2">
-            <img class="img" src="images/somya.jpg" alt="img error" align="right">
+            <img class="img" src="images/somya.png" alt="img error" align="right">
             <p>Hello Readers! <br> <br>
 
                 This is Somya Agarwal, currently I reside in my hometown Kolkata,
@@ -287,9 +287,6 @@ text-align: left;
                 Somya Agarwal</p>
         </div>
     </header>
-    <div class="img">
-        
-    </div>
     <footer>
         <div class="container">
           <div class="box"></div>
@@ -305,6 +302,9 @@ text-align: left;
                 <ul>
                     <li>
                         <a href="portfolio.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
                     </li>
                     <li>
                         <a href="mycatalogue.html">My Catalogue</a>
