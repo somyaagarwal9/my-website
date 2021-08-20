@@ -84,6 +84,11 @@ html{
     color: #fff;
 
 }
+.menu-bar ul a{
+  text-decoration: none;
+  color: #fff;
+
+}
 .active, .menu-bar ul li:hover{
 
     background: rgb(37, 138, 151);
@@ -144,6 +149,17 @@ html{
    color: black;
  }
  .align { margin: 30px 50px;  }
+ .container h4{
+        margin-top:-30px;
+        padding: 10px;
+        text-align: center;
+        color: rgb(32, 174, 179);
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; 
+    }
 footer{
 background-color: rgb(27, 27, 27);
 margin-top: 15rem;
@@ -223,10 +239,12 @@ text-align: left;
             <script>
                 function showCurrentTime() {
                     document.getElementById("time").title= new Date(); 
-                    document.getElementById("time").style.width="40px".height="40px";
+                    document.getElementById("time").style.width="60px";
+                    document.getElementById("time").style.height="60px";
                 }
                 function play() {
-                    document.getElementById("time").style.width="30px".height="30px";
+                    document.getElementById("time").style.width="30px";
+                    document.getElementById("time").style.height="30px";
                 }
             </script>
 
@@ -234,30 +252,50 @@ text-align: left;
     </header>
     <div class="menu-bar">
         <ul>
-           <li class="active"><a href="portfolio.html">Home</a></li>
-            <li><a href="about.html">About</a></li> 
-            <li><a href="mycatalogue.html">My Catalogue</a>
-            <div class="sub-menu-1">
+            <a href="portfolio.html"><li class="active">Home</li></a>
+            <a href="about.html"><li>About</li></a>
+            <a href="mycatalogue.html"><li>My Catalogue
+             <div class="sub-menu-1">
                 <ul>
-                    <a href="tshirt.html"><li>T-shirt</li></a>
+                    <a href="tshirt.html"><li>T-Shirt</li></a>
                     <a href="mug.html"><li>Mug</li></a>
                     <a href="brouchure.html"><li>Branding & Advertising</li></a>
                     <a href="magazine.html"><li>Magazine</li></a>
-                    <a href="calendar.html"><li>calendar</li></a>
+                    <a href="calendar.html"><li>Calendar</li></a>
                     <a href="poster.html"><li>Poster</li></a>
                     <a href="info.html"><li>Infographic</li></a>
                     <a href="vector.html"><li>Vector</li></a>
                     <a href="video.html"><li>Animated Video</li></a>
                 </ul>
-            </div>
-        </li>
-           <li><a href="contact.html">Contact</a></li> 
+             </div>
+               </li></a>
+           <a href="contact.html"><li>Contact</li></a> 
         </ul>
     </div>
-    <center>
-        <iframe class="align" src="https://www.youtube.com/embed/41XNwSsz1iI" width="420px" frameborder="0" allow="fullscreen"></iframe>
-        <iframe class="align" src="https://www.youtube.com/embed/c8Z08T9s0pE" width="420px" frameborder="0" allow="fullscreen"></iframe>
-    </center>
+    <div class="container">
+        <div>
+            <iframe class="align" src="https://www.youtube.com/embed/41XNwSsz1iI" width="320px" height="240" frameborder="0" allow="fullscreen"></iframe>
+            <h4>Biosar Ad</h4>
+        </div>
+        <div>
+            <iframe class="align" src="https://www.youtube.com/embed/c8Z08T9s0pE" width="320px" height="240" frameborder="0" allow="fullscreen"></iframe>
+            <h4>Portfolio</h4>
+        </div>
+        <div>
+            <iframe class="align" src="https://www.youtube.com/embed/3Rh1nthoJto" width="320px" height="240" frameborder="0" allow="fullscreen"></iframe>
+            <h4>Boy Animation</h4>
+        </div>
+        <div>
+            <iframe class="align" src="https://www.youtube.com/embed/OUnfQ7t6Y2Q" width="320px" height="240" frameborder="0" allow="fullscreen"></iframe>
+            <h4>Bhoothnath Trailer</h4>
+        </div>
+        
+        
+    </div>
+        
+        
+        
+   
     <footer>
         <div class="container">
           <div class="box"></div>

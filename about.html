@@ -10,6 +10,76 @@
 padding: 0px;
 box-sizing: border-box;
 }
+.wrapper{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: rgb(141, 248, 230);
+}
+.box div{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    border: 6px solid rgba(255, 255, 255, 0.8);
+}
+.box div:nth-child(1){
+    top: 12%;
+    left: 42%;
+    animation: animate 10s linear infinite;
+}
+.box div:nth-child(2){
+    top: 70%;
+    left: 50%;
+    animation: animate 7s linear infinite;
+}
+.box div:nth-child(3){
+    top: 17%;
+    left: 6%;
+    animation: animate 9s linear infinite;
+}
+.box div:nth-child(4){
+    top: 20%;
+    left: 60%;
+    animation: animate 10s linear infinite;
+}.box div:nth-child(5){
+    top: 67%;
+    left: 10%;
+    animation: animate 6s linear infinite;
+}
+.box div:nth-child(6){
+    top: 80%;
+    left: 70%;
+    animation: animate 12s linear infinite;
+}
+.box div:nth-child(7){
+    top: 60%;
+    left: 80%;
+    animation: animate 15s linear infinite;
+}.box div:nth-child(8){
+    top: 32%;
+    left: 25%;
+    animation: animate 16s linear infinite;
+}.box div:nth-child(9){
+    top: 90%;
+    left: 25%;
+    animation: animate 9s linear infinite;
+}.box div:nth-child(10){
+    top: 30%;
+    left: 90%;
+    animation: animate 5s linear infinite;
+}
+@keyframes animate{
+    0%{
+        transform: scale(0) translateY(0) rotate(0);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1.3) translateY(-90px) rotate(360deg);
+        opacity: .2;
+    }
+}
 html{
     scroll-behavior: smooth;
   }
@@ -49,20 +119,7 @@ html{
   header.topbar.icons:hover{
     background-color: black;
   }
-        .flex{
-          display:flex
-        }
-  
-        .justify-between{
-          justify-content: space-between;
-        }
-  
-        .item-center{
-          align-items: center;
-        }
-        .justify-center{
-          justify-content:center;
-        }
+        
 .menu-bar
 {
     background: rgb(71, 71, 71);
@@ -80,6 +137,11 @@ html{
     padding: 15px;
 }
 .menu-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+
+}
+.menu-bar ul a{
     text-decoration: none;
     color: #fff;
 
@@ -117,37 +179,12 @@ html{
 .menu-bar ul li:hover .sub-menu-1 ul li a:hover{
     color:teal;
 }
- .btn{
-    padding: 0.50rem 0.75rem;
-    border-radius: 4px;
-    border: none;
-    font-size: 1.2rem;
-    cursor: pointer;
-    transition:all 0.3s ease;
-
-  }
-  .btn-black{
-    background: rgb(26, 98, 100);
-    color: white;
-  }
-  .btn-black:hover{
-   background: red;
-   color: black;
-   border: rgb(26, 98, 100);
- }
-  .btn-white{
-    background: rgb(38, 157, 165);
-    color: white;
-  }
-  .btn-white:hover{
-   background: white;
-   color: black;
- }
  header.hero p{
        width: 50%;
        line-height: 1.5;
-       margin-bottom: 1.5rem;
-       margin-top: 2.5rem;
+       margin-bottom: 2.5rem;
+       margin-top: 4.5rem;
+       margin-left: 3.5rem;
      }
      .img {
          height: 550px;
@@ -218,6 +255,7 @@ margin-bottom: 1.5em;
 footer .box:nth-child(2){
 text-align: left;
 }
+
 </style>
 <body>
     <header class="topbar">
@@ -233,10 +271,12 @@ text-align: left;
             <script>
                 function showCurrentTime() {
                     document.getElementById("time").title= new Date(); 
-                    document.getElementById("time").style.width="40px".height="40px";
+                    document.getElementById("time").style.width="60px";
+                    document.getElementById("time").style.height="60px";
                 }
                 function play() {
-                    document.getElementById("time").style.width="30px".height="30px";
+                    document.getElementById("time").style.width="30px";
+                    document.getElementById("time").style.height="30px";
                 }
             </script>
 
@@ -244,49 +284,65 @@ text-align: left;
     </header>
     <div class="menu-bar">
         <ul>
-           <li ><a href="portfolio.html">Home</a></li>
-            <li class="active"><a href="about.html">About</a></li> 
-            <li><a href="mycatalogue.html">My Catalogue</a>
-            <div class="sub-menu-1">
+            <a href="portfolio.html"><li class="active">Home</li></a>
+            <a href="about.html"><li>About</li></a>
+            <a href="mycatalogue.html"><li>My Catalogue
+             <div class="sub-menu-1">
                 <ul>
-                    <a href="tshirt.html"><li>T-shirt</li></a>
+                    <a href="tshirt.html"><li>T-Shirt</li></a>
                     <a href="mug.html"><li>Mug</li></a>
                     <a href="brouchure.html"><li>Branding & Advertising</li></a>
                     <a href="magazine.html"><li>Magazine</li></a>
-                    <a href="calendar.html"><li>calendar</li></a>
+                    <a href="calendar.html"><li>Calendar</li></a>
                     <a href="poster.html"><li>Poster</li></a>
                     <a href="info.html"><li>Infographic</li></a>
                     <a href="vector.html"><li>Vector</li></a>
                     <a href="video.html"><li>Animated Video</li></a>
                 </ul>
-            </div>
-        </li>
-           <li><a href="contact.html">Contact</a></li> 
+             </div>
+               </li></a>
+           <a href="contact.html"><li>Contact</li></a> 
         </ul>
     </div>
-    <header class="hero">
-        <div class="container2">
-            <img class="img" src="images/somya.png" alt="img error" align="right">
-            <p>Hello Readers! <br> <br>
+    
+    <div class="wrapper">
+        <header class="hero">
 
-                This is Somya Agarwal, currently I reside in my hometown Kolkata,
-                I am born and brought up here in Kolkata located West Bengal in  India. 
-                I completed my gradution from Calcutta University. I am a certified Graphic
-                Designer and currently working in a company named ThinkSurf Media. <br> <br>
-        
-                For last 3years I have had the pleasure of working as a Graphic Designer.
-                I make customized t-shirt, mugs, calandrs, brouchure, posters and many more
-                things creative things. <br> <br>
-        
-        
-                I look forward to hear from you whenever you are in need of any Graphic 
-                Designing Services. This is my website you can contact me or order from here also if you
-                need anything. <br> <br>
-                
-                Sincerely, <br>
-                Somya Agarwal</p>
+            <div class="container2">
+                <img class="img" src="images/somya.png" alt="img error" align="right">
+                <p>Hello Readers! <br> <br>
+    
+                    This is Somya Agarwal, currently I reside in my hometown Kolkata,
+                    I am born and brought up here in Kolkata located West Bengal in  India. 
+                    I completed my gradution from Calcutta University. I am a certified Graphic
+                    Designer and currently working in a company named ThinkSurf Media. <br> <br>
+            
+                    For last 3years I have had the pleasure of working as a Graphic Designer.
+                    I make customized t-shirt, mugs, calandrs, brouchure, posters and many more
+                    things creative things. <br> <br>
+            
+            
+                    I look forward to hear from you whenever you are in need of any Graphic 
+                    Designing Services. This is my website you can contact me or order from here also if you
+                    need anything. <br> <br>
+                    
+                    Sincerely, <br>
+                    Somya Agarwal</p>
+            </div>
+        </header>
+        <div class="box">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
         </div>
-    </header>
+    </div>
     <footer>
         <div class="container">
           <div class="box"></div>
