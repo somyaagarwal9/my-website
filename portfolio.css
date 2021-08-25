@@ -21,39 +21,77 @@
   .container{
     max-width: 1152px;
   }*/
-
-html{
-  scroll-behavior: smooth;
+  .menu-bar-portfolio{
+    background: rgb(71, 71, 71);
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    margin-top: -5.2%;
 }
-.topbar-container{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  position: fixed;
-  width: 100%;
-  background-color: white;
-  top: 0;
+.menu-bar-portfolio ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.menu-bar-portfolio ul li{
+    width: 130px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar-portfolio ul li a{
+    text-decoration: none;
+    color: #fff;
+
+}
+.menu-bar-portfolio ul a{
+  text-decoration: none;
+  color: #fff;
+
+}
+.menu-bar-portfolio ul a{
+  text-decoration: none;
+  color: #fff;
+
+}
+.active, .menu-bar-portfolio ul li:hover{
+
+    background: rgb(37, 138, 151);
+    border-radius: 20px;
+}
+.sub-menu-1{
+    display: none;
+}
+.menu-bar-portfolio ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: rgb(71, 71, 71);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar-portfolio ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+.menu-bar-portfolio ul li a:hover .sub-menu-1 ul li{
+    width: 100px;
+    padding: 5px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar-portfolio ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+.menu-bar-portfolio ul li:hover .sub-menu-1 ul li a:hover{
+    color:teal;
 }
 .container2{
-  width:75%;
+  width: 100%;
   padding: 0 15px;
   margin: 0 5%;
 }
-
-      .flex{
-        display:flex
-      }
-
-      .justify-between{
-        justify-content: space-between;
-      }
-
-      .item-center{
-        align-items: center;
-      }
-      .justify-center{
-        justify-content:center;
-      }
      header.hero6{
       height: 500px;
       background-image: url(images/tshirtBG.jpg);
@@ -63,6 +101,8 @@ html{
       background-color: black;
       margin-bottom: 5rem;
       background-size:cover;
+      width: 100%;
+      margin-top: 6.9%;
     }
     header.hero6 h1{
       color: rgb(25, 110, 103);
@@ -112,9 +152,7 @@ html{
        color: rgb(25, 110, 103);
        font-size: 2.5rem;
        margin-bottom: 0.50rem;
-
-      
-     }
+      }
      header.hero p{
        width: 50%;
        line-height: 1.5;
@@ -135,8 +173,7 @@ html{
       color: rgb(25, 110, 103);
       font-size: 2.5rem;
       margin-bottom: 0.50rem;
-     
-    }
+     }
     header.hero2 p{
       width: 50%;
       line-height: 1.5;
@@ -157,8 +194,7 @@ html{
       color: rgb(25, 110, 103);
       font-size: 2.5rem;
       margin-bottom: 0.50rem;
-     
-    }
+     }
     header.hero3 p{
       width: 50%;
       line-height: 1.5;
@@ -174,13 +210,11 @@ html{
       overflow: hidden;
       background-color: black;
       background-size:cover;
-
     }
     header.hero4 h1{
       color: rgb(25, 110, 103);
       font-size: 2.5rem;
       margin-bottom: 0.50rem;
-     
     }
     header.hero4 p{
       width: 50%;
@@ -197,14 +231,12 @@ html{
       overflow: hidden;
       background-color: black;
       background-size:cover;
-
     }
     header.hero5 h1{
       color: rgb(25, 110, 103);
       font-size: 2.5rem;
       margin-bottom: 0.50rem;
-     
-    }
+     }
     header.hero5 p{
       width: 50%;
       line-height: 1.5;
@@ -220,14 +252,12 @@ html{
       overflow: hidden;
       background-color: black;
       background-size:cover;
-
     }
     header.hero9 h1{
       color: rgb(25, 110, 103);
       font-size: 2.5rem;
       margin-bottom: 0.50rem;
-     
-    }
+     }
     header.hero9 p{
       width: 50%;
       line-height: 1.5;
@@ -243,14 +273,12 @@ html{
       overflow: hidden;
       background-color: black;
       background-size:cover;
-
     }
     header.hero10 h1{
       color: rgb(25, 110, 103);
       font-size: 2.5rem;
       margin-bottom: 0.50rem;
-     
-    }
+     }
     header.hero10 p{
       width: 50%;
       line-height: 1.5;
