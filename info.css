@@ -2,58 +2,6 @@
     padding: 0px;
     box-sizing: border-box;
     }
-    html{
-        scroll-behavior: smooth;
-      }
-      .container{
-        width:100%;
-        padding: 0 15px;
-        margin: 0 auto;
-      }
-      .container2{
-        width:100%;
-        padding: 0 15px;
-        margin: 0 auto;
-      }
-      header.topbar{
-        background:white;
-        align-items: center;
-        padding: 0.50rem;
-      }
-      header.topbar.icons:hover{
-        background-color: black;
-      }
-            .flex{
-              display:flex
-            }
-      
-            .justify-between{
-              justify-content: space-between;
-            }
-      
-            .item-center{
-              align-items: center;
-            }
-            .justify-center{
-              justify-content:center;
-            }
-    body{
-        background:rgb(201, 201, 201); ;
-    }
-    .container{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap; 
-    }
-    h1{
-        font-size: 4rem;
-        padding: 50px 0;
-        text-align: center;
-        color: rgb(21, 138, 132);
-        width: 100%;
-        margin-top: 1rem;
-    }
-    
     .card4 {
         background: white;
         width: 370px;

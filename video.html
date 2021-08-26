@@ -11,36 +11,6 @@
 padding: 0px;
 box-sizing: border-box;
 }
-html{
-    scroll-behavior: smooth;
-  }
-  .container2{
-    width:100%;
-    padding: 0 15px;
-    margin: 0 auto;
-  }
-  header.topbar{
-    background:white;
-    align-items: center;
-    padding: 0.50rem;
-  }
-  header.topbar.icons:hover{
-    background-color: black;
-  }
-        .flex{
-          display:flex
-        }
-  
-        .justify-between{
-          justify-content: space-between;
-        }
-  
-        .item-center{
-          align-items: center;
-        }
-        .justify-center{
-          justify-content:center;
-        }
  .align { margin: 30px 50px;  }
  .container h4{
         margin-top:-30px;
@@ -50,7 +20,7 @@ html{
     }
 </style>
 <body>
-    <header class="topbar">
+    <header>
         <div class="topbar-container">
             <div class="icons">
                <a href="https://www.linkedin.com/login" target="_blank"><img src="icons/linkedin.jpg" alt=""></a>
@@ -76,9 +46,9 @@ html{
     </header>
     <div class="menu-bar">
         <ul>
-            <a href="portfolio.html"><li class="active">Home</li></a>
+            <a href="portfolio.html"><li>Home</li></a>
             <a href="about.html"><li>About</li></a>
-            <a href="mycatalogue.html"><li>My Catalogue
+            <a href="mycatalogue.html"><li class="active">My Catalogue
              <div class="sub-menu-1">
                 <ul>
                     <a href="tshirt.html"><li>T-Shirt</li></a>
@@ -89,7 +59,7 @@ html{
                     <a href="poster.html"><li>Poster</li></a>
                     <a href="info.html"><li>Infographic</li></a>
                     <a href="vector.html"><li>Vector</li></a>
-                    <a href="video.html"><li>Animated Video</li></a>
+                    <a href="video.html"><li class="active">Animated Video</li></a>
                 </ul>
              </div>
                </li></a>
@@ -121,7 +91,7 @@ html{
         
    
     <footer>
-        <div class="container">
+        <div class="footer-container">
           <div class="box"></div>
             <div class="box">
                <h3>About me</h3> 

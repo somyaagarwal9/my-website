@@ -2,23 +2,6 @@
 padding: 0px;
 box-sizing: border-box;
 }
-  header.topbar{
-    background:white;
-    align-items: center;
-    padding: 0.50rem;
-  }
-body{
-    background:rgb(201, 201, 201); ;
-}
-h1{
-    font-size: 4rem;
-    padding: 50px 0;
-    text-align: center;
-    color: rgb(21, 138, 132);
-    width: 100%;
-    margin-top: 1rem;
-}
-
 .card {
     background: white;
     width: 270px;

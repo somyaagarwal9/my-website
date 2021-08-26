@@ -26,7 +26,7 @@
     text-align: center;
     width: 100%;
     position: fixed;
-    margin-top: -5.2%;
+    margin-top: -4.7%;
 }
 .menu-bar-portfolio ul
 {
@@ -87,201 +87,46 @@
 .menu-bar-portfolio ul li:hover .sub-menu-1 ul li a:hover{
     color:teal;
 }
-.container2{
-  width: 100%;
-  padding: 0 15px;
-  margin: 0 5%;
-}
-     header.hero6{
-      height: 500px;
-      background-image: url(images/tshirtBG.jpg);
+header.background{
+      height: 550px;
       background-position: 0% 0%;
       background-repeat: no-repeat;
       overflow: hidden;
-      background-color: black;
-      margin-bottom: 5rem;
+      margin-bottom: 3rem;
       background-size:cover;
       width: 100%;
+}
+header.background p{
+  width: 50%;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  margin-top: 2.5rem;
+}
+    header.T-Shirt{
+      background-image: url(images/tshirtBG.jpg);
       margin-top: 6.9%;
     }
-    header.hero6 h1{
-      color: rgb(25, 110, 103);
-      font-size: 2.5rem;
-      margin-bottom: 0.50rem;
-      align-content: ;
-    }
-    header.hero6 p{
-      width: 50%;
-      line-height: 1.5;
-      margin-bottom: 1.5rem;
-      margin-top: 2.5rem;
-    }
-    header.hero7{
-      height: 500px;
+    header.mug{
       background-image: url(images/mugBG.jpg);
-      background-position: 0% 0%;
-      background-repeat: no-repeat;
-      overflow: hidden;
-      background-color: black;
-      margin-bottom: 5rem;
-      background-size:cover;
-    }
-    header.hero7 h1{
-      color: rgb(25, 110, 103);
-      font-size: 2.5rem;
-      margin-bottom: 0.50rem;
-     
-    }
-    header.hero7 p{
-      width: 50%;
-      line-height: 1.5;
-      margin-bottom: 1.5rem;
-      margin-top: 2.5rem;
-    }
-    
-     header.hero{
-       height: 500px;
-       background-image: url(images/brouchureBG.jpg);
-       background-position: 0% 0%;
-       background-repeat: no-repeat;
-       overflow: hidden;
-       background-color: black;
-       background-size:cover;
-     }
-     header.hero h1{
-       color: rgb(25, 110, 103);
-       font-size: 2.5rem;
-       margin-bottom: 0.50rem;
       }
-     header.hero p{
-       width: 50%;
-       line-height: 1.5;
-       margin-bottom: 1.5rem;
-       margin-top: 2.5rem;
+    header.brochure{
+       background-image: url(images/brouchureBG.jpg);
      }
-     header.hero2{
-       margin-top: 5rem;
-      height: 500px;
+    header.Magazine{
       background-image: url(images/magazineBG2.jpg);
-      background-position: 0% 0%;
-      background-repeat: no-repeat;
-      overflow: hidden;
-      background-color: black;
-      background-size:cover;
-    }
-    header.hero2 h1{
-      color: rgb(25, 110, 103);
-      font-size: 2.5rem;
-      margin-bottom: 0.50rem;
      }
-    header.hero2 p{
-      width: 50%;
-      line-height: 1.5;
-      margin-bottom: 1.5rem;
-      margin-top: 2.5rem;
-    }
-    header.hero3{
-      margin-top: 5rem;
-      height: 500px;
+    header.Calendar{
       background-image: url(images/calanderBG.jpg);
-      background-position: 0% 0%;
-      background-repeat: no-repeat;
-      overflow: hidden;
-      background-color: black;
-      background-size:cover;
-    }
-    header.hero3 h1{
-      color: rgb(25, 110, 103);
-      font-size: 2.5rem;
-      margin-bottom: 0.50rem;
-     }
-    header.hero3 p{
-      width: 50%;
-      line-height: 1.5;
-      margin-bottom: 1.5rem;
-      margin-top: 2.5rem;
-    }
-    header.hero4{
-      margin-top: 5rem;
-      height: 540px;
+      }
+    header.Poster{
       background-image: url(images/posterBG.jpg);
-      background-position: 0% 0%;
-      background-repeat: no-repeat;
-      overflow: hidden;
-      background-color: black;
-      background-size:cover;
-    }
-    header.hero4 h1{
-      color: rgb(25, 110, 103);
-      font-size: 2.5rem;
-      margin-bottom: 0.50rem;
-    }
-    header.hero4 p{
-      width: 50%;
-      line-height: 1.5;
-      margin-bottom: 2.5rem;
-      margin-top: 2.5rem;
-    }
-    header.hero5{
-      margin-top: 5rem;
-      height: 540px;
+     }
+    header.Infographic{
       background-image: url(images/infographicBG.jpg);
-      background-position: 0% 0%;
-      background-repeat: no-repeat;
-      overflow: hidden;
-      background-color: black;
-      background-size:cover;
-    }
-    header.hero5 h1{
-      color: rgb(25, 110, 103);
-      font-size: 2.5rem;
-      margin-bottom: 0.50rem;
-     }
-    header.hero5 p{
-      width: 50%;
-      line-height: 1.5;
-      margin-bottom: 1.5rem;
-      margin-top: 2.5rem;
-    }
-    header.hero9{
-      margin-top: 5rem;
-      height: 500px;
+      }
+    header.Vector{
       background-image: url(images/vectorBG.jpg);
-      background-position: 0% 0%;
-      background-repeat: no-repeat;
-      overflow: hidden;
-      background-color: black;
-      background-size:cover;
-    }
-    header.hero9 h1{
-      color: rgb(25, 110, 103);
-      font-size: 2.5rem;
-      margin-bottom: 0.50rem;
-     }
-    header.hero9 p{
-      width: 50%;
-      line-height: 1.5;
-      margin-bottom: 1.5rem;
-      margin-top: 2.5rem;
-    }
-    header.hero10{
-      margin-top: 5rem;
-      height: 500px;
+      }
+    header.Animated{
       background-image: url(images/animatedvideoBG.jpg);
-      background-position: 0% 0%;
-      background-repeat: no-repeat;
-      overflow: hidden;
-      background-color: black;
-      background-size:cover;
-    }
-    header.hero10 h1{
-      color: rgb(25, 110, 103);
-      font-size: 2.5rem;
-      margin-bottom: 0.50rem;
-     }
-    header.hero10 p{
-      width: 50%;
-      line-height: 1.5;
-      margin-bottom: 1.5rem;
-      margin-top: 2.5rem;
-    }
+      }
