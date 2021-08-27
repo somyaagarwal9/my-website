@@ -4,7 +4,7 @@
     margin: 0;
 }
 .card {
-    background: white;
+    background: rgb(223, 223, 223);
     width: 270px;
     margin: 10px;
     border-radius: 15px;
@@ -24,11 +24,46 @@ p{
 }
 
 .card:hover{
-  background-color: gray;
+  background-color: rgb(33, 173, 166);
   color: white;
   cursor: pointer;
   transform: scale(1.03);
   transition: all is ease;
+}
+.card1:hover{
+    background-color: rgb(33, 173, 166);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all is ease;
+}
+.card2:hover{
+    background-color: rgb(33, 173, 166);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all is ease;
+}
+.card3:hover{
+    background-color: rgb(33, 173, 166);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all is ease;
+}
+.card3P:hover{
+    background-color: rgb(33, 173, 166);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all is ease;
+}
+.card4:hover{
+    background-color: rgb(33, 173, 166);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all is ease;
 }
 .card1 {
     background: white;

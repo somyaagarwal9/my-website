@@ -3,7 +3,7 @@
     box-sizing: border-box;
     }
     .card {
-        background: white;
+        background: rgb(240, 240, 240);
         width: 270px;
         margin: 10px;
         border-radius: 15px;
@@ -28,7 +28,7 @@
         text-align: center;
     }
     .card:hover{
-        background-color: gray;
+        background-color: rgb(33, 173, 166);
         color: white;
         cursor: pointer;
         transform: scale(1.03);

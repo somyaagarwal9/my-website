@@ -1,0 +1,170 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Design</title>
+    <link rel="stylesheet" href="common.css">
+</head>
+<style>
+    .card3P {
+      background: rgb(231, 231, 231);
+      width: 400px;
+      margin: 10px;
+      border-radius: 15px;
+  }
+  .card-image3 {
+      background-color: aqua;
+      height: 200px;
+      margin-bottom: 15px;
+      background-size: cover;
+      border-radius: 15px 15px 0 0;
+  }
+  .card3P h4{
+      margin-top: .5rem;
+      padding: 10px;
+      text-align: center;
+  }
+  .card3P:hover{
+      background-color: rgb(33, 173, 166);
+      color: white;
+      cursor: pointer;
+      transform: scale(1.03);
+      transition: all is ease;
+  }
+.WDimage-1{
+    background-image: url(images/websiteDesign/1.jpg);
+}
+.WDimage-2{
+    background-image: url(images/websiteDesign/2.jpg);
+}
+</style>
+<body>
+    
+    <header>
+        <div class="topbar-container">
+            <div class="icons">
+               <a href="https://www.linkedin.com/login" target="_blank"><img src="icons/linkedin.jpg" alt=""></a>
+               <a href="https://www.google.co.in/" target="_blank"><img src="icons/facebook.jpg" alt=""></a>
+               <a href="https://twitter.com/login?lang=en" target="_blank"><img src="icons/twitter.jpg" alt=""></a>
+               <a href="https://wa.me/919748294668" target="_blank"><img src="icons/whatsapp.jpg" alt=""></a> 
+               <a href="https://www.instagram.com/accounts/login/" target="_blank"><img src="icons/insta.jpg" alt=""></a>
+            </div>
+            <div id="time" class="earth" onmouseover="showCurrentTime()" onmouseout="play()"></div>
+            <script>
+                function showCurrentTime() {
+                    document.getElementById("time").title= new Date(); 
+                    document.getElementById("time").style.width="60px";
+                    document.getElementById("time").style.height="60px";
+                }
+                function play() {
+                    document.getElementById("time").style.width="30px";
+                    document.getElementById("time").style.height="30px";
+                }
+            </script>
+
+        </div>
+    </header>
+    <div class="menu-bar">
+        <ul>
+            <a href="portfolio.html"><li>Home</li></a>
+            <a href="about.html"><li>About</li></a>
+            <a href="mycatalogue.html"><li class="active">My Catalogue
+                <div class="sub-menu-1 scrollable">
+                    <ul>
+                        <a href="tshirt.html"><li>T-Shirt</li></a>
+                        <a href="mug.html"><li>Mug</li></a>
+                        <a href="brouchure.html"><li>Branding & Advertising</li></a>
+                        <a href="magazine.html"><li>Magazine</li></a>
+                        <a href="calendar.html"><li>Calendar</li></a>
+                        <a href="poster.html"><li>Poster</li></a>
+                        <a href="info.html"><li>Infographic</li></a>
+                        <a href="vector.html"><li>Vector</li></a>
+                        <a href="video.html"><li>Animated Video</li></a>
+                        <a href="websiteDesign.html"><li>Website Design</li></a>
+                    </ul>
+                 </div>
+               </li></a>
+           <a href="contact.html"><li>Contact</li></a> 
+        </ul>
+    </div>
+    <section class="container">
+        <h1>Website Design</h1>
+        <div class="card3P">
+            <a href="images/websiteDesign/1.jpg">
+            <div class="card-image3 WDimage-1"></div></a>
+            <h4>WD-1</h4>
+        </div>
+        <div class="card3P">
+            <a href="images/websiteDesign/2.jpg">
+            <div class="card-image3 WDimage-2"></div></a>
+            <h4>WD-2</h4>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="box"></div>
+            <div class="box">
+               <h3>About me</h3> 
+               <p>Currently, I'm a freelance designer, <br>
+                who works with a variety of clients <br>
+                and on many diverse projects.  
+              </p>
+            </div>
+            <div class="box">
+                <h3>Quik link</h3>
+                <ul>
+                    <li>
+                        <a href="portfolio.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="mycatalogue.html">My Catalogue</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>
+                        <a href="https://www.google.co.in/" target="_blank">
+                            <img src="icons\facebook.jpg" alt="">
+                            
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/accounts/login/" target="_blank">
+                            <img src="icons\insta.jpg" alt="">
+                            
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/login" target="_blank">
+                            <img src="icons\linkedin.jpg" alt="">
+                            
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://wa.me/919748294668" target="_blank">
+                            <img src="icons\whatsapp.jpg" alt="">
+                            
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/login?lang=en" target="_blank">
+                            <img src="icons\twitter.jpg" alt="">
+                            
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="box"></div>
+        </div>
+    </footer>
+</body>
+</html>

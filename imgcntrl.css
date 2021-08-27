@@ -1,0 +1,27 @@
+* {padding: 0px;
+    margin: 0px;
+  }
+.card {
+    background: rgb(223, 223, 223);
+    width: 270px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.card-image {
+    height: 180px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+p{
+    text-align: center; 
+    width: 100%;
+    margin-bottom: 3rem;
+}
+.card:hover{
+  background-color: rgb(33, 173, 166);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all is ease;
+}

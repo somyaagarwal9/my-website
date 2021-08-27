@@ -4,7 +4,7 @@
     margin: 0;
 }
 .card {
-    background: white;
+    background: rgb(236, 236, 236);
     width: 270px;
     margin: 10px;
     border-radius: 15px;
@@ -27,11 +27,11 @@ p{
   text-align: center;
 }
 .card:hover{
-  background-color: gray;
-  color: white;
-  cursor: pointer;
-  transform: scale(1.03);
-  transition: all is ease;
+    background-color: rgb(33, 173, 166);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all is ease;
 }
 
 .tshirt-1{

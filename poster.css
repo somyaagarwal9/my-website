@@ -3,13 +3,13 @@
     box-sizing: border-box;
     }
     .card3 {
-        background: white;
+        background: rgb(228, 228, 228);
         width: 300px;
         margin: 10px;
         border-radius: 15px;
     }
     .card3P {
-      background: white;
+      background: rgb(231, 231, 231);
       width: 400px;
       margin: 10px;
       border-radius: 15px;
@@ -38,13 +38,20 @@
       padding: 10px;
       text-align: center;
   }
-    .card:hover{
-        background-color: gray;
-        color: white;
-        cursor: pointer;
-        transform: scale(1.03);
-        transition: all is ease;
+    .card3:hover{
+      background-color: rgb(33, 173, 166);
+      color: white;
+      cursor: pointer;
+      transform: scale(1.03);
+      transition: all is ease;
     }
+    .card3P:hover{
+      background-color: rgb(33, 173, 166);
+      color: white;
+      cursor: pointer;
+      transform: scale(1.03);
+      transition: all is ease;
+  }
     .Pimage-1{
         background-image: url(poster/1.jpg);
     }
