@@ -56,9 +56,12 @@ html{
     justify-content: center;
     flex-wrap: wrap;
     width:100%;
-    padding: 4% 15px;
+    padding: 0 15px;
     margin: 0 auto;
     margin-top: 50px;
+}
+.margin{
+  padding-top: 4%;
 }
 .container2{
   width: 100%;
@@ -106,11 +109,6 @@ html{
 .sub-menu-1{
     display: none;
 }
-.scrollable{
-  height: auto;
-    max-height: 300px;
-    overflow-x: hidden;
-}
 .menu-bar ul li:hover .sub-menu-1{
     display: block;
     position: absolute;
@@ -118,22 +116,22 @@ html{
     margin-top: 15px;
     margin-left: -15px;
 }
-.menu-bar ul li:hover .sub-menu-1 ul{
+.sub-menu-1 ul{
     display: block;
     margin: 10px;
 }
-.menu-bar ul li a:hover .sub-menu-1 ul li{
+.sub-menu-1 ul li{
     width: 100px;
     padding: 5px;
     border-bottom: 1px dotted #fff;
     background: transparent;
     border-radius: 0;
-    text-align: left;
+    text-align: center;
 }
-.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+.sub-menu-1 ul li:last-child{
     border-bottom: none;
 }
-.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+.sub-menu-1 ul li a:hover{
     color:teal;
 }
 h1{

@@ -10,23 +10,23 @@
   border-radius: 50%;
 }
 .Animated-box div:nth-child(1){
-  top: 12%;
+  top: 35%;
   left: 42%;
   animation: animate 10s linear infinite;
 }
 .Animated-box div:nth-child(2){
   top: 70%;
-  left: 50%;
+  left: 20%;
   animation: animate 7s linear infinite;
 }
 .Animated-box div:nth-child(3){
-  top: 17%;
+  top: 47%;
   left: 6%;
   animation: animate 9s linear infinite;
 }
 .Animated-box div:nth-child(4){
-  top: 20%;
-  left: 60%;
+  top: 40%;
+  left: 30%;
   animation: animate 10s linear infinite;
 }.Animated-box div:nth-child(5){
   top: 67%;
@@ -125,11 +125,6 @@
 .sub-menu-1{
     display: none;
 }
-.scrollable{
-  height: auto;
-    max-height: 300px;
-    overflow-x: hidden;
-}
 .menu-bar-portfolio ul li:hover .sub-menu-1{
     display: block;
     position: absolute;
@@ -137,22 +132,22 @@
     margin-top: 15px;
     margin-left: -15px;
 }
-.menu-bar-portfolio ul li:hover .sub-menu-1 ul{
+ .sub-menu-1 ul{
     display: block;
     margin: 10px;
 }
-.menu-bar-portfolio ul li a:hover .sub-menu-1 ul li{
+ .sub-menu-1 ul li{
     width: 100px;
     padding: 5px;
     border-bottom: 1px dotted #fff;
     background: transparent;
     border-radius: 0;
-    text-align: left;
+    text-align: center;
 }
-.menu-bar-portfolio ul li:hover .sub-menu-1 ul li:last-child{
+.sub-menu-1 ul li:last-child{
     border-bottom: none;
 }
-.menu-bar-portfolio ul li:hover .sub-menu-1 ul li a:hover{
+.sub-menu-1 ul li a:hover{
     color:teal;
 }
 header.background{
