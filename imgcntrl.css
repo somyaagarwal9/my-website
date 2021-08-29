@@ -7,18 +7,26 @@
     margin: 10px;
     border-radius: 15px;
 }
+.M-H{
+  width: 280px;
+}
 .card-image {
     height: 180px;
     margin-bottom: 15px;
     background-size: cover;
     border-radius: 15px 15px 0 0;
 }
+.code{
+  margin-top: .5rem;
+  padding: 10px;
+  text-align: center;
+}
 p{
     text-align: center; 
     width: 100%;
     margin-bottom: 3rem;
 }
-.card:hover{
+.hover:hover{
   background-color: rgb(33, 173, 166);
   color: rgb(255, 255, 255);
   cursor: pointer;

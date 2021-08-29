@@ -8,23 +8,10 @@
     border-radius: 15px;
 }
 .card-image3 {
-    background-color: aqua;
     height: 200px;
     margin-bottom: 15px;
     background-size: cover;
     border-radius: 15px 15px 0 0;
-}
-.card3P h4{
-    margin-top: .5rem;
-    padding: 10px;
-    text-align: center;
-}
-.card3P:hover{
-    background-color: rgb(33, 173, 166);
-    color: white;
-    cursor: pointer;
-    transform: scale(1.03);
-    transition: all is ease;
 }
 .WDimage-1{
   background-image: url(images/websiteDesign/1.jpg);

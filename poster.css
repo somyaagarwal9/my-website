@@ -14,42 +14,16 @@
       border-radius: 15px;
   }
     .card-image3 {
-        background-color: rgb(255, 255, 255);
         height: 400px;
         margin-bottom: 15px;
         background-size: cover;
         border-radius: 15px 15px 0 0;
     }
     .card-image3P {
-      background-color: aqua;
       height: 400px;
       margin-bottom: 15px;
       background-size: cover;
       border-radius: 15px 15px 0 0;
-  }
-    .card3 h4{
-        margin-top: .5rem;
-        padding: 10px;
-        text-align: center;
-    }
-    .card3P h4{
-      margin-top: .5rem;
-      padding: 10px;
-      text-align: center;
-  }
-    .card3:hover{
-      background-color: rgb(33, 173, 166);
-      color: white;
-      cursor: pointer;
-      transform: scale(1.03);
-      transition: all is ease;
-    }
-    .card3P:hover{
-      background-color: rgb(33, 173, 166);
-      color: white;
-      cursor: pointer;
-      transform: scale(1.03);
-      transition: all is ease;
   }
     .Pimage-1{
         background-image: url(poster/1.jpg);

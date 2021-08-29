@@ -2,68 +2,6 @@
     padding: 0;
     margin: 0;
 }
-.card {
-    background: rgb(223, 223, 223);
-    width: 270px;
-    margin: 10px;
-    border-radius: 15px;
-}
-.card-image {
-    background-color: aqua;
-    height: 180px;
-    margin-bottom: 15px;
-    background-size: cover;
-    border-radius: 15px 15px 0 0;
-}
-
-p{
-    text-align: center; 
-    width: 100%;
-    margin-bottom: 3rem;
-}
-
-.card:hover{
-  background-color: rgb(33, 173, 166);
-  color: white;
-  cursor: pointer;
-  transform: scale(1.03);
-  transition: all is ease;
-}
-.card1:hover{
-    background-color: rgb(33, 173, 166);
-    color: white;
-    cursor: pointer;
-    transform: scale(1.03);
-    transition: all is ease;
-}
-.card2:hover{
-    background-color: rgb(33, 173, 166);
-    color: white;
-    cursor: pointer;
-    transform: scale(1.03);
-    transition: all is ease;
-}
-.card3:hover{
-    background-color: rgb(33, 173, 166);
-    color: white;
-    cursor: pointer;
-    transform: scale(1.03);
-    transition: all is ease;
-}
-.card3P:hover{
-    background-color: rgb(33, 173, 166);
-    color: white;
-    cursor: pointer;
-    transform: scale(1.03);
-    transition: all is ease;
-}
-.card4:hover{
-    background-color: rgb(33, 173, 166);
-    color: white;
-    cursor: pointer;
-    transform: scale(1.03);
-    transition: all is ease;
-}
 .card1 {
     background: white;
     width: 280px;
@@ -71,7 +9,6 @@ p{
     border-radius: 15px;
 }
 .card-image1 {
-    background-color: aqua;
     height: 400px;
     margin-bottom: 15px;
     background-size: cover;
@@ -97,26 +34,6 @@ p{
     background-size: cover;
     border-radius: 15px 15px 0 0;
 }
-.card h4{
-    margin-top: .5rem;
-    padding: 10px;
-    text-align: center;
-  }
-  .card1 h4{
-    margin-top: .5rem;
-    padding: 10px;
-    text-align: center;
-  }
-  .card2 h4{
-    margin-top: .5rem;
-    padding: 10px;
-    text-align: center;
-  }
-  .card3P h4{
-    margin-top: .5rem;
-    padding: 10px;
-    text-align: center;
-}
   .card3 {
     background: white;
     width: 280px;
@@ -130,16 +47,10 @@ p{
     border-radius: 15px;
 }
 .card-image3 {
-    background-color: aqua;
     height: 400px;
     margin-bottom: 15px;
     background-size: cover;
     border-radius: 15px 15px 0 0;
-}
-.card3 h4{
-    margin-top: .5rem;
-    padding: 10px;
-    text-align: center;
 }
 .card4 {
     background: white;
@@ -148,25 +59,17 @@ p{
     border-radius: 15px;
 }
 .card-image4 {
-    background-color: aqua;
     height: 200px;
     margin-bottom: 15px;
     background-size: cover;
     border-radius: 15px 15px 0 0;
 }
 .card-imageVC {
-    background-color: aqua;
     height: 150px;
     margin-bottom: 15px;
     background-size: cover;
     border-radius: 15px 15px 0 0;
 }
-.card4 h4{
-    margin-top: .5rem;
-    padding: 10px;
-    text-align: center;
-}
-
 .tshirt-1{
     background-image: url(tshirt/wedding/1.jpg);
 }

@@ -8,23 +8,10 @@
         border-radius: 15px;
     }
     .card-image2 {
-        background-color: aqua;
         height: 200px;
         margin-bottom: 15px;
         background-size: cover;
         border-radius: 15px 15px 0 0;
-    }
-    .card2 h4{
-        margin-top: .5rem;
-        padding: 10px;
-        text-align: center;
-    }
-    .card2:hover{
-        background-color: rgb(33, 173, 166);
-        color: white;
-        cursor: pointer;
-        transform: scale(1.03);
-        transition: all is ease;
     }
     .Cimage-1{
         background-image: url(calander/1.png);

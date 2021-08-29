@@ -84,72 +84,7 @@
   .container{
     max-width: 1152px;
   }*/
-  .menu-bar-portfolio{
-    background: rgb(71, 71, 71);
-    text-align: center;
-    width: 100%;
-    position: fixed;
-    margin-top: -4.7%;
-}
-.menu-bar-portfolio ul
-{
-    display: inline-flex;
-    list-style: none;
-    color: #fff;
-}
-.menu-bar-portfolio ul li{
-    width: 130px;
-    margin: 15px;
-    padding: 15px;
-}
-.menu-bar-portfolio ul li a{
-    text-decoration: none;
-    color: #fff;
 
-}
-.menu-bar-portfolio ul a{
-  text-decoration: none;
-  color: #fff;
-
-}
-.menu-bar-portfolio ul a{
-  text-decoration: none;
-  color: #fff;
-
-}
-.active, .menu-bar-portfolio ul li:hover{
-
-    background: rgb(37, 138, 151);
-    border-radius: 20px;
-}
-.sub-menu-1{
-    display: none;
-}
-.menu-bar-portfolio ul li:hover .sub-menu-1{
-    display: block;
-    position: absolute;
-    background: rgb(71, 71, 71);
-    margin-top: 15px;
-    margin-left: -15px;
-}
- .sub-menu-1 ul{
-    display: block;
-    margin: 10px;
-}
- .sub-menu-1 ul li{
-    width: 100px;
-    padding: 5px;
-    border-bottom: 1px dotted #fff;
-    background: transparent;
-    border-radius: 0;
-    text-align: center;
-}
-.sub-menu-1 ul li:last-child{
-    border-bottom: none;
-}
-.sub-menu-1 ul li a:hover{
-    color:teal;
-}
 header.background{
       height: 550px;
       background-position: 0% 0%;
@@ -192,6 +127,6 @@ header.background p{
     header.Animated{
       background-image: url(images/animatedvideoBG.jpg);
       }
-      header.Website{
-        background-image: url(images/websiteBG.jpg);
-        }
+    header.Website{
+      background-image: url(images/websiteBG.jpg);
+      }
