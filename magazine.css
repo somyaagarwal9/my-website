@@ -1,6 +1,56 @@
 *{margin: 0px;
     padding: 0px;
     }
+    .magazine-ani img{
+      width: 50px;
+      animation: magazine 7s linear infinite;
+    }
+    .magazine-ani{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      position: absolute
+      bottom: -70px;
+    }
+    @keyframes magazine{
+      0%{
+          transform: translateY(0);
+          opacity: 0;
+      }
+      50%{
+          
+          opacity: 1;
+      }
+      70%{
+          
+          opacity: 1;
+      }
+      100%{
+          transform: translateY(-80vh);
+          opacity: 0;
+      }
+    }
+    .magazine-ani img:nth-child(1){
+      animation-delay: -1s;
+      width: 40px;
+    }
+    .magazine-ani img:nth-child(2){
+      animation-delay: -5s;
+      width: 60px;
+    }
+    .magazine-ani img:nth-child(3){
+      animation-delay: -3s;
+      width: 50px;
+    }
+    .magazine-ani img:nth-child(4){
+      animation-delay: -2.5s;
+      width: 55px;
+    }
+    .magazine-ani img:nth-child(5){
+      animation-delay: -4s;
+      width: 40px;
+    }
     .card-image1 {
         height: 400px;
         margin-bottom: 15px;

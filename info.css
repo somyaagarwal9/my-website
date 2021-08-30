@@ -1,6 +1,56 @@
 *{margin: 0px;
     padding: 0px;
     }
+    .info-ani img{
+      width: 50px;
+      animation: info 7s linear infinite;
+    }
+    .info-ani{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      position: absolute
+      bottom: -70px;
+    }
+    @keyframes info{
+      0%{
+          transform: translateY(0);
+          opacity: 0;
+      }
+      50%{
+          
+          opacity: 1;
+      }
+      70%{
+          
+          opacity: 1;
+      }
+      100%{
+          transform: translateY(-90vh);
+          opacity: 0;
+      }
+    }
+    .info-ani img:nth-child(1){
+      animation-delay: -1s;
+      width: 40px;
+    }
+    .info-ani img:nth-child(2){
+      animation-delay: -5s;
+      width: 60px;
+    }
+    .info-ani img:nth-child(3){
+      animation-delay: -3s;
+      width: 50px;
+    }
+    .info-ani img:nth-child(4){
+      animation-delay: -2.5s;
+      width: 55px;
+    }
+    .info-ani img:nth-child(5){
+      animation-delay: -4s;
+      width: 40px;
+    }
     .card4 {
         background: rgb(226, 226, 226);
         width: 370px;

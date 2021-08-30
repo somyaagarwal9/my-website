@@ -61,3 +61,53 @@ padding: 0px;
 .M-mug-10{
     background-image: url(mug/maternity/10.jpg);
 }
+.mug-ani img{
+    width: 50px;
+    animation: mug 12s linear infinite;
+}
+.mug-ani{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute
+    bottom: -70px;
+}
+@keyframes mug{
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%{
+        
+        opacity: 1;
+    }
+    70%{
+        
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-80vh);
+        opacity: 0;
+    }
+}
+.mug-ani img:nth-child(1){
+    animation-delay: -1s;
+    width: 40px;
+}
+.mug-ani img:nth-child(2){
+    animation-delay: -5s;
+    width: 60px;
+}
+.mug-ani img:nth-child(3){
+    animation-delay: -3s;
+    width: 50px;
+}
+.mug-ani img:nth-child(4){
+    animation-delay: -2.5s;
+    width: 55px;
+}
+.mug-ani img:nth-child(5){
+    animation-delay: -4s;
+    width: 40px;
+}

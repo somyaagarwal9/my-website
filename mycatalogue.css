@@ -21,14 +21,12 @@
     border-radius: 15px;
 }
 .card-image2 {
-    background-color: aqua;
     height: 200px;
     margin-bottom: 15px;
     background-size: cover;
     border-radius: 15px 15px 0 0;
 }
 .card-image3P {
-    background-color: aqua;
     height: 400px;
     margin-bottom: 15px;
     background-size: cover;
