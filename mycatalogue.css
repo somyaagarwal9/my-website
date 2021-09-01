@@ -3,7 +3,7 @@
     margin: 0;
 }
 .card1 {
-    background: white;
+    background: rgb(226, 226, 226);
     width: 280px;
     margin: 10px;
     border-radius: 15px;
@@ -15,7 +15,7 @@
     border-radius: 15px 15px 0 0;
 }
 .card2 {
-    background: white;
+    background: rgb(226, 226, 226);
     width: 370px;
     margin: 10px;
     border-radius: 15px;
@@ -33,13 +33,13 @@
     border-radius: 15px 15px 0 0;
 }
   .card3 {
-    background: white;
+    background: rgb(226, 226, 226);
     width: 280px;
     margin: 10px;
     border-radius: 15px;
 }
 .card3P {
-    background: white;
+    background: rgb(226, 226, 226);
     width: 400px;
     margin: 10px;
     border-radius: 15px;
@@ -51,7 +51,7 @@
     border-radius: 15px 15px 0 0;
 }
 .card4 {
-    background: white;
+    background: rgb(226, 226, 226);
     width: 370px;
     margin: 10px;
     border-radius: 15px;

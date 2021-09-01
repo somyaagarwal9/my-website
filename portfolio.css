@@ -1,9 +1,13 @@
 * {padding: 0px;
   margin: 0px;
 }
+body{
+  background: rgb(245, 244, 244);
+}
 .t-shirt-ani img{
   width: 50px;
   animation: t-shirt 7s linear infinite;
+  z-index: -1;
 }
 .t-shirt-ani{
   width: 100%;
@@ -12,36 +16,29 @@
 }
 @keyframes t-shirt{
   0%{
-      transform: translateY(0);
-      opacity: 0;
+    transform: translate(0);
+    
   }
-  50%{
-      
-      opacity: 1;
-  }
-  70%{
-      
-      opacity: 1;
-  }
-  100%{
-      transform: translateY(-70vh);
-      opacity: 0;
+  75%{
+    transform:  translate(100%)  ;
+   
   }
 }
 .t-shirt-ani img:nth-child(1){
   animation-delay: -1s;
   width: 40px;
   margin-left: 8%;
+  bottom: 0;
 }
 .t-shirt-ani img:nth-child(2){
   animation-delay: -5s;
   width: 60px;
-  margin-left: 5%;
+  margin-left: 10%;
 }
 .t-shirt-ani img:nth-child(3){
   animation-delay: -3s;
   width: 50px;
-  margin-left: 4%;
+  margin-left: 15%;
 }
 .t-shirt-ani img:nth-child(4){
   animation-delay: -2.5s;
@@ -58,6 +55,7 @@
 .mug-ani img{
   width: 50px;
   animation: mug 7s linear infinite;
+  z-index: -1;
 }
 .mug-ani{
   width: 100%;
@@ -66,20 +64,12 @@
 }
 @keyframes mug{
   0%{
-      transform: translateY(0);
-      opacity: 0;
+    transform: translate(0);
+    
   }
-  50%{
-      
-      opacity: 1;
-  }
-  70%{
-      
-      opacity: 1;
-  }
-  100%{
-      transform: translateY(-70vh);
-      opacity: 0;
+  75%{
+    transform:  translate(100%)  ;
+   
   }
 }
 .mug-ani img:nth-child(1){
@@ -566,6 +556,11 @@ header.background{
 }
 header.background p{
   width: 40%;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+header.background .container3 p{
+  width: 80%;
   line-height: 1.5;
   margin-bottom: 1.5rem;
 }

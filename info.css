@@ -3,7 +3,8 @@
     }
     .info-ani img{
       width: 50px;
-      animation: info 7s linear infinite;
+      animation: info 7s ease-in forwards infinite;
+      z-index: -1;
     }
     .info-ani{
       width: 100%;
@@ -11,29 +12,22 @@
       align-items: center;
       justify-content: space-around;
       position: absolute
-      bottom: -70px;
+      top: 50%;
     }
     @keyframes info{
       0%{
-          transform: translateY(0);
-          opacity: 0;
+        transform: translate(0);
+        
       }
-      50%{
-          
-          opacity: 1;
-      }
-      70%{
-          
-          opacity: 1;
-      }
-      100%{
-          transform: translateY(-90vh);
-          opacity: 0;
+      75%{
+        transform:  translate(100%)  ;
+       
       }
     }
     .info-ani img:nth-child(1){
       animation-delay: -1s;
       width: 40px;
+      top: 90%;
     }
     .info-ani img:nth-child(2){
       animation-delay: -5s;

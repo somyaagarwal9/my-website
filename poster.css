@@ -4,31 +4,22 @@
     .poster-ani img{
       width: 50px;
       animation: poster 12s linear infinite;
+      z-index: -1;
     }
     .poster-ani{
       width: 100%;
       display: flex;
       align-items: center;
       justify-content: space-around;
-      position: absolute
-      bottom: -70px;
     }
     @keyframes poster{
       0%{
-          transform: translateY(0);
-          opacity: 0;
+        transform: translate(0);
+        
       }
-      50%{
-          
-          opacity: 1;
-      }
-      70%{
-          
-          opacity: 1;
-      }
-      100%{
-          transform: translateY(-210vh);
-          opacity: 0;
+      75%{
+        transform:  translate(100%)  ;
+       
       }
     }
     .poster-ani img:nth-child(1){

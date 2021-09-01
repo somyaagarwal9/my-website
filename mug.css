@@ -64,32 +64,23 @@ padding: 0px;
 .mug-ani img{
     width: 50px;
     animation: mug 12s linear infinite;
+    z-index: -1;
 }
 .mug-ani{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    position: absolute
-    bottom: -70px;
 }
 @keyframes mug{
     0%{
-        transform: translateY(0);
-        opacity: 0;
-    }
-    50%{
+        transform: translate(0);
         
-        opacity: 1;
-    }
-    70%{
-        
-        opacity: 1;
-    }
-    100%{
-        transform: translateY(-80vh);
-        opacity: 0;
-    }
+      }
+      75%{
+        transform:  translate(100%)  ;
+       
+      }
 }
 .mug-ani img:nth-child(1){
     animation-delay: -1s;
