@@ -3,7 +3,8 @@
     }
     .poster-ani img{
       width: 50px;
-      animation: poster 12s linear infinite;
+      animation: poster 20s linear infinite;
+      animation-direction: alternate;
       z-index: -1;
     }
     .poster-ani{
@@ -14,32 +15,40 @@
     }
     @keyframes poster{
       0%{
-        transform: translate(0);
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%{
         
-      }
-      75%{
-        transform:  translate(100%)  ;
-       
-      }
+        opacity: 1;
+    }
+    70%{
+        
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-70vh);
+        opacity: 0;
+    }
     }
     .poster-ani img:nth-child(1){
-      animation-delay: -1s;
+      animation-delay: -11s;
       width: 40px;
     }
     .poster-ani img:nth-child(2){
-      animation-delay: -5s;
+      animation-delay: -25s;
       width: 60px;
     }
     .poster-ani img:nth-child(3){
-      animation-delay: -3s;
+      animation-delay: -15s;
       width: 50px;
     }
     .poster-ani img:nth-child(4){
-      animation-delay: -2.5s;
+      animation-delay: -22.5s;
       width: 55px;
     }
     .poster-ani img:nth-child(5){
-      animation-delay: -4s;
+      animation-delay: -8s;
       width: 40px;
     }
     .card3 {

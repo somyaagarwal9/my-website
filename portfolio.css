@@ -3,42 +3,49 @@
 }
 .t-shirt-ani img{
   width: 50px;
-  animation: t-shirt 7s linear infinite;
+  animation: t-shirt 27s linear infinite;
+  animation-direction: alternate;
   z-index: -1;
 }
 .t-shirt-ani{
   width: 100%;
-  position: absolute
-  bottom: -70px;
 }
 @keyframes t-shirt{
   0%{
-    transform: translate(0);
+    transform: translateY(0);
+    opacity: 0;
+}
+50%{
     
-  }
-  75%{
-    transform:  translate(100%)  ;
-   
-  }
+    opacity: 1;
+}
+70%{
+    
+    opacity: 1;
+}
+100%{
+    transform: translateY(-70vh);
+    opacity: 0;
+}
 }
 .t-shirt-ani img:nth-child(1){
-  animation-delay: -1s;
+  animation-delay: -21s;
   width: 40px;
-  margin-left: 8%;
+  margin-left: 2%;
   bottom: 0;
 }
 .t-shirt-ani img:nth-child(2){
-  animation-delay: -5s;
+  animation-delay: -45s;
   width: 60px;
-  margin-left: 10%;
+  margin-left: 7%;
 }
 .t-shirt-ani img:nth-child(3){
-  animation-delay: -3s;
+  animation-delay: -33s;
   width: 50px;
-  margin-left: 15%;
+  margin-left: 7%;
 }
 .t-shirt-ani img:nth-child(4){
-  animation-delay: -2.5s;
+  animation-delay: -22.5s;
   width: 55px;
   margin-left: 10%;
 }
@@ -51,38 +58,45 @@
 
 .mug-ani img{
   width: 50px;
-  animation: mug 7s linear infinite;
+  animation: mug 27s linear infinite;
+  animation-direction: alternate;
   z-index: -1;
 }
 .mug-ani{
   width: 100%;
-  position: absolute
-  bottom: -70px;
 }
 @keyframes mug{
   0%{
-    transform: translate(0);
+    transform: translateY(0);
+    opacity: 0;
+}
+50%{
     
-  }
-  75%{
-    transform:  translate(100%)  ;
-   
-  }
+    opacity: 1;
+}
+70%{
+    
+    opacity: 1;
+}
+100%{
+    transform: translateY(-70vh);
+    opacity: 0;
+}
 }
 .mug-ani img:nth-child(1){
-  animation-delay: -1s;
+  animation-delay: -21s;
   width: 40px;
-  margin-left: 8%;
+  margin-left: 18%;
 }
 .mug-ani img:nth-child(2){
   animation-delay: -5s;
   width: 60px;
-  margin-left: 5%;
+  margin-left: 20%;
 }
 .mug-ani img:nth-child(3){
-  animation-delay: -3s;
+  animation-delay: -33s;
   width: 50px;
-  margin-left: 4%;
+  margin-left: 25%;
 }
 .mug-ani img:nth-child(4){
   animation-delay: -2.5s;
@@ -90,19 +104,20 @@
   margin-left: 10%;
 }
 .mug-ani img:nth-child(5){
-  animation-delay: -4s;
+  animation-delay: -14s;
   width: 40px;
   margin-left: 2%;
   top: 2%;
 }
 .brochure-ani img{
   width: 50px;
-  animation: brochure 7s linear infinite;
+  animation: brochure 22s linear infinite;
+  animation-direction: alternate;
+  z-index: -1;
 }
 .brochure-ani{
   width: 100%;
-  position: absolute
-  bottom: -70px;
+  z-index: -1;
 }
 @keyframes brochure{
   0%{
@@ -123,39 +138,39 @@
   }
 }
 .brochure-ani img:nth-child(1){
-  animation-delay: -1s;
+  animation-delay: -19s;
   width: 40px;
   margin-left: 8%;
 }
 .brochure-ani img:nth-child(2){
-  animation-delay: -5s;
+  animation-delay: -15s;
   width: 60px;
   margin-left: 5%;
 }
 .brochure-ani img:nth-child(3){
-  animation-delay: -3s;
+  animation-delay: -6s;
   width: 50px;
   margin-left: 4%;
 }
 .brochure-ani img:nth-child(4){
-  animation-delay: -2.5s;
+  animation-delay: -22.5s;
   width: 55px;
   margin-left: 10%;
 }
 .brochure-ani img:nth-child(5){
-  animation-delay: -4s;
+  animation-delay: -30s;
   width: 40px;
   margin-left: 2%;
   top: 2%;
 }
 .magazine-ani img{
   width: 50px;
-  animation: magazine 7s linear infinite;
+  animation: magazine 17s linear infinite;
+  animation-direction: alternate;
+  z-index: -1;
 }
 .magazine-ani{
   width: 100%;
-  position: absolute
-  bottom: -70px;
 }
 @keyframes magazine{
   0%{
@@ -176,39 +191,39 @@
   }
 }
 .magazine-ani img:nth-child(1){
-  animation-delay: 1s;
+  animation-delay: -21s;
   width: 40px;
-  margin-left: 8%;
+  margin-left: 10%;
 }
 .magazine-ani img:nth-child(2){
-  animation-delay: 5s;
+  animation-delay: -15s;
   width: 60px;
   margin-left: 5%;
 }
 .magazine-ani img:nth-child(3){
-  animation-delay: 3s;
+  animation-delay: -33s;
   width: 50px;
   margin-left: 4%;
 }
 .magazine-ani img:nth-child(4){
-  animation-delay: 2.5s;
+  animation-delay: -2.5s;
   width: 55px;
   margin-left: 10%;
 }
 .magazine-ani img:nth-child(5){
-  animation-delay: 4s;
+  animation-delay: -4s;
   width: 40px;
   margin-left: 2%;
   top: 2%;
 }
 .calendar-ani img{
   width: 50px;
-  animation: calendar 7s linear infinite;
+  animation: calendar 27s linear infinite;
+  animation-direction: alternate;
+  z-index: -1;
 }
 .calendar-ani{
   width: 100%;
-  position: absolute
-  bottom: -70px;
 }
 @keyframes calendar{
   0%{
@@ -229,39 +244,40 @@
   }
 }
 .calendar-ani img:nth-child(1){
-  animation-delay: -1s;
+  animation-delay: -21s;
   width: 40px;
-  margin-left: 8%;
+  margin-left: 0%;
 }
 .calendar-ani img:nth-child(2){
-  animation-delay: -5s;
+  animation-delay: -15s;
+  animation-direction: initial;
   width: 60px;
   margin-left: 5%;
 }
 .calendar-ani img:nth-child(3){
-  animation-delay: -3s;
+  animation-delay: -6s;
   width: 50px;
   margin-left: 4%;
 }
 .calendar-ani img:nth-child(4){
-  animation-delay: -2.5s;
+  animation-delay: -22.5s;
   width: 55px;
-  margin-left: 10%;
+  margin-left: 5%;
 }
 .calendar-ani img:nth-child(5){
-  animation-delay: -4s;
+  animation-delay: -30s;
   width: 40px;
-  margin-left: 2%;
+  margin-left: 12%;
   top: 2%;
 }
 .poster-ani img{
   width: 50px;
-  animation: poster 7s linear infinite;
+  animation: poster 27s linear infinite;
+  animation-direction: alternate;
+  z-index: -1;
 }
 .poster-ani{
   width: 100%;
-  position: absolute
-  bottom: -70px;
 }
 @keyframes poster{
   0%{
@@ -282,12 +298,12 @@
   }
 }
 .poster-ani img:nth-child(1){
-  animation-delay: -1s;
+  animation-delay: -21s;
   width: 40px;
   margin-left: 8%;
 }
 .poster-ani img:nth-child(2){
-  animation-delay: -5s;
+  animation-delay: -15s;
   width: 60px;
   margin-left: 5%;
 }
@@ -297,7 +313,7 @@
   margin-left: 4%;
 }
 .poster-ani img:nth-child(4){
-  animation-delay: -2.5s;
+  animation-delay: -12.5s;
   width: 55px;
   margin-left: 10%;
 }
@@ -309,12 +325,13 @@
 }
 .info-ani img{
   width: 50px;
-  animation: info 7s linear infinite;
+  animation: info 27s linear infinite;
+  animation-direction: alternate;
+  z-index: -1;
 }
 .info-ani{
   width: 100%;
-  position: absolute
-  bottom: 0px;
+  z-index: -1;
 }
 @keyframes info{
   0%{
@@ -337,10 +354,10 @@
 .info-ani img:nth-child(1){
   animation-delay: -1s;
   width: 40px;
-  margin-left: 8%;
+  margin-left: 0%;
 }
 .info-ani img:nth-child(2){
-  animation-delay: -5s;
+  animation-delay: -10s;
   width: 60px;
   margin-left: 5%;
 }
@@ -350,12 +367,12 @@
   margin-left: 4%;
 }
 .info-ani img:nth-child(4){
-  animation-delay: -2.5s;
+  animation-delay: -22.5s;
   width: 55px;
   margin-left: 10%;
 }
 .info-ani img:nth-child(5){
-  animation-delay: -4s;
+  animation-delay: -14s;
   width: 40px;
   margin-left: 2%;
   top: 2%;
@@ -363,12 +380,12 @@
 
 .vector-ani img{
   width: 50px;
-  animation: vector 7s linear infinite;
+  animation: vector 27s linear infinite;
+  animation-direction: alternate;
+  z-index: -1;
 }
 .vector-ani{
   width: 100%;
-  position: absolute
-  bottom: 0px;
 }
 @keyframes vector{
   0%{
@@ -389,7 +406,7 @@
   }
 }
 .vector-ani img:nth-child(1){
-  animation-delay: -1s;
+  animation-delay: -21s;
   width: 40px;
   margin-left: 8%;
 }
@@ -399,17 +416,17 @@
   margin-left: 5%;
 }
 .vector-ani img:nth-child(3){
-  animation-delay: -3s;
+  animation-delay: -13s;
   width: 50px;
   margin-left: 4%;
 }
 .vector-ani img:nth-child(4){
-  animation-delay: -2.5s;
+  animation-delay: -22.5s;
   width: 55px;
   margin-left: 10%;
 }
 .vector-ani img:nth-child(5){
-  animation-delay: -4s;
+  animation-delay: -14s;
   width: 40px;
   margin-left: 2%;
   top: 2%;
@@ -417,12 +434,12 @@
 
 .video-ani img{
   width: 50px;
-  animation: video 7s linear infinite;
+  animation: video 27s linear infinite;
+  animation-direction: alternate;
+  z-index: -1;
 }
 .video-ani{
   width: 100%;
-  position: absolute
-  bottom: 0px;
 }
 @keyframes video{
   0%{
@@ -443,27 +460,27 @@
   }
 }
 .video-ani img:nth-child(1){
-  animation-delay: -1s;
+  animation-delay: 1s;
   width: 40px;
-  margin-left: 8%;
+  margin-left: 0%;
 }
 .video-ani img:nth-child(2){
-  animation-delay: -5s;
+  animation-delay: -15s;
   width: 60px;
   margin-left: 5%;
 }
 .video-ani img:nth-child(3){
-  animation-delay: -3s;
+  animation-delay: 3s;
   width: 50px;
   margin-left: 4%;
 }
 .video-ani img:nth-child(4){
-  animation-delay: -2.5s;
+  animation-delay: -22.5s;
   width: 55px;
   margin-left: 10%;
 }
 .video-ani img:nth-child(5){
-  animation-delay: -4s;
+  animation-delay: 14s;
   width: 40px;
   margin-left: 2%;
   top: 2%;
@@ -471,12 +488,12 @@
 
 .website-ani img{
   width: 50px;
-  animation: website 7s linear infinite;
+  animation: website 27s linear infinite;
+  animation-direction: alternate;
+  z-index: -1;
 }
 .website-ani{
   width: 100%;
-  position: absolute
-  bottom: 0px;
 }
 @keyframes website{
   0%{
@@ -497,7 +514,7 @@
   }
 }
 .website-ani img:nth-child(1){
-  animation-delay: -1s;
+  animation-delay: 1s;
   width: 40px;
   margin-left: 8%;
 }
@@ -507,7 +524,7 @@
   margin-left: 5%;
 }
 .website-ani img:nth-child(3){
-  animation-delay: -3s;
+  animation-delay: -13s;
   width: 50px;
   margin-left: 4%;
 }
@@ -517,7 +534,7 @@
   margin-left: 10%;
 }
 .website-ani img:nth-child(5){
-  animation-delay: -4s;
+  animation-delay: -24s;
   width: 40px;
   margin-left: 2%;
   top: 2%;

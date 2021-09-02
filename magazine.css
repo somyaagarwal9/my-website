@@ -3,7 +3,8 @@
     }
     .magazine-ani img{
       width: 50px;
-      animation: magazine 7s linear infinite;
+      animation: magazine 23s linear infinite;
+      animation-direction: alternate;
       z-index: -1;
     }
     .magazine-ani{
@@ -11,21 +12,28 @@
       display: flex;
       align-items: center;
       justify-content: space-around;
-      position: absolute
-      bottom: -70px;
     }
     @keyframes magazine{
+      
       0%{
-        transform: translate(0);
-        
-      }
-      75%{
-        transform:  translate(100%)  ;
-       
-      }
+        transform: translateY(0);
+        opacity: 0;
     }
+    50%{
+        
+        opacity: 1;
+    }
+    70%{
+        
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-70vh);
+        opacity: 0;
+    }
+  }
     .magazine-ani img:nth-child(1){
-      animation-delay: -1s;
+      animation-delay: -11s;
       width: 40px;
     }
     .magazine-ani img:nth-child(2){
@@ -33,15 +41,15 @@
       width: 60px;
     }
     .magazine-ani img:nth-child(3){
-      animation-delay: -3s;
+      animation-delay: -23s;
       width: 50px;
     }
     .magazine-ani img:nth-child(4){
-      animation-delay: -2.5s;
+      animation-delay: -17.5s;
       width: 55px;
     }
     .magazine-ani img:nth-child(5){
-      animation-delay: -4s;
+      animation-delay: -9s;
       width: 40px;
     }
     .card-image1 {

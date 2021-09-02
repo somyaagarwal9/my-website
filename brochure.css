@@ -7,26 +7,26 @@
       background-size: cover;
       border-radius: 15px 15px 0 0;
   }
-    .image-1{
-        background-image: url(brouchure/1.jpg);
-    }
-    .image-2{
-        background-image: url(brouchure/2.jpg);
-    }
-    .image-11{
-      background-image: url(brouchure/9.jpg);
-  }
-    .image-3{
-        background-image: url(brouchure/3.jpg);
-    }
-    .image-4{
-        background-image: url(brouchure/4.jpg);
-    }
-    .image-5{
-      background-image: url(visitingcard/1.jpg);
-  }
-  .image-6{
-    background-image: url(visitingcard/2.jpg);
+.image-1{
+ background-image: url(brouchure/1.jpg);
+}
+.image-2{
+ background-image: url(brouchure/2.jpg);
+}
+.image-11{
+  background-image: url(brouchure/9.jpg);
+}
+.image-3{
+  background-image: url(brouchure/3.jpg);
+}
+.image-4{
+  background-image: url(brouchure/4.jpg);
+}
+.image-5{
+  background-image: url(visitingcard/1.jpg);
+}
+.image-6{
+  background-image: url(visitingcard/2.jpg);
 }
 .image-7{
   background-image: url(visitingcard/3.jpg);
@@ -45,7 +45,8 @@
 }
 .brochure-ani img{
   width: 50px;
-  animation: brochure 10s linear infinite;
+  animation: brochure 20s linear infinite;
+  animation-direction: alternate;
   z-index: -1;
 }
 .brochure-ani{
@@ -53,19 +54,28 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+
 }
 @keyframes brochure{
   0%{
-    transform: translate(0);
-    
+      transform: translateY(0);
+      opacity: 0;
   }
-  75%{
-    transform:  translate(100%)  ;
-   
+  50%{
+      
+      opacity: 1;
+  }
+  70%{
+      
+      opacity: 1;
+  }
+  100%{
+      transform: translateY(-70vh);
+      opacity: 0;
   }
 }
 .brochure-ani img:nth-child(1){
-  animation-delay: -1s;
+  animation-delay: -11s;
   width: 40px;
 }
 .brochure-ani img:nth-child(2){
@@ -73,14 +83,14 @@
   width: 30px;
 }
 .brochure-ani img:nth-child(3){
-  animation-delay: -3s;
+  animation-delay: -23s;
   width: 35px;
 }
 .brochure-ani img:nth-child(4){
-  animation-delay: -2.5s;
+  animation-delay: -17.5s;
   width: 30px;
 }
 .brochure-ani img:nth-child(5){
-  animation-delay: -4s;
+  animation-delay: -7s;
   width: 40px;
 }

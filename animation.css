@@ -1,0 +1,526 @@
+*{margin: 0px;
+    padding: 0px;
+    }
+    .brochure-ani img{
+        width: 50px;
+        animation: brochure 20s linear infinite;
+        animation-direction: alternate;
+        z-index: -1;
+      }
+      .brochure-ani{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+      
+      }
+      @keyframes brochure{
+        0%{
+            transform: translateY(0);
+            opacity: 0;
+        }
+        50%{
+            
+            opacity: 1;
+        }
+        70%{
+            
+            opacity: 1;
+        }
+        100%{
+            transform: translateY(-70vh);
+            opacity: 0;
+        }
+      }
+      .brochure-ani img:nth-child(1){
+        animation-delay: -11s;
+        width: 40px;
+      }
+      .brochure-ani img:nth-child(2){
+        animation-delay: -5s;
+        width: 30px;
+      }
+      .brochure-ani img:nth-child(3){
+        animation-delay: -23s;
+        width: 35px;
+      }
+      .brochure-ani img:nth-child(4){
+        animation-delay: -17.5s;
+        width: 30px;
+      }
+      .brochure-ani img:nth-child(5){
+        animation-delay: -7s;
+        width: 40px;
+      }  
+      .calendar-ani img{
+        width: 50px;
+        animation: calendar 27s linear infinite;
+        animation-direction: alternate;
+        z-index: -1;
+      }
+      .calendar-ani{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+      }
+      @keyframes calendar{
+        0%{
+          transform: translateY(0);
+          opacity: 0;
+      }
+      50%{
+          
+          opacity: 1;
+      }
+      70%{
+          
+          opacity: 1;
+      }
+      100%{
+          transform: translateY(-70vh);
+          opacity: 0;
+      }
+      }
+      .calendar-ani img:nth-child(1){
+        animation-delay: -11s;
+        width: 40px;
+      }
+      .calendar-ani img:nth-child(2){
+        animation-delay: -5s;
+        width: 60px;
+      }
+      .calendar-ani img:nth-child(3){
+        animation-delay: 3s;
+        width: 50px;
+      }
+      .calendar-ani img:nth-child(4){
+        animation-delay: -23.5s;
+        width: 55px;
+      }
+      .calendar-ani img:nth-child(5){
+        animation-delay: -14s;
+        width: 40px;
+      } 
+      .info-ani img{
+        width: 50px;
+        animation: info 15s ease-in forwards infinite;
+        animation-direction: alternate;
+        z-index: -1;
+      }
+      .info-ani{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        position: absolute
+        top: 50%;
+      }
+      @keyframes info{
+        0%{
+          transform: translateY(0);
+          opacity: 0;
+      }
+      50%{
+          
+          opacity: 1;
+      }
+      70%{
+          
+          opacity: 1;
+      }
+      100%{
+          transform: translateY(-90vh);
+          opacity: 0;
+      }
+      }
+      .info-ani img:nth-child(1){
+        animation-delay: -11s;
+        width: 40px;
+        top: 90%;
+      }
+      .info-ani img:nth-child(2){
+        animation-delay: -5s;
+        width: 60px;
+      }
+      .info-ani img:nth-child(3){
+        animation-delay: -23s;
+        width: 50px;
+      }
+      .info-ani img:nth-child(4){
+        animation-delay: -12.5s;
+        width: 55px;
+      }
+      .info-ani img:nth-child(5){
+        animation-delay: -18s;
+        width: 40px;
+      }
+      .magazine-ani img{
+        width: 50px;
+        animation: magazine 23s linear infinite;
+        animation-direction: alternate;
+        z-index: -1;
+      }
+      .magazine-ani{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+      }
+      @keyframes magazine{
+        
+        0%{
+          transform: translateY(0);
+          opacity: 0;
+      }
+      50%{
+          
+          opacity: 1;
+      }
+      70%{
+          
+          opacity: 1;
+      }
+      100%{
+          transform: translateY(-70vh);
+          opacity: 0;
+      }
+    }
+      .magazine-ani img:nth-child(1){
+        animation-delay: -11s;
+        width: 40px;
+      }
+      .magazine-ani img:nth-child(2){
+        animation-delay: -5s;
+        width: 60px;
+      }
+      .magazine-ani img:nth-child(3){
+        animation-delay: -23s;
+        width: 50px;
+      }
+      .magazine-ani img:nth-child(4){
+        animation-delay: -17.5s;
+        width: 55px;
+      }
+      .magazine-ani img:nth-child(5){
+        animation-delay: -9s;
+        width: 40px;
+      }
+      .mug-ani img{
+          width: 50px;
+          animation: mug 22s linear infinite;
+          animation-direction: alternate;
+          z-index: -1;
+      }
+      .mug-ani{
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+      }
+      @keyframes mug{
+          0%{
+              transform: translateY(0);
+              opacity: 0;
+          }
+          50%{
+              
+              opacity: 1;
+          }
+          70%{
+              
+              opacity: 1;
+          }
+          100%{
+              transform: translateY(-70vh);
+              opacity: 0;
+          }
+      }
+      .mug-ani img:nth-child(1){
+          animation-delay: -11s;
+          width: 40px;
+      }
+      .mug-ani img:nth-child(2){
+          animation-delay: -25s;
+          width: 60px;
+      }
+      .mug-ani img:nth-child(3){
+          animation-delay: -17s;
+          width: 50px;
+      }
+      .mug-ani img:nth-child(4){
+          animation-delay: -2.5s;
+          width: 55px;
+      }
+      .mug-ani img:nth-child(5){
+          animation-delay: -24s;
+          width: 40px;
+      }
+      .poster-ani img{
+        width: 50px;
+        animation: poster 20s linear infinite;
+        animation-direction: alternate;
+        z-index: -1;
+      }
+      .poster-ani{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+      }
+      @keyframes poster{
+        0%{
+          transform: translateY(0);
+          opacity: 0;
+      }
+      50%{
+          
+          opacity: 1;
+      }
+      70%{
+          
+          opacity: 1;
+      }
+      100%{
+          transform: translateY(-70vh);
+          opacity: 0;
+      }
+      }
+      .poster-ani img:nth-child(1){
+        animation-delay: -11s;
+        width: 40px;
+      }
+      .poster-ani img:nth-child(2){
+        animation-delay: -25s;
+        width: 60px;
+      }
+      .poster-ani img:nth-child(3){
+        animation-delay: -15s;
+        width: 50px;
+      }
+      .poster-ani img:nth-child(4){
+        animation-delay: -22.5s;
+        width: 55px;
+      }
+      .poster-ani img:nth-child(5){
+        animation-delay: -8s;
+        width: 40px;
+      }
+      .t-shirt-ani img{
+          width: 50px;
+          animation: t-shirt 23s linear infinite;
+          animation-direction: alternate-reverse;
+          z-index: -1;
+      }
+      .t-shirt-ani{
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+      }
+      @keyframes t-shirt{
+          0%{
+              transform: translateY(0);
+              opacity: 0;
+          }
+          50%{
+              
+              opacity: 1;
+          }
+          70%{
+              
+              opacity: 1;
+          }
+          100%{
+              transform: translateY(-70vh);
+              opacity: 0;
+          }
+      }
+      .t-shirt-ani img:nth-child(1){
+          animation-delay: -7s;
+          width: 40px;
+      }
+      .t-shirt-ani img:nth-child(2){
+          animation-delay: -15s;
+          width: 60px;
+      }
+      .t-shirt-ani img:nth-child(3){
+          animation-delay: -23s;
+          width: 50px;
+      }
+      .t-shirt-ani img:nth-child(4){
+          animation-delay: -2.5s;
+          width: 55px;
+      }
+      .t-shirt-ani img:nth-child(5){
+          animation-delay: -19s;
+          width: 40px;
+      }
+      .vector-ani img{
+          width: 50px;
+          animation:vector 25s linear infinite;
+          animation-direction: alternate;
+          z-index: -1;
+      }
+      .vector-ani{
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+      }
+      @keyframes vector{
+          0%{
+              transform: translateY(0);
+              opacity: 0;
+          }
+          50%{
+              
+              opacity: 1;
+          }
+          70%{
+              
+              opacity: 1;
+          }
+          100%{
+              transform: translateY(-70vh);
+              opacity: 0;
+          }
+      }
+      .vector-ani img:nth-child(1){
+          animation-delay: -7s;
+          width: 40px;
+      }
+      .vector-ani img:nth-child(2){
+          animation-delay: -15s;
+          width: 60px;
+      }
+      .vector-ani img:nth-child(3){
+          animation-delay: -23s;
+          width: 50px;
+      }
+      .vector-ani img:nth-child(4){
+          animation-delay: -2.5s;
+          width: 55px;
+      }
+      .vector-ani img:nth-child(5){
+          animation-delay: -19s;
+          width: 40px;
+      }
+      .video-ani img{
+          width: 50px;
+          animation:video 25s linear infinite;
+          animation-direction: alternate;
+          z-index: -1;
+      }
+      .video-ani{
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+      }
+      @keyframes video{
+          0%{
+              transform: translateY(0);
+              opacity: 0;
+          }
+          50%{
+              
+              opacity: 1;
+          }
+          70%{
+              
+              opacity: 1;
+          }
+          100%{
+              transform: translateY(-70vh);
+              opacity: 0;
+          }
+      }
+      .video-ani img:nth-child(1){
+          animation-delay: -11s;
+          width: 40px;
+      }
+      .video-ani img:nth-child(2){
+          animation-delay: -25s;
+          width: 60px;
+      }
+      .video-ani img:nth-child(3){
+          animation-delay: -3s;
+          width: 50px;
+      }
+      .video-ani img:nth-child(4){
+          animation-delay: -17.5s;
+          width: 55px;
+      }
+      .video-ani img:nth-child(5){
+          animation-delay: -9s;
+          width: 40px;
+      }
+      .website-ani img{
+          width: 50px;
+          animation:website 25s linear infinite;
+          animation-direction: alternate;
+          z-index: -1;
+      }
+      .website-ani{
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+      }
+      @keyframes website{
+        0%{
+            transform: translateY(0);
+            opacity: 0;
+        }
+        50%{
+            
+            opacity: 1;
+        }
+        70%{
+            
+            opacity: 1;
+        }
+        100%{
+            transform: translateY(-70vh);
+            opacity: 0;
+        }
+      }
+      .website-ani img:nth-child(1){
+          animation-delay: -11s;
+          width: 40px;
+      }
+      .website-ani img:nth-child(2){
+          animation-delay: -15s;
+          width: 60px;
+      }
+      .website-ani img:nth-child(3){
+          animation-delay: -23s;
+          width: 50px;
+      }
+      .website-ani img:nth-child(4){
+          animation-delay: -2.5s;
+          width: 55px;
+      }
+      .website-ani img:nth-child(5){
+          animation-delay: -9s;
+          width: 40px;
+      }
+    .card3P {
+        background: rgb(231, 231, 231);
+        width: 400px;
+        margin: 10px;
+        border-radius: 15px;
+    }
+    .card-image3 {
+        height: 200px;
+        margin-bottom: 15px;
+        background-size: cover;
+        border-radius: 15px 15px 0 0;
+    }
+    .WDimage-1{
+      background-image: url(images/websiteDesign/1.jpg);
+    }
+    .WDimage-2{
+      background-image: url(images/websiteDesign/2.jpg);
+    }
