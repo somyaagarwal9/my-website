@@ -1,9 +1,6 @@
 * {padding: 0px;
   margin: 0px;
 }
-body{
-  background: rgb(245, 244, 244);
-}
 .t-shirt-ani img{
   width: 50px;
   animation: t-shirt 7s linear infinite;
@@ -550,7 +547,6 @@ header.background{
       background-position: 0% 0%;
       background-repeat: no-repeat;
       overflow: hidden;
-      margin-bottom: 3rem;
       background-size:cover;
       width: 100%;
 }
@@ -575,23 +571,23 @@ header.background .container3 p{
        background-image: url(images/brouchureBG.jpg);
      }
     header.Magazine{
-      background-image: url(images/magazineBG2.jpg);
+      background-image: url(images/magazineBG3.jpg);
      }
     header.Calendar{
       background-image: url(images/calanderBG.jpg);
       }
     header.Poster{
-      background-image: url(images/posterBG.jpg);
+      background-image: url(images/posterBG2.jpg);
      }
     header.Infographic{
       background-image: url(images/infographicBG.jpg);
       }
     header.Vector{
-      background-image: url(images/vectorBG.jpg);
+      background-image: url(images/vectorBG2.jpg);
       }
     header.Animated{
       background-image: url(images/animatedvideoBG.jpg);
       }
     header.Website{
-      background-image: url(images/websiteBG.jpg);
+      background-image: url(images/websiteBG2.jpg);
       }
