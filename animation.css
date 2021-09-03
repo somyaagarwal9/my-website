@@ -17,7 +17,7 @@
       @keyframes brochure{
         0%{
             transform: translateY(0);
-            opacity: 0;
+            opacity: 1;
         }
         50%{
             
@@ -28,8 +28,8 @@
             opacity: 1;
         }
         100%{
-            transform: translateY(-70vh);
-            opacity: 0;
+            transform: translateY(-90vh);
+            opacity: 1;
         }
       }
       .brochure-ani img:nth-child(1){
@@ -67,7 +67,7 @@
       @keyframes calendar{
         0%{
           transform: translateY(0);
-          opacity: 0;
+          opacity: 1;
       }
       50%{
           
@@ -78,8 +78,8 @@
           opacity: 1;
       }
       100%{
-          transform: translateY(-70vh);
-          opacity: 0;
+          transform: translateY(-90vh);
+          opacity: 1;
       }
       }
       .calendar-ani img:nth-child(1){
@@ -104,7 +104,7 @@
       } 
       .info-ani img{
         width: 50px;
-        animation: info 15s ease-in forwards infinite;
+        animation: info 15s linear infinite;
         animation-direction: alternate;
         z-index: -1;
       }
@@ -118,7 +118,7 @@
       @keyframes info{
         0%{
           transform: translateY(0);
-          opacity: 0;
+          opacity: 1;
       }
       50%{
           
@@ -130,7 +130,7 @@
       }
       100%{
           transform: translateY(-90vh);
-          opacity: 0;
+          opacity: 1;
       }
       }
       .info-ani img:nth-child(1){
@@ -170,7 +170,7 @@
         
         0%{
           transform: translateY(0);
-          opacity: 0;
+          opacity: 1;
       }
       50%{
           
@@ -182,7 +182,7 @@
       }
       100%{
           transform: translateY(-70vh);
-          opacity: 0;
+          opacity: 1;
       }
     }
       .magazine-ani img:nth-child(1){
@@ -220,7 +220,7 @@
       @keyframes mug{
           0%{
               transform: translateY(0);
-              opacity: 0;
+              opacity: 1;
           }
           50%{
               
@@ -232,7 +232,7 @@
           }
           100%{
               transform: translateY(-70vh);
-              opacity: 0;
+              opacity: 1;
           }
       }
       .mug-ani img:nth-child(1){
@@ -270,7 +270,7 @@
       @keyframes poster{
         0%{
           transform: translateY(0);
-          opacity: 0;
+          opacity: 1;
       }
       50%{
           
@@ -282,7 +282,7 @@
       }
       100%{
           transform: translateY(-70vh);
-          opacity: 0;
+          opacity: 1;
       }
       }
       .poster-ani img:nth-child(1){
@@ -320,7 +320,7 @@
       @keyframes t-shirt{
           0%{
               transform: translateY(0);
-              opacity: 0;
+              opacity: 1;
           }
           50%{
               
@@ -332,7 +332,7 @@
           }
           100%{
               transform: translateY(-70vh);
-              opacity: 0;
+              opacity: 1;
           }
       }
       .t-shirt-ani img:nth-child(1){
@@ -370,7 +370,7 @@
       @keyframes vector{
           0%{
               transform: translateY(0);
-              opacity: 0;
+              opacity: 1;
           }
           50%{
               
@@ -382,7 +382,7 @@
           }
           100%{
               transform: translateY(-70vh);
-              opacity: 0;
+              opacity: 1;
           }
       }
       .vector-ani img:nth-child(1){
@@ -420,7 +420,7 @@
       @keyframes video{
           0%{
               transform: translateY(0);
-              opacity: 0;
+              opacity: 1;
           }
           50%{
               
@@ -432,7 +432,7 @@
           }
           100%{
               transform: translateY(-90vh);
-              opacity: 0;
+              opacity: 1;
           }
       }
       .video-ani img:nth-child(1){
@@ -470,7 +470,7 @@
       @keyframes website{
         0%{
             transform: translateY(0);
-            opacity: 0;
+            opacity: 1;
         }
         50%{
             
@@ -482,7 +482,7 @@
         }
         100%{
             transform: translateY(-70vh);
-            opacity: 0;
+            opacity: 1;
         }
       }
       .website-ani img:nth-child(1){

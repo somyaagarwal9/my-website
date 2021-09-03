@@ -3,7 +3,7 @@
     }
     .info-ani img{
       width: 50px;
-      animation: info 15s ease-in forwards infinite;
+      animation: info 15s linear infinite;
       animation-direction: alternate;
       z-index: -1;
     }
