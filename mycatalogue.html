@@ -19,7 +19,7 @@
                <a href="https://wa.me/919748294668" target="_blank"><img src="icons/whatsapp.jpg" alt=""></a> 
                <a href="https://www.instagram.com/accounts/login/" target="_blank"><img src="icons/insta.jpg" alt=""></a>
             </div>
-            <div id="time" class="earth" onmouseover="showCurrentTime()" onmouseout="play()"></div>
+            <div id="time" class="earth" onmouseover="showCurrentTime()" onmouseout="play()" onclick="pause()"></div>
             <script>
                 function showCurrentTime() {
                     document.getElementById("time").title= new Date(); 
@@ -29,6 +29,10 @@
                 function play() {
                     document.getElementById("time").style.width="30px";
                     document.getElementById("time").style.height="30px";
+                    document.getElementById("time").style.animation="spin 5s linear alternate-reverse infinite";
+                }
+                function pause() {
+                    document.getElementById("time").style.animationPlayState="paused";
                 }
             </script>
 
@@ -234,6 +238,13 @@
     </section> 
     <section class="container">
         <h1>Pre-wedding Mug Design</h1>
+        <div class="mug-ani">
+            <img src="mug/1.png">
+            <img src="mug/1.png">
+            <img src="mug/1.png">
+            <img src="mug/1.png">
+            <img src="mug/1.png">
+        </div>
         <div class="card hover">
             <a href="mug/wedding/1.jpg">
                 <div class="card-image W-mug-1"></div></a>
@@ -287,6 +298,13 @@
     </section>
     <section class="container">
         <h1>Maternity Mug Design</h1>
+        <div class="mug-ani">
+            <img src="mug/2.png">
+            <img src="mug/2.png">
+            <img src="mug/2.png">
+            <img src="mug/2.png">
+            <img src="mug/2.png">
+        </div>
         <div class="card hover">
             <a href="mug/maternity/1.jpg">
                 <div class="card-image M-mug-1"></div></a>
@@ -340,6 +358,13 @@
     </section> 
     <section class="container">
         <h1>Brochure Design</h1>
+        <div class="brochure-ani">
+            <img src="brouchure/12.png">
+            <img src="brouchure/12.png">
+            <img src="brouchure/12.png">
+            <img src="brouchure/12.png">
+            <img src="brouchure/12.png">
+        </div>
         <div class="card hover">
             <a href="brouchure/biosarpdf2page.pdf">
                 <div class="card-image image-1"></div></a>
@@ -356,6 +381,13 @@
             <h4>B-3</h4>
         </div>
         <h1>Letterhead</h1>
+        <div class="brochure-ani">
+            <img src="brouchure/11.png">
+            <img src="brouchure/11.png">
+            <img src="brouchure/11.png">
+            <img src="brouchure/11.png">
+            <img src="brouchure/11.png">
+        </div>
         <div class="card hover">
             <a href="brouchure/3.jpg">
                 <div class="card-image image-3"></div></a>
@@ -367,6 +399,13 @@
                 <h4>LH-2</h4>
         </div>
         <h1>Visiting Cards</h1>
+        <div class="brochure-ani">
+            <img src="brouchure/10.png">
+            <img src="brouchure/10.png">
+            <img src="brouchure/10.png">
+            <img src="brouchure/10.png">
+            <img src="brouchure/10.png">
+        </div>
         <div class="card hover">
             <a href="visitingcard/1.jpg">
             <div class="card-imageVC image-5"></div></a>
@@ -393,6 +432,13 @@
             <h4>VC-5</h4>
         </div>
         <h1>Logo Design</h1>
+        <div class="brochure-ani">
+            <img src="brouchure/10.png">
+            <img src="brouchure/11.png">
+            <img src="brouchure/12.png">
+            <img src="brouchure/11.png">
+            <img src="brouchure/12.png">
+        </div>
         <div class="card hover">
             <a href="brouchure/5.jpg">
             <div class="card-image image-10"></div></a>
@@ -406,6 +452,13 @@
     </section>
     <section class="container">
         <h1>Magazine Design</h1>
+        <div class="magazine-ani">
+        <img src="magazine/8.png">
+        <img src="magazine/9.png">
+        <img src="magazine/8.png">
+        <img src="magazine/9.png">
+        <img src="magazine/8.png">
+    </div>
         <div class="card1 hover">
             <a href="magazine/6.jpg">
                 <div class="card-image1 Mimage-1"></div></a>
@@ -434,6 +487,13 @@
     </section>
     <section class="container">
         <h1>Calendar Design</h1>
+        <div class="calendar-ani">
+            <img src="calander/6.png">
+            <img src="calander/7.png">
+            <img src="calander/6.png">
+            <img src="calander/7.png">
+            <img src="calander/6.png">
+        </div>
         <div class="card2 hover">
             <a href="calander/1.png">
                 <div class="card-image2 Cimage-1"></div></a>
@@ -457,6 +517,13 @@
     </section> 
     <section class="container">
         <h1>Poster Design</h1>
+        <div class="poster-ani">
+            <img src="poster/11.png">
+            <img src="poster/12.png">
+            <img src="poster/11.png">
+            <img src="poster/12.png">
+            <img src="poster/11.png">
+        </div>
         <div class="card3 hover">
             <a href="poster/1.jpg">
                 <div class="card-image3 Pimage-1"></div></a>
@@ -505,6 +572,13 @@
     </section>
     <section class="container">
         <h1>Infographics Design</h1>
+        <div class="info-ani">
+            <img src="infographic/11.png">
+            <img src="infographic/12.png">
+            <img src="infographic/11.png">
+            <img src="infographic/12.png">
+            <img src="infographic/11.png">
+        </div>
         <div class="card4 hover">
             <a href="infographic/6.jpg">
                 <div class="card-image4 Iimage-1"></div></a>
@@ -532,6 +606,13 @@
     </section>
     <section class="container">
         <h1>Scenery Design</h1>
+        <div class="vector-ani">
+            <img src="vector/30.png">
+            <img src="vector/30.png">
+            <img src="vector/30.png">
+            <img src="vector/30.png">
+            <img src="vector/30.png">
+        </div>
         <div class="card hover">
             <a href="vector/1.jpg">
                 <div class="card-image S-1"></div></a>
@@ -555,6 +636,13 @@
     </section>
     <section class="container">
         <h1>Cartoon Character</h1>
+        <div class="vector-ani">
+            <img src="vector/31.png">
+            <img src="vector/31.png">
+            <img src="vector/31.png">
+            <img src="vector/31.png">
+            <img src="vector/31.png">
+        </div>
         <div class="card hover">
             <a href="vector/5.jpg">
                 <div class="card-image1 C-1"></div></a>
@@ -588,6 +676,13 @@
     </section>
     <section class="container">
         <h1>Vector Arts</h1>
+        <div class="vector-ani">
+            <img src="vector/32.png">
+            <img src="vector/32.png">
+            <img src="vector/32.png">
+            <img src="vector/32.png">
+            <img src="vector/32.png">
+        </div>
         <div class="card hover">
             <a href="vector/10.jpg">
                 <div class="card-image1 P-1"></div></a>
@@ -616,6 +711,13 @@
     </section>
     <section class="container">
         <h1>Carry Catcher</h1>
+        <div class="vector-ani">
+            <img src="vector/30.png">
+            <img src="vector/31.png">
+            <img src="vector/32.png">
+            <img src="vector/31.png">
+            <img src="vector/32.png">
+        </div>
         <div class="card hover">
             <a href="vector/26.jpg">
                 <div class="card-image1 CC-1"></div></a>
@@ -634,6 +736,13 @@
     </section>
     <section class="container">
         <h1>Poly Arts</h1>
+        <div class="vector-ani">
+            <img src="vector/30.png">
+            <img src="vector/31.png">
+            <img src="vector/32.png">
+            <img src="vector/31.png">
+            <img src="vector/32.png">
+        </div>
         <div class="card hover">
             <a href="vector/29.jpg">
                 <div class="card-image1 PA-1"></div></a>
@@ -650,6 +759,53 @@
                 <h4>PA-3</h4>
         </div>
     </section>
+    <section class="container margin">
+        <h1>Videos</h1>
+        <div>
+            <iframe class="align hover" src="https://www.youtube.com/embed/41XNwSsz1iI" width="320px" height="240" frameborder="0" allow="fullscreen"></iframe>
+            <h4>Biosar Ad</h4>
+        </div>
+        <div>
+            <iframe class="align hover" src="https://www.youtube.com/embed/c8Z08T9s0pE" width="320px" height="240" frameborder="0" allow="fullscreen"></iframe>
+            <h4>Portfolio</h4>
+        </div>
+        <div>
+            <iframe class="align hover" src="https://www.youtube.com/embed/3Rh1nthoJto" width="320px" height="240" frameborder="0" allow="fullscreen"></iframe>
+            <h4>Boy Animation</h4>
+        </div>
+        <div>
+            <iframe class="align hover" src="https://www.youtube.com/embed/oibiZGTJPOc" width="320px" height="240" frameborder="0" allow="fullscreen"></iframe>
+            <h4>Bhoothnath Trailer</h4>
+        </div>
+        <div class="video-ani">
+            <img src="images/1.png">
+            <img src="images/2.png">
+            <img src="images/1.png">
+            <img src="images/2.png">
+            <img src="images/1.png">
+        </div>
+    </div>
+    </section>
+    <section class="container margin">
+        <h1>Website Design</h1>
+        <div class="card3P hover">
+            <a href="images/websiteDesign/1.jpg">
+            <div class="card-image2 WDimage-1"></div></a>
+            <h4>WD-1</h4>
+        </div>
+        <div class="card3P hover">
+            <a href="images/websiteDesign/2.jpg">
+            <div class="card-image2 WDimage-2"></div></a>
+            <h4>WD-2</h4>
+        </div>
+        <div class="website-ani">
+            <img src="images/websiteDesign/3.png">
+            <img src="images/websiteDesign/4.png">
+            <img src="images/websiteDesign/3.png">
+            <img src="images/websiteDesign/4.png">
+            <img src="images/websiteDesign/3.png">
+        </div>
+    </section>
     <footer>
         <div class="footer-container">
             <div class="box"></div>
@@ -661,7 +817,7 @@
               </p>
             </div>
             <div class="box">
-                <h3>Quik link</h3>
+                <h3>Quick link</h3>
                 <ul>
                     <li>
                         <a href="portfolio.html">Home</a>

@@ -113,7 +113,6 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
-        position: absolute
         top: 50%;
       }
       @keyframes info{
@@ -432,7 +431,7 @@
               opacity: 1;
           }
           100%{
-              transform: translateY(-70vh);
+              transform: translateY(-90vh);
               opacity: 0;
           }
       }
@@ -506,21 +505,3 @@
           animation-delay: -9s;
           width: 40px;
       }
-    .card3P {
-        background: rgb(231, 231, 231);
-        width: 400px;
-        margin: 10px;
-        border-radius: 15px;
-    }
-    .card-image3 {
-        height: 200px;
-        margin-bottom: 15px;
-        background-size: cover;
-        border-radius: 15px 15px 0 0;
-    }
-    .WDimage-1{
-      background-image: url(images/websiteDesign/1.jpg);
-    }
-    .WDimage-2{
-      background-image: url(images/websiteDesign/2.jpg);
-    }

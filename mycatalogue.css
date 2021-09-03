@@ -26,29 +26,29 @@
     background-size: cover;
     border-radius: 15px 15px 0 0;
 }
-.card-image3P {
-    height: 400px;
-    margin-bottom: 15px;
-    background-size: cover;
-    border-radius: 15px 15px 0 0;
-}
-  .card3 {
-    background: rgb(226, 226, 226);
-    width: 280px;
+.card3 {
+    background: rgb(228, 228, 228);
+    width: 300px;
     margin: 10px;
     border-radius: 15px;
 }
 .card3P {
-    background: rgb(226, 226, 226);
-    width: 400px;
-    margin: 10px;
-    border-radius: 15px;
+  background: rgb(231, 231, 231);
+  width: 400px;
+  margin: 10px;
+  border-radius: 15px;
 }
 .card-image3 {
     height: 400px;
     margin-bottom: 15px;
     background-size: cover;
     border-radius: 15px 15px 0 0;
+}
+.card-image3P {
+  height: 400px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
 }
 .card4 {
     background: rgb(226, 226, 226);
@@ -68,6 +68,9 @@
     background-size: cover;
     border-radius: 15px 15px 0 0;
 }
+
+.align { margin: 30px 50px;  }
+ 
 .tshirt-1{
     background-image: url(tshirt/wedding/1.jpg);
 }
@@ -273,13 +276,10 @@ background-image: url(visitingcard/5.jpg);
     background-image: url(poster/2.jpg);
 }
 .Pimage-3{
-    background-image: url(poster/3.png);
+    background-image: url(poster/5.jpg);
 }
 .Pimage-4{
     background-image: url(poster/4.jpg);
-}
-.Pimage-5{
-    background-image: url(poster/5.jpg);
 }
 .Pimage-6{
   background-image: url(poster/6.jpg);
@@ -373,4 +373,10 @@ background-image: url(poster/10.png);
 }
 .PA-3{
   background-image: url(vector/20.jpg);
+}
+.WDimage-1{
+  background-image: url(images/websiteDesign/1.jpg);
+}
+.WDimage-2{
+  background-image: url(images/websiteDesign/2.jpg);
 }

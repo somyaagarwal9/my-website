@@ -75,23 +75,20 @@
       background-size: cover;
       border-radius: 15px 15px 0 0;
   }
-    .Pimage-1{
-        background-image: url(poster/1.jpg);
-    }
-    .Pimage-2{
-        background-image: url(poster/2.jpg);
-    }
-    .Pimage-3{
-        background-image: url(poster/5.jpg);
-    }
-    .Pimage-4{
-        background-image: url(poster/4.jpg);
-    }
-    .Pimage-5{
-      background-image: url(poster/5.jpg);
-  }
-  .Pimage-6{
-    background-image: url(poster/6.jpg);
+.Pimage-1{
+  background-image: url(poster/1.jpg);
+}
+.Pimage-2{
+  background-image: url(poster/2.jpg);
+}
+.Pimage-3{
+  background-image: url(poster/5.jpg);
+}
+.Pimage-4{
+  background-image: url(poster/4.jpg);
+}
+.Pimage-6{
+  background-image: url(poster/6.jpg);
 }
 .Pimage-7{
   background-image: url(poster/7.png);

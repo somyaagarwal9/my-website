@@ -18,7 +18,7 @@
                <a href=" https://wa.me/919748294668" target="_blank"><img src="icons/whatsapp.jpg" alt=""></a> 
                <a href="https://www.instagram.com/accounts/login/" target="_blank"><img src="icons/insta.jpg" alt=""></a>
             </div>
-            <div id="time" class="earth" onmouseover="showCurrentTime()" onmouseout="play()"></div>
+            <div id="time" class="earth" onmouseover="showCurrentTime()" onmouseout="play()" onclick="pause()"></div>
             <script>
                 function showCurrentTime() {
                     document.getElementById("time").title= new Date(); 
@@ -28,6 +28,10 @@
                 function play() {
                     document.getElementById("time").style.width="30px";
                     document.getElementById("time").style.height="30px";
+                    document.getElementById("time").style.animation="spin 5s linear alternate-reverse infinite";
+                }
+                function pause() {
+                    document.getElementById("time").style.animationPlayState="paused";
                 }
             </script>
 
@@ -65,17 +69,18 @@
                 the really low entry threshold that comes with a custom t-shirt brand.
                 Finding an audience that is interested in purchasing t-shirts isn’t the
                 hard part. It’s finding the right audience for your design ideas!</p>
+                
+                <div>
+                    <a href="tshirt.html" target="_self"> 
+                    <button class="btn btn-white ">More Designs</button>
+                </a>
+                </div>
                 <div class="t-shirt-ani">
                     <img src="tshirt/tshirt.png">
                     <img src="tshirt/shirt.png">
                     <img src="tshirt/tshirt.png">
                     <img src="tshirt/shirt.png">
                     <img src="tshirt/tshirt.png">
-                </div>
-                <div>
-                    <a href="tshirt.html" target="_self"> 
-                    <button class="btn btn-white ">More Designs</button>
-                </a>
                 </div>
         </div>
     </header>
@@ -91,18 +96,17 @@
 
                 And, believe it or not, mugs go back thousands of years, although what we
                 think of as the “traditional” coffee mug was designed as recently as 1945.</p>
+               <div>
+                    <a href="mug.html" target="_self">
+                    <button class="btn btn-white">More Designs</button>
+                </a>
+                </div>
                 <div class="mug-ani">
                     <img src="mug/1.png">
                     <img src="mug/2.png">
                     <img src="mug/1.png">
                     <img src="mug/2.png">
                     <img src="mug/1.png">
-                </div>
-            
-                <div>
-                    <a href="mug.html" target="_self">
-                    <button class="btn btn-white">More Designs</button>
-                </a>
                 </div>
         </div>
     </header>
@@ -122,15 +126,15 @@
             (usually with a logo) and contact information such as street addresses, telephone number(s), 
             e-mail addresses and website.
         </p>
-        <div class="brochure-ani">
-            <img src="brouchure/10.png">
-            <img src="brouchure/11.png">
-            <img src="brouchure/12.png">
-            <img src="brouchure/11.png">
-            <img src="brouchure/12.png">
-        </div>
             <div>
                 <a href="brouchure.html" target="_self"><button class="btn btn-white">More Designs</button></a>
+            </div>
+            <div class="brochure-ani">
+                <img src="brouchure/10.png">
+                <img src="brouchure/11.png">
+                <img src="brouchure/12.png">
+                <img src="brouchure/11.png">
+                <img src="brouchure/12.png">
             </div>
     </div>
 </header>
@@ -148,16 +152,17 @@
             Advertisers can greatly benefit from this credibility,
             when their ads are viewed not as ads but as
             recommendations from a trusted source.</p>
+            
+            <div>
+                <a href="magazine.html" target="_self">
+                    <button class="btn btn-white">More Designs</button></a>
+            </div>
             <div class="magazine-ani">
                 <img src="magazine/8.png">
                 <img src="magazine/9.png">
                 <img src="magazine/8.png">
                 <img src="magazine/9.png">
                 <img src="magazine/8.png">
-            </div>
-            <div>
-                <a href="magazine.html" target="_self">
-                    <button class="btn btn-white">More Designs</button></a>
             </div>
     </div>
 </header>
@@ -172,16 +177,17 @@
             Despite the growing popularity of the internet and accessing things online,
             it’s still convenient to have a print calendar on the wall in a kitchen,
             bedroom or home office to add a bit of decoration and organisational function to a room.</p>
+            
+            <div>
+                <a href="calander.html" target="_self">
+                <button class="btn btn-white">More Designs</button></a>
+            </div>
             <div class="calendar-ani">
                 <img src="calander/6.png">
                 <img src="calander/7.png">
                 <img src="calander/6.png">
                 <img src="calander/7.png">
                 <img src="calander/6.png">
-            </div>
-            <div>
-                <a href="calander.html" target="_self">
-                <button class="btn btn-white">More Designs</button></a>
             </div>
     </div>
 </header>
@@ -194,16 +200,17 @@
             which contributes to its success. No wonder, posters
             have always been in vogue, as far as
             offline marketing is concerned.</p>
+            
+            <div>
+                <a href="poster.html" target="_self">
+                <button class="btn btn-white">More Designs</button></a>
+            </div>
             <div class="poster-ani">
                 <img src="poster/11.png">
                 <img src="poster/12.png">
                 <img src="poster/11.png">
                 <img src="poster/12.png">
                 <img src="poster/11.png">
-            </div>
-            <div>
-                <a href="poster.html" target="_self">
-                <button class="btn btn-white">More Designs</button></a>
             </div>
     </div>
 </header>
@@ -217,16 +224,17 @@
            As marketing tools, website content or an educational resource, infographics are a
            visually appealing way to simplify your message and engage with your audience in ways
            that will trigger exactly the kind of reaction you’re aiming for.</p>
-           <div class="info-ani">
-               <img src="infographic/11.png">
-               <img src="infographic/12.png">
-               <img src="infographic/11.png">
-               <img src="infographic/12.png">
-               <img src="infographic/11.png">
-           </div>
+           
             <div>
                 <a href="info.html" target="_self"> 
                 <button class="btn btn-white">More Designs</button> </a>
+            </div>
+            <div class="info-ani">
+                <img src="infographic/11.png">
+                <img src="infographic/12.png">
+                <img src="infographic/11.png">
+                <img src="infographic/12.png">
+                <img src="infographic/11.png">
             </div>
     </div>
 </header>
@@ -241,16 +249,17 @@
             tool for putting company logos on business cards, creating poster designs, and
             when photo-shopping in Adobe Photoshop. Any art made with vector illustration
             software like Adobe Illustrator is considered vector art.</p>
+            
+            <div>
+                <a href="vector.html" target="_self">
+                    <button class="btn btn-white">More Designs</button></a>
+            </div>
             <div class="vector-ani">
                 <img src="vector/31.png">
                 <img src="vector/32.png">
                 <img src="vector/31.png">
                 <img src="vector/32.png">
                 <img src="vector/31.png">
-            </div>
-            <div>
-                <a href="vector.html" target="_self">
-                    <button class="btn btn-white">More Designs</button></a>
             </div>
     </div>
 </header>
@@ -268,16 +277,16 @@
             broadcasting. The material may include camera footage, dialogue, 
             sound effects, graphics and special effects.
         </p>
-        <div class="video-ani">
-            <img src="images/1.png">
-            <img src="images/2.png">
-            <img src="images/1.png">
-            <img src="images/2.png">
-            <img src="images/1.png">
-        </div>
             <div>
                 <a href="video.html" target="_self">
                     <button class="btn btn-white">More Videos</button></a>
+            </div>
+            <div class="video-ani">
+                <img src="images/1.png">
+                <img src="images/2.png">
+                <img src="images/1.png">
+                <img src="images/2.png">
+                <img src="images/1.png">
             </div>
     </div>
 </header>
@@ -291,6 +300,10 @@
             customers' requirements. Being involved in the technical and graphical 
             aspects of pages, you'll determine not only the look of the website but 
             how it works as well.</p>
+            <div>
+                <a href="websiteDesign.html" target="_self">
+                    <button class="btn btn-white">More Designs</button></a>
+            </div>
             <div class="website-ani">
                 <img src="images/websiteDesign/3.png">
                 <img src="images/websiteDesign/4.png">
@@ -298,13 +311,9 @@
                 <img src="images/websiteDesign/4.png">
                 <img src="images/websiteDesign/3.png">
             </div>
-            <div>
-                <a href="websiteDesign.html" target="_self">
-                    <button class="btn btn-white">More Designs</button></a>
-            </div>
     </div>
 </header>
-<footer>
+<footer class="gap">
     <div class="footer-container">
         <div class="box"></div>
         <div class="box">
@@ -315,7 +324,7 @@
           </p>
         </div>
         <div class="box">
-            <h3>Quik link</h3>
+            <h3>Quick link</h3>
             <ul>
                 <li>
                     <a href="portfolio.html">Home</a>

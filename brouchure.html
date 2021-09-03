@@ -18,7 +18,7 @@
                <a href="https://wa.me/919748294668" target="_blank"><img src="icons/whatsapp.jpg" alt=""></a> 
                <a href="https://www.instagram.com/accounts/login/" target="_blank"><img src="icons/insta.jpg" alt=""></a>
             </div>
-            <div id="time" class="earth" onmouseover="showCurrentTime()" onmouseout="play()"></div>
+            <div id="time" class="earth" onmouseover="showCurrentTime()" onmouseout="play()" onclick="pause()"></div>
             <script>
                 function showCurrentTime() {
                     document.getElementById("time").title= new Date(); 
@@ -28,6 +28,10 @@
                 function play() {
                     document.getElementById("time").style.width="30px";
                     document.getElementById("time").style.height="30px";
+                    document.getElementById("time").style.animation="spin 5s linear alternate-reverse infinite";
+                }
+                function pause() {
+                    document.getElementById("time").style.animationPlayState="paused";
                 }
             </script>
 
@@ -161,7 +165,7 @@
               </p>
             </div>
             <div class="box">
-                <h3>Quik link</h3>
+                <h3>Quick link</h3>
                 <ul>
                     <li>
                         <a href="portfolio.html">Home</a>
