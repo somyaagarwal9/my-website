@@ -27,8 +27,7 @@ p{
     margin-bottom: 3rem;
 }
 .hover:hover{
-  background-color: rgb(33, 173, 166);
-  color: rgb(255, 255, 255);
+  color: rgb(21, 138, 132);
   cursor: pointer;
   transform: scale(1.03);
   transition: all is ease;
