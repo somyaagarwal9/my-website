@@ -3,7 +3,7 @@
     }
     .info-ani img{
       width: 50px;
-      animation: info 15s linear infinite;
+      animation: info 25s linear infinite;
       animation-direction: alternate;
       z-index: -1;
     }
@@ -12,13 +12,11 @@
       display: flex;
       align-items: center;
       justify-content: space-around;
-      position: absolute
-      top: 50%;
     }
     @keyframes info{
       0%{
         transform: translateY(0);
-        opacity: 0;
+        opacity: 1;
     }
     50%{
         
@@ -29,8 +27,8 @@
         opacity: 1;
     }
     100%{
-        transform: translateY(-90vh);
-        opacity: 0;
+        transform: translateY(-125vh);
+        opacity: 1;
     }
     }
     .info-ani img:nth-child(1){

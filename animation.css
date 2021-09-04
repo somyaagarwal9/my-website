@@ -308,7 +308,7 @@
       .t-shirt-ani img{
           width: 50px;
           animation: t-shirt 23s linear infinite;
-          animation-direction: alternate-reverse;
+          animation-direction: alternate;
           z-index: -1;
       }
       .t-shirt-ani{

@@ -3,7 +3,7 @@
     }
     .calendar-ani img{
       width: 50px;
-      animation: calendar 27s linear infinite;
+      animation: calendar 25s linear infinite;
       animation-direction: alternate;
       z-index: -1;
     }

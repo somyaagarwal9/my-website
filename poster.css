@@ -3,7 +3,7 @@
     }
     .poster-ani img{
       width: 50px;
-      animation: poster 20s linear infinite;
+      animation: poster 25s linear infinite;
       animation-direction: alternate;
       z-index: -1;
     }
@@ -27,7 +27,7 @@
         opacity: 1;
     }
     100%{
-        transform: translateY(-70vh);
+        transform: translateY(-127vh);
         opacity: 0;
     }
     }

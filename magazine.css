@@ -3,7 +3,7 @@
     }
     .magazine-ani img{
       width: 50px;
-      animation: magazine 23s linear infinite;
+      animation: magazine 25s linear infinite;
       animation-direction: alternate;
       z-index: -1;
     }
@@ -28,7 +28,7 @@
         opacity: 1;
     }
     100%{
-        transform: translateY(-70vh);
+        transform: translateY(-127vh);
         opacity: 0;
     }
   }

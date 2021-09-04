@@ -2,6 +2,56 @@
     padding: 0;
     margin: 0;
 }
+.t-shirt-ani img{
+    width: 50px;
+    animation: t-shirt 25s linear infinite;
+    animation-direction: alternate;
+    z-index: -1;
+}
+.t-shirt-ani{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+@keyframes t-shirt{
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%{
+        
+        opacity: 1;
+    }
+    70%{
+        
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-127vh);
+        opacity: 0;
+    }
+}
+.t-shirt-ani img:nth-child(1){
+    animation-delay: -7s;
+    width: 40px;
+}
+.t-shirt-ani img:nth-child(2){
+    animation-delay: -15s;
+    width: 60px;
+}
+.t-shirt-ani img:nth-child(3){
+    animation-delay: -23s;
+    width: 50px;
+}
+.t-shirt-ani img:nth-child(4){
+    animation-delay: -2.5s;
+    width: 55px;
+}
+.t-shirt-ani img:nth-child(5){
+    animation-delay: -19s;
+    width: 40px;
+}
 .tshirt-1{
     background-image: url(tshirt/wedding/1.jpg);
 }
@@ -76,54 +126,4 @@
 }
 .N-tshirt-5{
     background-image: url(tshirt/tshirt/5.jpg);
-}
-.t-shirt-ani img{
-    width: 50px;
-    animation: t-shirt 23s linear infinite;
-    animation-direction: alternate-reverse;
-    z-index: -1;
-}
-.t-shirt-ani{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-@keyframes t-shirt{
-    0%{
-        transform: translateY(0);
-        opacity: 0;
-    }
-    50%{
-        
-        opacity: 1;
-    }
-    70%{
-        
-        opacity: 1;
-    }
-    100%{
-        transform: translateY(-70vh);
-        opacity: 0;
-    }
-}
-.t-shirt-ani img:nth-child(1){
-    animation-delay: -7s;
-    width: 40px;
-}
-.t-shirt-ani img:nth-child(2){
-    animation-delay: -15s;
-    width: 60px;
-}
-.t-shirt-ani img:nth-child(3){
-    animation-delay: -23s;
-    width: 50px;
-}
-.t-shirt-ani img:nth-child(4){
-    animation-delay: -2.5s;
-    width: 55px;
-}
-.t-shirt-ani img:nth-child(5){
-    animation-delay: -19s;
-    width: 40px;
 }
