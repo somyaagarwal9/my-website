@@ -2,7 +2,12 @@
     margin: 0;
     padding: 0;
 }
-.align { margin: 30px 50px;  }
+.video {
+    background: rgb(228, 228, 228);
+    width: 320px;
+    margin: 10px;
+    border-radius: 15px;
+}
  
     .video-ani img{
         width: 50px;

@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="common.css">
     <link rel="stylesheet" href="video.css">
     <link rel="stylesheet" href="imgcntrl.css">
+    <script src="earth.js"></script>
 </head>
 <body>
     <header>
@@ -19,24 +20,6 @@
                <a href="https://www.instagram.com/accounts/login/" target="_blank"><img src="icons/insta.jpg" alt=""></a>
             </div>
             <div id="time" class="earth" onmouseover="showCurrentTime()" onmouseout="play()" onmousedown="pause()" onmouseup="start()"></div>
-            <script>
-                function showCurrentTime() {
-                    document.getElementById("time").title= new Date(); 
-                    document.getElementById("time").style.width="60px";
-                    document.getElementById("time").style.height="60px";
-                }
-                function play() {
-                    document.getElementById("time").style.width="30px";
-                    document.getElementById("time").style.height="30px";
-                }
-                function start() {
-                    document.getElementById("time").style.animation="spin 5s linear alternate infinite";
-                }
-                function pause() {
-                    document.getElementById("time").style.animationPlayState="paused";
-                }
-            </script>
-
         </div>
     </header>
     <div class="menu-bar">
@@ -54,7 +37,7 @@
                         <a href="poster.html"><li>Poster</li></a>
                         <a href="info.html"><li>Infographic</li></a>
                         <a href="vector.html"><li>Vector</li></a>
-                        <a href="video.html"><li class="active">Animated Video</li></a>
+                        <a href="video.html"><li class="active">Videos</li></a>
                         <a href="websiteDesign.html"><li>Website Design</li></a>
                     </ul>
                  </div>
@@ -66,20 +49,20 @@
         <h1 class="first-H1">Videos</h1>
         
     
-        <div class="hover">
-            <iframe class="align" src="https://www.youtube.com/embed/41XNwSsz1iI" width="320px" height="240" frameborder="0" allow="fullscreen"></iframe>
+        <div class="video hover">
+            <iframe src="https://www.youtube.com/embed/41XNwSsz1iI" width="320px" height="240" frameborder="0" allow="fullscreen"></iframe>
             <h4>Biosar Ad</h4>
         </div>
-        <div class="hover">
-            <iframe class="align" src="https://www.youtube.com/embed/c8Z08T9s0pE" width="320px" height="240" frameborder="0" allow="fullscreen"></iframe>
+        <div class="video hover">
+            <iframe src="https://www.youtube.com/embed/c8Z08T9s0pE" width="320px" height="240" frameborder="0" allow="fullscreen"></iframe>
             <h4>Portfolio</h4>
         </div>
-        <div class="hover">
-            <iframe class="align" src="https://www.youtube.com/embed/3Rh1nthoJto" width="320px" height="240" frameborder="0" allow="fullscreen"></iframe>
+        <div class="video hover">
+            <iframe src="https://www.youtube.com/embed/3Rh1nthoJto" width="320px" height="240" frameborder="0" allow="fullscreen"></iframe>
             <h4>Boy Animation</h4>
         </div>
-        <div class="hover">
-            <iframe class="align" src="https://www.youtube.com/embed/oibiZGTJPOc" width="320px" height="240" frameborder="0" allow="fullscreen"></iframe>
+        <div class="video hover">
+            <iframe src="https://www.youtube.com/embed/oibiZGTJPOc" width="320px" height="240" frameborder="0" allow="fullscreen"></iframe>
             <h4>Bhoothnath Trailer</h4>
         </div>
     </div>

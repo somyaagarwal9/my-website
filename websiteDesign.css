@@ -58,7 +58,7 @@
     border-radius: 15px;
 }
 .card-image3 {
-    height: 200px;
+    height: 220px;
     margin-bottom: 15px;
     background-size: cover;
     border-radius: 15px 15px 0 0;
@@ -69,3 +69,6 @@
 .WDimage-2{
   background-image: url(images/websiteDesign/2.jpg);
 }
+.WDimage-3{
+    background-image: url(images/websiteDesign/3.jpg);
+  }

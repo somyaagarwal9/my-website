@@ -2,6 +2,12 @@
     padding: 0;
     margin: 0;
 }
+.video {
+    background: rgb(228, 228, 228);
+    width: 320px;
+    margin: 10px;
+    border-radius: 15px;
+}
 .card1 {
     background: rgb(226, 226, 226);
     width: 280px;
@@ -21,7 +27,7 @@
     border-radius: 15px;
 }
 .card-image2 {
-    height: 200px;
+    height: 220px;
     margin-bottom: 15px;
     background-size: cover;
     border-radius: 15px 15px 0 0;
@@ -68,8 +74,6 @@
     background-size: cover;
     border-radius: 15px 15px 0 0;
 }
-
-.align { margin: 30px 50px;  }
  
 .tshirt-1{
     background-image: url(tshirt/wedding/1.jpg);
@@ -380,3 +384,6 @@ background-image: url(poster/10.png);
 .WDimage-2{
   background-image: url(images/websiteDesign/2.jpg);
 }
+.WDimage-3{
+    background-image: url(images/websiteDesign/3.jpg);
+  }
