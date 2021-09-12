@@ -52,72 +52,71 @@
         width: 40px;
     }
     .card-image1 {
-        background-color: aqua;
         height: 400px;
         margin-bottom: 15px;
         background-size: cover;
         border-radius: 15px 15px 0 0;
     }
-    .S-1{
-        background-image: url(vector/1.jpg);
-    }
-    .S-2{
-        background-image: url(vector/2.jpg);
-    }
-    .S-3{
-        background-image: url(vector/3.jpg);
-    }
-    .S-4{
-        background-image: url(vector/4.jpg);
-    }
-    .C-1{
-        background-image: url(vector/5.jpg);
-    }
-    .C-2{
-        background-image: url(vector/6.jpg);
-    }
-    .C-3{
-        background-image: url(vector/7.jpg);
-    }
-    .C-4{
-        background-image: url(vector/8.jpg);
-    }
-    .C-5{
-        background-image: url(vector/9.jpg);
-    }
-    .C-6{
-      background-image: url(vector/17.jpg);
-  }
-    .P-1{
-        background-image: url(vector/10.jpg);
-    }
-    .P-2{
-        background-image: url(vector/11.jpg);
-    }
-    .P-3{
-        background-image: url(vector/12.jpg);
-    }
-    .P-4{
-      background-image: url(vector/18.jpg);
-  }
-  .P-5{
-    background-image: url(vector/23.jpg);
+.S-1{
+    background-image: url(../images/vector/1.jpg);
 }
-    .CC-1{
-        background-image: url(vector/15.jpg);
-    }
-    .CC-2{
-        background-image: url(vector/14.jpg);
-    }
-    .CC-3{
-      background-image: url(vector/16.jpg);
-  }
-  .PA-1{
-    background-image: url(vector/19.jpg);
+.S-2{
+    background-image: url(../images/vector/2.jpg);
+}
+.S-3{
+    background-image: url(../images/vector/3.jpg);
+}
+.S-4{
+    background-image: url(../images/vector/4.jpg);
+}
+.C-1{
+    background-image: url(../images/vector/5.jpg);
+}
+.C-2{
+    background-image: url(../images/vector/6.jpg);
+}
+.C-3{
+    background-image: url(../images/vector/7.jpg);
+}
+.C-4{
+    background-image: url(../images/vector/8.jpg);
+}
+.C-5{
+     background-image: url(../images/vector/9.jpg);
+}
+.C-6{
+    background-image: url(../images/vector/17.jpg);
+}
+.P-1{
+    background-image: url(../images/vector/10.jpg);
+}
+.P-2{
+    background-image: url(../images/vector/11.jpg);
+}
+.P-3{
+    background-image: url(../images/vector/12.jpg);
+}
+.P-4{
+    background-image: url(../images/vector/18.jpg);
+}
+.P-5{
+    background-image: url(../images/vector/23.jpg);
+}
+.CC-1{
+    background-image: url(../images/vector/15.jpg);
+}
+.CC-2{
+    background-image: url(../images/vector/14.jpg);
+}
+.CC-3{
+    background-image: url(../images/vector/16.jpg);
+}
+.PA-1{
+    background-image: url(../images/vector/19.jpg);
 }
 .PA-2{
-    background-image: url(vector/22.jpg);
+    background-image: url(../images/vector/22.jpg);
 }
 .PA-3{
-  background-image: url(vector/20.jpg);
+  background-image: url(../images/vector/20.jpg);
 }

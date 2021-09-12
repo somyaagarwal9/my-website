@@ -59,38 +59,38 @@
     width: 40px;
   }
 .image-1{
- background-image: url(brouchure/1.jpg);
+ background-image: url(../images/brouchure/1.jpg);
 }
 .image-2{
- background-image: url(brouchure/2.jpg);
+ background-image: url(../images/brouchure/2.jpg);
 }
 .image-11{
-  background-image: url(brouchure/9.jpg);
+  background-image: url(../images/brouchure/9.jpg);
 }
 .image-3{
-  background-image: url(brouchure/3.jpg);
+  background-image: url(../images/brouchure/3.jpg);
 }
 .image-4{
-  background-image: url(brouchure/4.jpg);
+  background-image: url(../images/brouchure/4.jpg);
 }
 .image-5{
-  background-image: url(visitingcard/1.jpg);
+  background-image: url(../images/brouchure/visitingcard/1.jpg);
 }
 .image-6{
-  background-image: url(visitingcard/2.jpg);
+  background-image: url(../images/brouchure/visitingcard/2.jpg);
 }
 .image-7{
-  background-image: url(visitingcard/3.jpg);
+  background-image: url(../images/brouchure/visitingcard/3.jpg);
 }
 .image-8{
-  background-image: url(visitingcard/4.jpg);
+  background-image: url(../images/brouchure/visitingcard/4.jpg);
 }
 .image-9{
-  background-image: url(visitingcard/5.jpg);
+  background-image: url(../images/brouchure/visitingcard/5.jpg);
 }
 .image-10{
-  background-image: url(brouchure/5.jpg);
+  background-image: url(../images/brouchure/5.jpg);
 }
 .image-12{
-  background-image: url(brouchure/7.jpg);
+  background-image: url(../images/brouchure/7.jpg);
 }

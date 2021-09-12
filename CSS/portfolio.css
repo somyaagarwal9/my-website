@@ -576,33 +576,33 @@ header.background .container3 p{
   width: 80%;
 }
     header.T-Shirt{
-      background-image: url(images/tshirtBG.jpg);
+      background-image: url(../images/tshirtBG.jpg);
       margin-top: 6.9%;
     }
     header.mug{
-      background-image: url(images/mugBG.jpg);
+      background-image: url(../images/mugBG.jpg);
       }
     header.brochure{
-       background-image: url(images/brouchureBG.jpg);
+       background-image: url(../images/brouchureBG.jpg);
      }
     header.Magazine{
-      background-image: url(images/magazineBG3.jpg);
+      background-image: url(../images/magazineBG3.jpg);
      }
     header.Calendar{
-      background-image: url(images/calanderBG.jpg);
+      background-image: url(../images/calanderBG.jpg);
       }
     header.Poster{
-      background-image: url(images/posterBG2.jpg);
+      background-image: url(../images/posterBG2.jpg);
      }
     header.Infographic{
-      background-image: url(images/infographicBG.jpg);
+      background-image: url(../images/infographicBG.jpg);
       }
     header.Vector{
-      background-image: url(images/vectorBG2.jpg);
+      background-image: url(../images/vectorBG2.jpg);
       }
     header.Animated{
-      background-image: url(images/animatedvideoBG.jpg);
+      background-image: url(../images/animatedvideoBG.jpg);
       }
     header.Website{
-      background-image: url(images/websiteBG2.jpg);
+      background-image: url(../images/websiteBG2.jpg);
       }

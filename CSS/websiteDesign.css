@@ -64,11 +64,15 @@
     border-radius: 15px 15px 0 0;
 }
 .WDimage-1{
-  background-image: url(images/websiteDesign/1.jpg);
+  background-image: url(../images/websiteDesign/1.jpg);
 }
 .WDimage-2{
-  background-image: url(images/websiteDesign/2.jpg);
+  background-image: url(../images/websiteDesign/2.jpg);
 }
 .WDimage-3{
-    background-image: url(images/websiteDesign/3.jpg);
-  }
+    background-image: url(../images/websiteDesign/3.jpg);
+}
+
+.WDimage-4{
+    background-image: url(../images/websiteDesign/4.jpg);
+}
