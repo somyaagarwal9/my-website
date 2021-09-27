@@ -83,4 +83,8 @@ padding: 0px;
          height: 550px;
          margin-right: 100px;
          
+         
+     }
+     .container p a{
+         text-decoration: none;
      }
