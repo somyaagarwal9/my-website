@@ -51,18 +51,6 @@
       animation-delay: -9s;
       width: 40px;
   }
-.card3P {
-    background: rgb(231, 231, 231);
-    width: 400px;
-    margin: 10px;
-    border-radius: 15px;
-}
-.card-image3 {
-    height: 220px;
-    margin-bottom: 15px;
-    background-size: cover;
-    border-radius: 15px 15px 0 0;
-}
 .WDimage-1{
   background-image: url(../images/websiteDesign/1.jpg);
 }
@@ -72,7 +60,6 @@
 .WDimage-3{
     background-image: url(../images/websiteDesign/3.jpg);
 }
-
 .WDimage-4{
     background-image: url(../images/websiteDesign/4.jpg);
 }

@@ -7,14 +7,38 @@
     margin: 10px;
     border-radius: 15px;
 }
-.M-H{
+.width-1{
+  width: 300px;
+}
+.width-2{
+  width: 370px;
+}
+.width-3{
   width: 280px;
+}
+.width-4{
+  width: 400px;
 }
 .card-image {
     height: 180px;
     margin-bottom: 15px;
     background-size: cover;
     border-radius: 15px 15px 0 0;
+}
+.card-image1 {
+    height: 400px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+.card-image2 {
+    height: 220px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+.hight-1{
+  height: 400px;
 }
 h4{
   margin-top: .5rem;

@@ -52,18 +52,6 @@
       animation-delay: -18s;
       width: 40px;
     }
-    .card4 {
-        background: rgb(226, 226, 226);
-        width: 370px;
-        margin: 10px;
-        border-radius: 15px;
-    }
-    .card-image4 {
-        height: 200px;
-        margin-bottom: 15px;
-        background-size: cover;
-        border-radius: 15px 15px 0 0;
-    }
     .Iimage-1{
         background-image: url(../images/infographic/1.jpg);
     }

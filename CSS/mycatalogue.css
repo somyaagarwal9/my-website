@@ -8,66 +8,6 @@
     margin: 10px;
     border-radius: 15px;
 }
-.card1 {
-    background: rgb(226, 226, 226);
-    width: 280px;
-    margin: 10px;
-    border-radius: 15px;
-}
-.card-image1 {
-    height: 400px;
-    margin-bottom: 15px;
-    background-size: cover;
-    border-radius: 15px 15px 0 0;
-}
-.card2 {
-    background: rgb(226, 226, 226);
-    width: 370px;
-    margin: 10px;
-    border-radius: 15px;
-}
-.card-image2 {
-    height: 220px;
-    margin-bottom: 15px;
-    background-size: cover;
-    border-radius: 15px 15px 0 0;
-}
-.card3 {
-    background: rgb(228, 228, 228);
-    width: 300px;
-    margin: 10px;
-    border-radius: 15px;
-}
-.card3P {
-  background: rgb(231, 231, 231);
-  width: 400px;
-  margin: 10px;
-  border-radius: 15px;
-}
-.card-image3 {
-    height: 400px;
-    margin-bottom: 15px;
-    background-size: cover;
-    border-radius: 15px 15px 0 0;
-}
-.card-image3P {
-  height: 400px;
-  margin-bottom: 15px;
-  background-size: cover;
-  border-radius: 15px 15px 0 0;
-}
-.card4 {
-    background: rgb(226, 226, 226);
-    width: 370px;
-    margin: 10px;
-    border-radius: 15px;
-}
-.card-image4 {
-    height: 200px;
-    margin-bottom: 15px;
-    background-size: cover;
-    border-radius: 15px 15px 0 0;
-}
 .card-imageVC {
     height: 150px;
     margin-bottom: 15px;
