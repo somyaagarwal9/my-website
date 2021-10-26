@@ -8,6 +8,15 @@
     <link rel="stylesheet" href="CSS/portfolio.css">
     <link rel="stylesheet" href="CSS/common.css">
     <script src="JS/earth.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#icon').click(function(){
+                $('ul').toggleClass('show');
+            });
+        });
+    </script>
 </head>
 <body>
     <header>
@@ -46,6 +55,9 @@
                </li></a>
            <a href="contact.html"><li>Contact</li></a> 
         </ul>
+        <label id="icon">
+            <i class="fas fa-bars"></i>
+        </label>
     </div>
 
     <header class="background T-Shirt flex item-center">

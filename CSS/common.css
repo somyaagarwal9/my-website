@@ -145,6 +145,52 @@ html{
 .active, .sub-menu-1{
   color: black;
 }
+.menu-bar #icon{
+  color: #fff;
+  font-size: 30px;
+  line-height: 80px;
+  float: right;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+  
+}
+@media(max-width: 1200px){
+  .menu-bar #icon{
+    display: block;
+  }
+  .menu-bar ul{
+    position: fixed;
+    width: 100%;
+    height: ;
+    background: rgb(95, 94, 94);
+    top: 30px;
+    text-align: center; 
+    display: block;
+  }
+  .menu-bar ul.show{
+    left: 0;
+  }
+  footer{
+    background-color: rgb(27, 27, 27);
+    width: 100%;
+    clear: both;
+    position: relative;
+    height: 400px;
+    margin-top: -200px;
+    margin-top: 4%;
+  }
+  footer .footer-container{
+    display: block;
+    justify-content: center;
+    flex-wrap: wrap;
+    width:100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    margin-top: 50px;
+    color: rgb(25, 110, 103);
+  }
+}
 h1{
   font-size: 4rem;
   padding: 0 0 80px 0;
