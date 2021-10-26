@@ -606,3 +606,6 @@ header.background .container3 p{
     header.Website{
       background-image: url(../images/websiteBG2.jpg);
       }
+      header.Invitation{
+        background-image: url(../images/invitationBG.jpg);
+        }
