@@ -91,7 +91,7 @@ html{
     color: #fff;
 }
 .menu-bar ul li{
-    width: 130px;
+    width: 40%;
     margin: 15px;
     padding: 15px;
 }
@@ -156,21 +156,7 @@ html{
   
 }
 @media(max-width: 1200px){
-  .menu-bar #icon{
-    display: block;
-  }
-  .menu-bar ul{
-    position: fixed;
-    width: 100%;
-    height: ;
-    background: rgb(95, 94, 94);
-    top: 30px;
-    text-align: center; 
-    display: block;
-  }
-  .menu-bar ul.show{
-    left: 0;
-  }
+  
   footer{
     background-color: rgb(27, 27, 27);
     width: 100%;

@@ -575,6 +575,12 @@ header.background p{
 header.background .container3 p{
   width: 80%;
 }
+@media(max-width:2000px){
+  header.T-Shirt{
+    background-image: url(../images/tshirtBG1.jpg);
+    margin-top: 6.9%;
+  }
+}
     header.T-Shirt{
       background-image: url(../images/tshirtBG.jpg);
       margin-top: 6.9%;
