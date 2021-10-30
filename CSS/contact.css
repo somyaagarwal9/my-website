@@ -76,10 +76,3 @@
         color: rgb(21, 138, 132);
         width: 100%;
     }
-    .img {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 25px;
-        
-    }

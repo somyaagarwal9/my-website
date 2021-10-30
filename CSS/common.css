@@ -62,17 +62,6 @@ html{
 .margin{
   padding-top: 4%;
 }
-.container2{
-  width: 100%;
-  padding: 4% 15px;
-  margin: 20% 5%;
-}
-.container3{
-  width: 100%;
-  margin-left: 60%;
-  margin-top: 20%;
-  margin-bottom: 20%;
-}
 .menu-bar{
     background: rgb(71, 71, 71);
     text-align: center;
@@ -155,28 +144,6 @@ html{
   display: none;
   
 }
-@media(max-width: 1200px){
-  
-  footer{
-    background-color: rgb(27, 27, 27);
-    width: 100%;
-    clear: both;
-    position: relative;
-    height: 400px;
-    margin-top: -200px;
-    margin-top: 4%;
-  }
-  footer .footer-container{
-    display: block;
-    justify-content: center;
-    flex-wrap: wrap;
-    width:100%;
-    padding: 0 15px;
-    margin: 0 auto;
-    margin-top: 50px;
-    color: rgb(25, 110, 103);
-  }
-}
 h1{
   font-size: 4rem;
   padding: 0 0 80px 0;
@@ -186,12 +153,6 @@ h1{
 }
 .first-H1{
   padding: 50px 0;
-}
-.home{
-  text-align: left;
-  font-size: 2.5rem;
-  padding-bottom: 1.5rem;
-  z-index: 1;
 }
 .btn{
     padding: 0.50rem 0.75rem;
@@ -294,3 +255,47 @@ margin-bottom: 1.5em;
 footer .box:nth-child(2){
 text-align: left;
 }
+
+@media(max-width: 1200px){
+  
+  .menu-bar{
+    background: rgb(71, 71, 71);
+    text-align: center;
+    width: 100%;
+    margin-top: -1%;
+    position: fixed;
+    z-index: 1;
+    font-size: .5rem;
+    overflow: hidden;
+  }
+  
+h1{
+  font-size: 1.5rem;
+  padding: 0 0 80px 0;
+  text-align: center;
+  color: rgb(21, 138, 132);
+  width: 100%;
+}
+.first-H1{
+  padding-top: 20%;
+}
+    footer{
+      background-color: rgb(27, 27, 27);
+      width: 100%;
+      clear: both;
+      position: relative;
+      height: 400px;
+      margin-top: -200px;
+      margin-top: 4%;
+    }
+    footer .footer-container{
+      display: block;
+      justify-content: center;
+      flex-wrap: wrap;
+      width:100%;
+      padding: 0 15px;
+      margin: 0 auto;
+      margin-top: 19px;
+      color: rgb(25, 110, 103);
+    }
+  }

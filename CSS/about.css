@@ -73,15 +73,9 @@ padding: 0px;
     }
 }
  header.hero p{
-       width: 50%;
+       width: 70%;
        line-height: 1.5;
        margin-bottom: 2.5rem;
-       margin-top: 4.5rem;
-       margin-left: 3.5rem;
-     }
-     .img {
-         height: 550px;
-         margin-right: 100px;
-         
-         
+       margin-top: 10%;
+       margin-left: .3%;
      }
