@@ -602,7 +602,7 @@ header.background .container3 p{
       background-image: url(../images/mugBG.jpg);
       }
     header.brochure{
-       background-image: url(../images/brouchureBG.jpg);
+      background-image: url(../images/brouchureBG.jpg);
      }
     header.Magazine{
       background-image: url(../images/magazineBG3.jpg);
@@ -625,38 +625,38 @@ header.background .container3 p{
     header.Website{
       background-image: url(../images/websiteBG2.jpg);
       }
-      header.Invitation{
-        background-image: url(../images/invitationBG.jpg);
-        }
+    header.Invitation{
+      background-image: url(../images/invitationBG.jpg);
+      }
         
 @media(max-width:1500px){
   header.background{
-    height: 270px;
+    height: 100%;
     background-position: 0% 0%;
     background-repeat: no-repeat;
     overflow: hidden;
     background-size:cover;
-    width: 100%;
+    min-width: 100px;
+    max-width: 1500px;
 }
 .container2{
   width: 100%;
-  margin: 20% 5%;
+  margin: 20% 5% 0% 5%;
 }
 .container3{
   width: 100%;
-}
-header.background .container3 p{
-  width: 100%;
+  margin: 20% 5% 0% 5%;
+
 }
 .home{
   text-align: left;
   font-size: 1rem;
-  padding-bottom: 1.5rem;
+  padding-bottom: 1rem;
   z-index: 1;
 }
 header.background p{
   align-content: center;
-  font-size: .3rem;
+  font-size: .5rem;
   width: 100%;
 }
   header.T-Shirt{
@@ -664,13 +664,13 @@ header.background p{
     margin-top: 6.9%;
     margin-bottom: 1%;
   }
-  header.mug{
-    background-image: url(../images/mugBG2.jpg);
-    margin-bottom: 1%;
-    }
+   header.mug{
+     background-image: url(../images/mugBG2.jpg);
+     margin-bottom: 1%;
+     } 
     header.brochure{
-       background-image: url(../images/brouchureBG1.jpg);
-       margin-bottom: 1%;
+      background-image: url(../images/brouchureBG1.jpg);
+      margin-bottom: 1%;
      }
     header.Magazine{
       background-image: url(../images/magazineBG1.jpg);

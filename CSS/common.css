@@ -227,7 +227,6 @@ margin-top: 1rem;
 }
 footer .box p{
 line-height: 1.2;
-margin-bottom: 1rem;
 color: white;
 }
 footer .box ul li{
@@ -262,11 +261,10 @@ text-align: left;
     background: rgb(71, 71, 71);
     text-align: center;
     width: 100%;
-    margin-top: -1%;
+    margin-top: -4%;
     position: fixed;
     z-index: 1;
-    font-size: .5rem;
-    overflow: hidden;
+    font-size: .7rem;
   }
   
 h1{
@@ -284,8 +282,7 @@ h1{
       width: 100%;
       clear: both;
       position: relative;
-      height: 400px;
-      margin-top: -200px;
+      height: auto;
       margin-top: 4%;
     }
     footer .footer-container{
@@ -297,5 +294,15 @@ h1{
       margin: 0 auto;
       margin-top: 19px;
       color: rgb(25, 110, 103);
+    }
+    footer .box p{
+    color: white;
+    }
+    footer .box{
+      display: none;
+    }
+    footer .box:nth-child(2){
+      display: block;
+
     }
   }
