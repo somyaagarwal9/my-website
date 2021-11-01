@@ -629,15 +629,20 @@ header.background .container3 p{
       background-image: url(../images/invitationBG.jpg);
       }
         
-@media(max-width:1500px){
+@media(max-width:1200px){
   header.background{
-    height: 100%;
+    height: 270px;
     background-position: 0% 0%;
     background-repeat: no-repeat;
     overflow: hidden;
     background-size:cover;
     min-width: 100px;
     max-width: 1500px;
+}
+.container4{
+  width: 100%;
+  padding: 4% 15px;
+  margin: 20% 5%;
 }
 .container2{
   width: 100%;
