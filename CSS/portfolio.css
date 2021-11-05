@@ -558,7 +558,6 @@
   .container{
     max-width: 1152px;
   }*/
-
 header.background{
       height: 550px;
       background-position: 0% 0%;
@@ -571,6 +570,7 @@ header.background p{
   width: 40%;
   line-height: 1.5;
   margin-bottom: 1.5rem;
+  text-align: left;
 }
 header.background .container3 p{
   width: 80%;
@@ -663,6 +663,7 @@ header.background p{
   align-content: center;
   font-size: .5rem;
   width: 100%;
+  text-align: left;
 }
   header.T-Shirt{
     background-image: url(../images/tshirtBG1.jpg);
