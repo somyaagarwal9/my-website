@@ -628,6 +628,9 @@ header.background .container3 p{
     header.Invitation{
       background-image: url(../images/invitationBG.jpg);
       }
+      header.Motion{
+        background-image: url(../images/motionBG.jpg);
+        }
         
 @media(max-width:1200px){
   header.background{
