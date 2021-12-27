@@ -1,6 +1,9 @@
 *{margin: 0px;
     padding: 0px;
     }
+     .img{
+         background-image: url(images/myintro.jpg);
+     }
     .Animated-box div{
         position: absolute;
         width: 60px;

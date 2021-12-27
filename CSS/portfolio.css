@@ -712,4 +712,7 @@ header.background p{
     header.Invitation{
       background-image: url(../images/invitationBG1.jpg);
       }
+      header.Motion{
+        background-image: url(../images/motionBG2.jpg);
+        }
 }

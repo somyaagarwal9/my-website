@@ -307,6 +307,9 @@ text-align: left;
       margin-left: -7%;
       margin-bottom: 50%;
     }
+    .menu-bar ul a :nth-child(3){
+      color:red;
+    }
   }
   @media(min-width:1519px){
     .mobile-display{
