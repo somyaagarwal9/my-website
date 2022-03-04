@@ -1,9 +1,58 @@
 *{margin: 0px;
     padding: 0px;
     }
-     .img{
-         background-image: url(images/myintro.jpg);
-     }
+    .text-wrapper{
+        margin-left: -20%;
+    }
+    .text-wrapper h5{
+        text-align: center;
+        color: white;
+        font-size: 15px;
+        margin-left: 20%;
+        margin-top: 70%;
+    }
+    .text-wrapper h2{
+        text-align: center;
+        color: white;
+        font-size: 15px;
+        margin-left: 35%;
+        margin-top: 28%;
+    }
+    .text-wrapper h3{
+        text-align: center;
+        color: white;
+        font-size: 15px;
+        margin-left: 25%;
+        margin-top: 30%;
+        width:100%;
+    }
+    .text-wrapper a{
+        text-decoration: none;
+    }
+    @media(max-width:1200px){
+        
+    .text-wrapper h5{
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 8px;
+        margin-left: 44%;
+        margin-top: -52%;
+    }
+    .text-wrapper h2{
+        text-align: center;
+        color: white;
+        font-size: 8px;
+        margin-left: 57%;
+        margin-top: 8%;
+    }
+    .text-wrapper h3{
+        text-align: center;
+        color: white;
+        font-size: 8px;
+        margin-left: 42%;
+        margin-top: 7.7%;
+    }
+    }
     .Animated-box div{
         position: absolute;
         width: 60px;
