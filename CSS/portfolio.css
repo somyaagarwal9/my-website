@@ -596,13 +596,13 @@ header.background .container3 p{
 }
     header.T-Shirt{
       background-image: url(../images/websiteBG/tshirtBG.jpg);
-      margin-top: 6.9%;
     }
     header.mug{
       background-image: url(../images/websiteBG/mugBG.jpg);
       }
     header.brochure{
       background-image: url(../images/websiteBG/brochureBG.jpg);
+      margin-top: 6.9%;
      }
     header.Magazine{
       background-image: url(../images/websiteBG/magazineBG.jpg);
