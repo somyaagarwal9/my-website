@@ -254,7 +254,12 @@ margin-bottom: 1.5em;
 footer .box:nth-child(2){
 text-align: left;
 }
-
+.mobile-display{
+  display: none;
+}
+.mobile{
+  display: none;
+}
 @media(max-width: 1200px){
   html{
     overflow-x: hidden;
@@ -303,19 +308,23 @@ text-align: left;
     .desktop{
       display: none;
     }
+    .mobile-display{
+      display: block;
+    }
     .mobile{
       margin-left: -7%;
       margin-bottom: 50%;
+      display: block;
     }
     .menu-bar ul a :nth-child(3){
       color:red;
     }
   }
-  @media(min-width:1519px){
+  /*@media(min-width:1200px){
     .mobile-display{
       display: none;
     }
     .mobile{
       display: none;
     }
-  }
+  }*/

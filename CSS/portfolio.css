@@ -595,41 +595,41 @@ header.background .container3 p{
   margin-bottom: 20%;
 }
     header.T-Shirt{
-      background-image: url(../images/tshirtBG.jpg);
+      background-image: url(../images/websiteBG/tshirtBG.jpg);
       margin-top: 6.9%;
     }
     header.mug{
-      background-image: url(../images/mugBG.jpg);
+      background-image: url(../images/websiteBG/mugBG.jpg);
       }
     header.brochure{
-      background-image: url(../images/brouchureBG.jpg);
+      background-image: url(../images/websiteBG/brochureBG.jpg);
      }
     header.Magazine{
-      background-image: url(../images/magazineBG3.jpg);
+      background-image: url(../images/websiteBG/magazineBG.jpg);
      }
     header.Calendar{
-      background-image: url(../images/calanderBG.jpg);
+      background-image: url(../images/websiteBG/calanderBG.jpg);
       }
     header.Poster{
-      background-image: url(../images/posterBG2.jpg);
+      background-image: url(../images/websiteBG/posterBG.jpg);
      }
     header.Infographic{
-      background-image: url(../images/infographicBG.jpg);
+      background-image: url(../images/websiteBG/infographicBG.jpg);
       }
     header.Vector{
-      background-image: url(../images/vectorBG2.jpg);
+      background-image: url(../images/websiteBG/vectorBG.jpg);
       }
     header.Animated{
-      background-image: url(../images/animatedvideoBG.jpg);
+      background-image: url(../images/websiteBG/animatedvideoBG.jpg);
       }
     header.Website{
-      background-image: url(../images/websiteBG2.jpg);
+      background-image: url(../images/websiteBG/websiteBG.jpg);
       }
     header.Invitation{
-      background-image: url(../images/invitationBG.jpg);
+      background-image: url(../images/websiteBG/invitationBG.jpg);
       }
       header.Motion{
-        background-image: url(../images/motionBG.jpg);
+        background-image: url(../images/websiteBG/motionBG.jpg);
         }
         
 @media(max-width:1200px){
@@ -669,50 +669,50 @@ header.background p{
   text-align: left;
 }
   header.T-Shirt{
-    background-image: url(../images/tshirtBG1.jpg);
+    background-image: url(../images/mobBG/tshirtBG1.jpg);
     margin-top: 6.9%;
     margin-bottom: 1%;
   }
    header.mug{
-     background-image: url(../images/mugBG2.jpg);
+     background-image: url(../images/mobBG/mugBG2.jpg);
      margin-bottom: 1%;
      } 
     header.brochure{
-      background-image: url(../images/brouchureBG1.jpg);
+      background-image: url(../images/mobBG/brochureBG1.jpg);
       margin-bottom: 1%;
      }
     header.Magazine{
-      background-image: url(../images/magazineBG1.jpg);
+      background-image: url(../images/mobBG/magazineBG1.jpg);
       margin-bottom: 1%;
      }
     header.Calendar{
-      background-image: url(../images/calanderBG1.jpg);
+      background-image: url(../images/mobBG/calanderBG1.jpg);
       margin-bottom: 1%;
       }
     header.Poster{
-      background-image: url(../images/posterBG1.jpg);
+      background-image: url(../images/mobBG/posterBG1.jpg);
       margin-bottom: 1%;
      }
     header.Infographic{
-      background-image: url(../images/infographicBG1.jpg);
+      background-image: url(../images/mobBG/infographicBG1.jpg);
       margin-bottom: 1%;
       }
     header.Vector{
-      background-image: url(../images/vectorBG1.jpg);
+      background-image: url(../images/mobBG/vectorBG1.jpg);
       margin-bottom: 1%;
       }
     header.Animated{
-      background-image: url(../images/animatedvideoBG1.jpg);
+      background-image: url(../images/mobBG/animatedvideoBG1.jpg);
       margin-bottom: 1%;
       }
     header.Website{
-      background-image: url(../images/websiteBG1.jpg);
+      background-image: url(../images/mobBG/websiteBG1.jpg);
       margin-bottom: 1%;
       }
     header.Invitation{
-      background-image: url(../images/invitationBG1.jpg);
+      background-image: url(../images/mobBG/invitationBG1.jpg);
       }
       header.Motion{
-        background-image: url(../images/motionBG2.jpg);
+        background-image: url(../images/mobBG/motionBG1.jpg);
         }
 }
