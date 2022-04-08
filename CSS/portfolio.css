@@ -602,7 +602,6 @@ header.background .container3 p{
       }
     header.brochure{
       background-image: url(../images/websiteBG/brochureBG.jpg);
-      margin-top: 6.9%;
      }
     header.Magazine{
       background-image: url(../images/websiteBG/magazineBG.jpg);
@@ -612,6 +611,7 @@ header.background .container3 p{
       }
     header.Poster{
       background-image: url(../images/websiteBG/posterBG.jpg);
+      margin-top: 6.9%;
      }
     header.Infographic{
       background-image: url(../images/websiteBG/infographicBG.jpg);
@@ -670,7 +670,6 @@ header.background p{
 }
   header.T-Shirt{
     background-image: url(../images/mobBG/tshirtBG1.jpg);
-    margin-top: 6.9%;
     margin-bottom: 1%;
   }
    header.mug{
@@ -711,8 +710,10 @@ header.background p{
       }
     header.Invitation{
       background-image: url(../images/mobBG/invitationBG1.jpg);
+      margin-bottom: 1%;
       }
       header.Motion{
         background-image: url(../images/mobBG/motionBG1.jpg);
+        margin-bottom: 1%;
         }
 }

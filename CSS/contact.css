@@ -1,56 +1,38 @@
 *{margin: 0px;
     padding: 0px;
     }
+    .space-bottm{
+        margin-bottom: 20%;
+    }
     .text-wrapper{
-        margin-left: -20%;
-    }
-    .text-wrapper h5{
-        text-align: center;
-        color: white;
-        font-size: 15px;
-        margin-left: 20%;
-        margin-top: 70%;
-    }
-    .text-wrapper h2{
-        text-align: center;
-        color: white;
-        font-size: 15px;
-        margin-left: 35%;
-        margin-top: 28%;
+        width: 50%;
+        margin-top: -44%;
+        margin-left: 66%;
     }
     .text-wrapper h3{
-        text-align: center;
-        color: white;
-        font-size: 15px;
-        margin-left: 25%;
-        margin-top: 30%;
-        width:100%;
+        text-align: left;
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        padding: 7%;
     }
     .text-wrapper a{
         text-decoration: none;
     }
     @media(max-width:1200px){
+        .space-bottm{
+            margin-bottom: 60%;
+        }
         
-    .text-wrapper h5{
-        text-align: center;
-        color: rgb(255, 255, 255);
-        font-size: 8px;
-        margin-left: -110%;
-        margin-top: 65%;
-    }
-    .text-wrapper h2{
-        text-align: center;
-        color: white;
-        font-size: 8px;
-        margin-left: -65%;
-        margin-top: 25%;
+    .text-wrapper{
+        width: 33%;
+        margin-top: -95%;
+        margin-left: 58%;
     }
     .text-wrapper h3{
-        text-align: center;
-        color: white;
+        text-align: left;
+        color: rgb(255, 255, 255);
         font-size: 8px;
-        margin-left: -40%;
-        margin-top: 26%;
+        padding: 12%;
     }
     }
     .Animated-box div{
