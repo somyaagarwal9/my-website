@@ -211,16 +211,13 @@ background-image: url(../images/brochure/7.jpg);
     background-image: url(../images/magazine/1.jpg);
 }
 .Mimage-2{
-    background-image: url(../images/magazine/2.jpg);
-}
-.Mimage-3{
     background-image: url(../images/magazine/3.jpg);
 }
-.Mimage-4{
-    background-image: url(../images/magazine/4.jpg);
-}
-.Mimage-5{
+.Mimage-3{
     background-image: url(../images/magazine/7.jpg);
+}
+.Mimage-4{
+    background-image: url(../images/magazine/8.jpg);
 }
 .Cimage-1{
     background-image: url(../images/calendar/1.jpg);
@@ -256,10 +253,10 @@ background-image: url(../images/poster/7.png);
 background-image: url(../images/poster/8.png);
 }
 .Pimage-9{
-background-image: url(../images/poster/9.jpg);
+background-image: url(../images/poster/9.png);
 }
 .Pimage-10{
-background-image: url(../images/poster/10.png);
+  background-image: url(../images/poster/10.png);
 }
 .Pimage-11{
   background-image: url(../images/poster/13.jpg);
@@ -287,6 +284,9 @@ background-image: url(../images/poster/10.png);
   }
   .Pimage-19{
     background-image: url(../images/poster/15.png);
+  }
+  .Pimage-20{
+    background-image: url(../images/poster/19.jpg);
   }
 .Iimage-1{
     background-image: url(../images/infographic/1.jpg);
