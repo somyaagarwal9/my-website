@@ -279,15 +279,24 @@ background-image: url(../images/poster/9.png);
 .Pimage-17{
     background-image: url(../images/poster/13.png);
   }
-  .Pimage-18{
+.Pimage-18{
     background-image: url(../images/poster/14.png);
   }
-  .Pimage-19{
+.Pimage-19{
     background-image: url(../images/poster/15.png);
   }
-  .Pimage-20{
+.Pimage-20{
     background-image: url(../images/poster/19.jpg);
   }
+.Pimage-21{
+    background-image: url(../images/poster/20.jpg);
+  }
+.Pimage-22{
+    background-image: url(../images/poster/21.jpg);
+  }
+  .Pimage-23{
+      background-image: url(../images/poster/22.jpg);
+    }
 .Iimage-1{
     background-image: url(../images/infographic/1.jpg);
 }
