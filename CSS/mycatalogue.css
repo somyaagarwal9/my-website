@@ -211,13 +211,31 @@ background-image: url(../images/brochure/7.jpg);
     background-image: url(../images/magazine/1.jpg);
 }
 .Mimage-2{
-    background-image: url(../images/magazine/3.jpg);
+    background-image: url(../images/magazine/2.jpg);
 }
 .Mimage-3{
-    background-image: url(../images/magazine/7.jpg);
+    background-image: url(../images/magazine/3.jpg);
 }
 .Mimage-4{
+    background-image: url(../images/magazine/4.jpg);
+}
+.Mimage-5{
+    background-image: url(../images/magazine/5.jpg);
+}
+.Mimage-6{
+    background-image: url(../images/magazine/6.jpg);
+}
+.Mimage-7{
+    background-image: url(../images/magazine/7.jpg);
+}
+.Mimage-8{
     background-image: url(../images/magazine/8.jpg);
+}
+.Mimage-9{
+    background-image: url(../images/magazine/9.jpg);
+}
+.Mimage-10{
+    background-image: url(../images/magazine/10.jpg);
 }
 .Cimage-1{
     background-image: url(../images/calendar/1.jpg);
@@ -282,9 +300,6 @@ background-image: url(../images/poster/9.png);
 .Pimage-18{
     background-image: url(../images/poster/14.png);
   }
-.Pimage-19{
-    background-image: url(../images/poster/15.png);
-  }
 .Pimage-20{
     background-image: url(../images/poster/19.jpg);
   }
@@ -294,9 +309,30 @@ background-image: url(../images/poster/9.png);
 .Pimage-22{
     background-image: url(../images/poster/21.jpg);
   }
-  .Pimage-23{
-      background-image: url(../images/poster/22.jpg);
-    }
+.Pimage-23{
+    background-image: url(../images/poster/22.jpg);
+  }
+.Pimage-24{
+    background-image: url(../images/poster/23.jpg);
+  }
+.Pimage-25{
+    background-image: url(../images/poster/24.jpg);
+  }
+.Pimage-26{
+    background-image: url(../images/poster/25.jpg);
+  }
+.Pimage-27{
+    background-image: url(../images/poster/26.jpg);
+  }
+.Pimage-28{
+    background-image: url(../images/poster/27.jpg);
+  }
+.Pimage-29{
+    background-image: url(../images/poster/28.jpg);
+  }
+.Pimage-30{
+    background-image: url(../images/poster/29.jpg);
+  }
 .Iimage-1{
     background-image: url(../images/infographic/1.jpg);
 }
